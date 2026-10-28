@@ -1,0 +1,22 @@
+# Downloads and NotebookLM
+
+The pipeline downloads accepted open-access PDFs into `downloads/` and writes [data/notebooklm-manifest.json](../data/notebooklm-manifest.json). Each downloaded entry has a stable work ID, title, source URL, file path, SHA-256, scope, and available license information. A record's download status describes the last successful retrieval; on a fresh checkout the local file must be fetched or restored from cache before import. Git intentionally excludes PDFs and full-text caches.
+
+Run `uv run persona-map run --download-only` to fetch the next bounded batch. Repeat to populate a fresh machine, or raise `limits.downloads` temporarily for a one-time backfill. Failed and unavailable PDFs remain explicit. The initial collection includes local PDF files already downloaded and verified. Research posts without PDFs remain linked sources in the bibliography; the uploader does not pretend that a PDF cited by a blog post is the blog post itself.
+
+## Supported programmatic integration
+
+Google documents file upload and source management for [NotebookLM Enterprise](https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks-sources). This repository implements that API, including remote reconciliation via the [get-notebook endpoint](https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks). The API is a preview and may change. This is not a personal-account browser automation integration.
+
+Provide these repository variables:
+
+- `NOTEBOOKLM_NOTEBOOK`: `projects/PROJECT_NUMBER/locations/LOCATION/notebooks/NOTEBOOK_ID` for an existing notebook accessible to the authenticated user.
+- `NOTEBOOKLM_REGION`: `global`, `eu`, or `us`, matching the API endpoint for that notebook.
+
+For local use, supply a current `GOOGLE_ACCESS_TOKEN`. For daily Actions, supply `GOOGLE_OAUTH_CLIENT_ID`, `GOOGLE_OAUTH_CLIENT_SECRET`, and `GOOGLE_OAUTH_REFRESH_TOKEN` as secrets for an authorized Google Cloud OAuth user with the necessary NotebookLM access. The workflow exchanges that grant for a short-lived access token each run. The adapter does not create a Google Cloud project, enroll a paid Enterprise account, obtain user consent, or guess a notebook destination.
+
+The uploader gets the existing notebook's sources before each run. Files use a stable name containing the work ID and a checksum prefix; if that name exists remotely, the upload is skipped even when local state was lost after a successful upload. Successful returned source IDs are stored in `data/notebooklm-state.json`. An ambiguous upload failure is retried only after a later remote reconciliation. Concurrent daily runs are serialized by GitHub Actions.
+
+Imports are additive. No existing notebook source is deleted. If a file is intentionally refreshed and its checksum changes, it is a new source version; older versions are retained for the owner to manage. The pipeline does not continuously redownload already cached PDFs to track revisions. It discovers new works daily; refresh a known work deliberately by clearing its download metadata/file. Source limits and permissions are reported as API failures rather than silently splitting the collection into new notebooks.
+
+Until a destination and credentials are configured, the workflow continues generating downloads and the manifest and reports NotebookLM as `not-configured`. The Enterprise adapter is covered by mocked upload/reconciliation tests; a live notebook upload requires the owner's configured account. For personal NotebookLM, the same downloaded PDFs can be imported manually or consumed by a separately chosen integration. No session cookies have been collected or stored.

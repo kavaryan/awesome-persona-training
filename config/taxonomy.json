@@ -1,0 +1,49 @@
+{
+  "scope": {
+    "core": "Trains, specifies, or evaluates persistent assistant character, identity, values or dispositions for alignment; or directly measures safety consequences of trait training.",
+    "mechanism": "Explains, measures or controls alignment-relevant persona representations, selection, drift or generalization; may be inference-time rather than training.",
+    "background": "Foundations, measurement or enabling methods with an explicit connection to assistant character; not evidence of a character-training intervention itself.",
+    "roleplay": "Assigned fictional or real characters, persona fidelity, entertainment, personality imitation or user personalization without an assistant-alignment contribution.",
+    "exclude": "No substantive relation, or generic safety/constitutional work without a useful character connection.",
+    "uncertain": "Insufficient evidence or ambiguous contribution; requires further reading."
+  },
+  "interventions": [
+    "pretraining",
+    "sft",
+    "preference-optimization",
+    "rl",
+    "distillation",
+    "activation-steering",
+    "prompting",
+    "data-curation",
+    "evaluation",
+    "conceptual"
+  ],
+  "themes": [
+    "constitutions",
+    "values",
+    "honesty",
+    "sycophancy",
+    "warmth",
+    "reward-hacking",
+    "monitorability",
+    "emergent-misalignment",
+    "generalization",
+    "robustness",
+    "interpretability",
+    "identity",
+    "measurement",
+    "roleplay",
+    "personalization",
+    "subliminal-transfer"
+  ],
+  "evidence_types": [
+    "preprint",
+    "peer-reviewed",
+    "working-report",
+    "research-post",
+    "conceptual-post",
+    "resource",
+    "unverified-publication"
+  ]
+}

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "persona-research-map"
+version = "0.1.0"
+description = "Evidence-grounded discovery for alignment-oriented persona research"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.32,<3", "beautifulsoup4>=4.13,<5", "feedparser>=6.0,<7", "pypdf>=6,<7", "jsonschema>=4.23,<5"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.12,<1"]
+
+[project.scripts]
+persona-map = "persona_map.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["persona_map*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "B", "UP"]

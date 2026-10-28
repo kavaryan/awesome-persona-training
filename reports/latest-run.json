@@ -1,0 +1,351 @@
+{
+  "accepted": 0,
+  "date": "2026-10-28",
+  "downloaded": 0,
+  "events": [
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"ethical personas\"",
+      "since": null,
+      "status": "ok",
+      "total": 73
+    },
+    {
+      "candidates": 23,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"ethical personas\"",
+      "since": null,
+      "status": "ok",
+      "total": 73
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"character\" \"values\" \"language models\"",
+      "since": "2026-10-07",
+      "status": "ok",
+      "total": 2588
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"character\" \"values\" \"language models\"",
+      "since": "2026-10-07",
+      "status": "ok",
+      "total": 2588
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"persona\" \"generalization\"",
+      "since": "2026-10-07",
+      "status": "ok",
+      "total": 210
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"persona\" \"generalization\"",
+      "since": "2026-10-07",
+      "status": "ok",
+      "total": 210
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"assistant axis\"",
+      "since": null,
+      "status": "ok",
+      "total": 138
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"assistant axis\"",
+      "since": null,
+      "status": "ok",
+      "total": 138
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"personality\" \"alignment\"",
+      "since": "2026-10-07",
+      "status": "ok",
+      "total": 1414
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"personality\" \"alignment\"",
+      "since": "2026-10-07",
+      "status": "ok",
+      "total": 1414
+    },
+    {
+      "candidates": 16,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"subliminal learning\"",
+      "since": "2026-10-07",
+      "status": "ok",
+      "total": 16
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"persona\" \"honesty\"",
+      "since": null,
+      "status": "ok",
+      "total": 19547
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"persona\" \"honesty\"",
+      "since": null,
+      "status": "ok",
+      "total": 19547
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"character\" \"constitution\"",
+      "since": "2026-10-07",
+      "status": "ok",
+      "total": 997
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"character\" \"constitution\"",
+      "since": "2026-10-07",
+      "status": "ok",
+      "total": 997
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"identity\" \"finetuning\" \"misalignment\"",
+      "since": "2026-10-07",
+      "status": "ok",
+      "total": 53
+    },
+    {
+      "candidates": 3,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"identity\" \"finetuning\" \"misalignment\"",
+      "since": "2026-10-07",
+      "status": "ok",
+      "total": 53
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"persona\" \"drift\"",
+      "since": null,
+      "status": "ok",
+      "total": 21696
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"persona\" \"drift\"",
+      "since": null,
+      "status": "ok",
+      "total": 21696
+    },
+    {
+      "candidates": 35,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"moral\" \"self-reflection\" \"language models\"",
+      "since": "2026-10-07",
+      "status": "ok",
+      "total": 35
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"virtue\" \"training\" \"language models\"",
+      "since": "2026-10-07",
+      "status": "ok",
+      "total": 167
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"virtue\" \"training\" \"language models\"",
+      "since": "2026-10-07",
+      "status": "ok",
+      "total": 167
+    },
+    {
+      "channel": "web",
+      "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
+      "query": "\"character training\" site:arxiv.org",
+      "status": "error"
+    },
+    {
+      "channel": "web",
+      "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
+      "query": "\"persona\" \"safety\" site:aclanthology.org",
+      "status": "error"
+    },
+    {
+      "channel": "web",
+      "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
+      "query": "\"character training\" site:forum.effectivealtruism.org",
+      "status": "error"
+    },
+    {
+      "channel": "web",
+      "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
+      "query": "\"persona\" \"training\" site:modelraising.ai",
+      "status": "error"
+    },
+    {
+      "channel": "web",
+      "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
+      "query": "\"persona\" \"safety\" site:alignment.dev",
+      "status": "error"
+    },
+    {
+      "channel": "web",
+      "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
+      "query": "\"persona\" site:alignment.org",
+      "status": "error"
+    },
+    {
+      "channel": "web",
+      "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
+      "query": "\"character training\" alignment",
+      "status": "error"
+    },
+    {
+      "channel": "web",
+      "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
+      "query": "\"persona training\" safety",
+      "status": "error"
+    },
+    {
+      "candidates": 10,
+      "channel": "feed",
+      "query": "LessWrong",
+      "status": "ok"
+    },
+    {
+      "candidates": 10,
+      "channel": "feed",
+      "query": "Alignment Forum",
+      "status": "ok"
+    },
+    {
+      "candidates": 20,
+      "channel": "feed",
+      "query": "Google DeepMind",
+      "status": "ok"
+    },
+    {
+      "candidates": 20,
+      "channel": "feed",
+      "query": "OpenAI",
+      "status": "ok"
+    },
+    {
+      "candidates": 15,
+      "channel": "feed",
+      "query": "Alignment Research Center",
+      "status": "ok"
+    },
+    {
+      "candidates": 20,
+      "channel": "index",
+      "query": "Anthropic Alignment",
+      "status": "ok"
+    },
+    {
+      "candidates": 20,
+      "channel": "index",
+      "query": "UK AI Security Institute",
+      "status": "ok"
+    },
+    {
+      "candidates": 20,
+      "channel": "index",
+      "query": "Anthropic Research",
+      "status": "ok"
+    },
+    {
+      "candidates": 18,
+      "channel": "citations",
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "seed": "3339a5b9a648df0a",
+      "status": "ok"
+    },
+    {
+      "candidates": 0,
+      "channel": "citations",
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "seed": "39f6065277c2e5ce",
+      "status": "ok"
+    },
+    {
+      "candidates": 47,
+      "channel": "citations",
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "seed": "3e1ca22434c404fd",
+      "status": "ok"
+    },
+    {
+      "candidates": 9,
+      "channel": "citations",
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "seed": "3e508f2b3c8a671c",
+      "status": "ok"
+    }
+  ],
+  "judge": "not-configured",
+  "judge_errors": [],
+  "judged": 0,
+  "notebooklm": {
+    "status": "not-configured",
+    "uploaded": 0
+  },
+  "pending": 2311,
+  "requests": 42,
+  "status": "degraded"
+}

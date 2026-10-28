@@ -1,0 +1,10 @@
+{
+  "name": "awesome-persona-training",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Alignment-oriented assistant character and persona research",
+  "license": "CC0-1.0",
+  "repository": "https://github.com/kavaryan/awesome-persona-training",
+  "scripts": {"lint:awesome": "awesome-lint README.md"},
+  "devDependencies": {"awesome-lint": "^2.2.3"}
+}

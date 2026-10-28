@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-28",
+  "method": "interactive traditional web-search tool plus primary-source opens",
+  "scope": "Research discovery queries; service/setup documentation searches excluded",
+  "queries": [
+    "\"character training\" alignment persona training 2026",
+    "\"persona training\" alignment safety language models",
+    "\"character training\" site:alignmentforum.org",
+    "\"character training\" site:anthropic.com",
+    "\"persona\" \"training\" alignment arxiv 2026",
+    "\"persona\" \"character\" site:aisi.gov.uk",
+    "site:anthropic.com \"persona selection\"",
+    "site:lesswrong.com \"character training\"",
+    "site:aisi.gov.uk \"persona\"",
+    "\"persona\" \"training\" \"alignment\" site:arxiv.org/abs/ 2026",
+    "\"character training\" \"alignment\" -site:github.com -site:anthropic.com -site:linkedin.com",
+    "\"persona\" \"inoculation\" language models",
+    "\"inoculation prompting\" arxiv",
+    "\"assistant axis\" arxiv",
+    "\"Training language models to be warm\" arxiv",
+    "\"character training\" \"alignment\" site:lesswrong.com/posts/",
+    "\"personality alignment\" \"large language models\" arxiv",
+    "\"emergent alignment\" \"ethical personas\"",
+    "\"character training\" safety risk averse 2026 -site:youtube.com -site:linkedin.com -site:reddit.com",
+    "\"persona training\" \"alignment\" -site:linkedin.com -site:reddit.com -site:youtube.com",
+    "\"self-fulfilling\" \"misalignment\" arxiv",
+    "\"character training\" site:alignment.org",
+    "AI alignment research blogs AISI Apollo METR FAR AI alignment training center"
+  ],
+  "verification": "Accepted records were checked against abstracts or full article text. Search snippets alone did not determine inclusion.",
+  "exhaustive": false
+}

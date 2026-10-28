@@ -1,0 +1,15 @@
+gh.token
+*.token
+.env
+.env.*
+!.env.example
+pacman/
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+downloads/
+.cache/
+*.egg-info/
+op.txt
+*.key

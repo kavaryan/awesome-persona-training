@@ -1,0 +1,4235 @@
+[
+  {
+    "aliases": [
+      "https://openalex.org/W7169112609",
+      "https://doi.org/10.48550/arxiv.2607.13162"
+    ],
+    "authors": [
+      "Winston Zeng",
+      "Ali Emami",
+      "J H Choi"
+    ],
+    "confidence": 0.99,
+    "date": "2026-07-14",
+    "doi": "https://doi.org/10.48550/arxiv.2607.13162",
+    "download": {
+      "bytes": 1668601,
+      "downloaded": "2026-10-28",
+      "license": "unspecified",
+      "pages": 21,
+      "path": "downloads/0417caf70317e653.pdf",
+      "sha256": "3f9a7e8be84e9894c3cd4469957f89e9ad75b9e3775a75f59d992c6aee7facc4",
+      "source_url": "https://arxiv.org/pdf/2607.13162",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1418,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "3562ba5ab81b4082d046c71c194dcd11393581b2eb8fb23b81d06d2438c2f4a9",
+      "url": "https://arxiv.org/abs/2607.13162"
+    },
+    "evidence_quote": "We present the first systematic application of persona vectors at this scale, compiling a 53-trait inventory across four",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "0417caf70317e653",
+    "interventions": [
+      "activation-steering",
+      "evaluation"
+    ],
+    "license": "unspecified",
+    "openalex": "https://openalex.org/W7169112609",
+    "pdf_url": "https://arxiv.org/pdf/2607.13162",
+    "provenance": [
+      "openalex:search:persona vectors:page=1"
+    ],
+    "rationale": "Measures post-training behavioral organization through persona vectors, including harmful traits and transfer from fine-tuned variants.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Audits a 53-trait inventory to distinguish naturally expressed, latent steerable, and resistant behaviors in open-weight models.",
+    "themes": [
+      "interpretability",
+      "measurement",
+      "sycophancy"
+    ],
+    "title": "What Models Express, Suppress, and Resist: Auditing Open-Weight LLMs with Persona Vectors",
+    "url": "https://arxiv.org/abs/2607.13162"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7164541770",
+      "https://doi.org/10.48550/arxiv.2606.12730"
+    ],
+    "authors": [
+      "Rafał Kocielnik",
+      "Pengrui Han",
+      "Peiyang Song",
+      "Myrl G. Marmarelis",
+      "Ramit Debnath",
+      "Dean Mobbs",
+      "Animashree Anandkumar",
+      "R. Michael Alvarez"
+    ],
+    "confidence": 0.99,
+    "date": "2026-06-10",
+    "doi": "https://doi.org/10.48550/arxiv.2606.12730",
+    "download": {
+      "bytes": 4147277,
+      "downloaded": "2026-10-28",
+      "license": "cc-by",
+      "pages": 53,
+      "path": "downloads/04b0c3c7ee31ca07.pdf",
+      "sha256": "d62c2475e7a12ba8f23a36a199a552abdaa95a91dc7f5cbf28d1cf17efa26131",
+      "source_url": "https://arxiv.org/pdf/2606.12730",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1629,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "4beb373c873a0b80bf89efdadc2a603429e3e8c1faa3c6e053f86e6398072bae",
+      "url": "https://arxiv.org/abs/2606.12730"
+    },
+    "evidence_quote": "We contrast Big 5 with the Theory of Planned Behavior (TPB), which measures intention targeted to a specific",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "04b0c3c7ee31ca07",
+    "interventions": [
+      "evaluation",
+      "prompting"
+    ],
+    "license": "cc-by",
+    "openalex": "https://openalex.org/W7164541770",
+    "pdf_url": "https://arxiv.org/pdf/2606.12730",
+    "provenance": [
+      "openalex:search:\"persona training\" AND (LLM OR \"language models\"):page=1"
+    ],
+    "rationale": "Qualifies blanket claims about personality-measurement failure and informs character evaluation design.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Compares Big Five and behavior-specific self-reports, finding that predictive validity depends on task and conversational context.",
+    "themes": [
+      "measurement",
+      "identity"
+    ],
+    "title": "Rethinking Psychometric Evaluation of LLMs: When and Why Self-Reports Predict Behavior",
+    "url": "https://arxiv.org/abs/2606.12730"
+  },
+  {
+    "authors": [
+      "Oliver Daniels"
+    ],
+    "confidence": 0.99,
+    "date": "2026-02-25",
+    "download": {
+      "checked": "2026-10-28",
+      "errors": [
+        "No open-access PDF URL known"
+      ],
+      "status": "unavailable"
+    },
+    "evidence": {
+      "characters": 25424,
+      "kind": "full-text",
+      "retrieved": "2026-10-28",
+      "sha256": "6bc4bfe2947880f1e1367f089f297a390b466b349deae8e6010c3cef1fe7ad5d",
+      "url": "https://www.lesswrong.com/posts/v22JCsRBq9J9fqPJL/character-training-induces-motivation-clarification-a-clue"
+    },
+    "evidence_quote": "present an early stage result showing that character training induces \"motivation clarification\" (which Fiora argues plays a critical",
+    "evidence_type": "research-post",
+    "first_seen": "2026-10-28",
+    "id": "0605e5515f22b8c2",
+    "interventions": [
+      "preference-optimization",
+      "evaluation"
+    ],
+    "provenance": [
+      "web-search-and-user-seed"
+    ],
+    "rationale": "Direct character-training experiment; hypotheses about Claude 3 Opus remain speculative.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Reports an early GPT-4.1 experiment in which character training induces statements clarifying benevolent motivations.",
+    "themes": [
+      "identity",
+      "generalization"
+    ],
+    "title": "Character Training Induces Motivation Clarification: A Clue to Claude 3 Opus",
+    "url": "https://www.lesswrong.com/posts/v22JCsRBq9J9fqPJL/character-training-induces-motivation-clarification-a-clue"
+  },
+  {
+    "authors": [
+      "David Kaczér",
+      "Magnus Jørgenvåg",
+      "Clemens Vetter",
+      "Esha Afzal",
+      "Robin Haselhorst",
+      "Lucie Flek",
+      "Florian Mai"
+    ],
+    "confidence": 0.99,
+    "date": "2026-09-29",
+    "download": {
+      "bytes": 480483,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 21,
+      "path": "downloads/07120009fe1ce746.pdf",
+      "sha256": "27aaec216e25d7878c6f083c78ae791406e93f3e9313d272303277f495608d82",
+      "source_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/kaczer26a/kaczer26a.pdf",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 5903,
+      "kind": "full-text",
+      "retrieved": "2026-10-28",
+      "sha256": "c0e634a2261de9a3b9f6925a172ff857f56d738e57e0e1f2399732aaed42389a",
+      "url": "https://proceedings.mlr.press/v306/kaczer26a.html"
+    },
+    "evidence_quote": "We investigate five training regularization interventions: (i) KL-divergence regularization toward a safe reference model, (ii) $\\ell_2$ distance in",
+    "evidence_type": "peer-reviewed",
+    "first_seen": "2026-10-28",
+    "id": "07120009fe1ce746",
+    "interventions": [
+      "sft",
+      "activation-steering",
+      "data-curation"
+    ],
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/kaczer26a/kaczer26a.pdf",
+    "provenance": [
+      "web-search-and-user-seed"
+    ],
+    "rationale": "Direct comparison of persona-based safeguards with other fine-tuning interventions.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Compares training-time defenses against emergent misalignment, including preventive persona steering and inoculation.",
+    "themes": [
+      "emergent-misalignment",
+      "robustness"
+    ],
+    "title": "In-Training Defenses Against Emergent Misalignment in Language Models",
+    "url": "https://proceedings.mlr.press/v306/kaczer26a.html"
+  },
+  {
+    "authors": [
+      "Wang, Xintao",
+      "Xiao, Yunze",
+      "Huang, Jen-tse",
+      "Yuan, Siyu",
+      "Xu, Rui",
+      "Guo, Haoran",
+      "Tu, Quan",
+      "Fei, Yaying",
+      "Leng, Ziang",
+      "Wang, Wei",
+      "Chen, Jiangjie",
+      "Li, Cheng",
+      "Xiao, Yanghua"
+    ],
+    "confidence": 0.99,
+    "date": "2023-10-27",
+    "evidence": {
+      "characters": 1018,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "8a6458d9cce943ac0a25e3b83d5932089fbdb23a8e043996029fdd65765a24a9",
+      "url": "https://arxiv.org/abs/2310.17976"
+    },
+    "evidence_quote": "introduces a novel perspective to evaluate the personality fidelity of RPAs with psychological scales. Overcoming drawbacks of previous",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "08bf7ac5fbf4183a",
+    "interventions": [
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2310.17976",
+    "provenance": [
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Useful boundary example: the abstract targets persona fidelity or user personalization, not persistent assistant alignment.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "roleplay",
+    "summary": "Evaluates role-playing character fidelity through psychological interviews.",
+    "themes": [
+      "roleplay",
+      "personalization"
+    ],
+    "title": "InCharacter: Evaluating Personality Fidelity in Role-Playing Agents through Psychological Interviews",
+    "url": "https://arxiv.org/abs/2310.17976"
+  },
+  {
+    "authors": [
+      "Shao, Yunfan",
+      "Li, Linyang",
+      "Dai, Junqi",
+      "Qiu, Xipeng"
+    ],
+    "confidence": 0.99,
+    "date": "2023-10-16",
+    "evidence": {
+      "characters": 1045,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "614213eca687efc6e191e35f2772ac19db9bc0d00faa731c7995aab7e38a1462",
+      "url": "https://arxiv.org/abs/2310.10158"
+    },
+    "evidence_quote": "we introduce Character-LLM that teach LLMs to act as specific people such as Beethoven, Queen Cleopatra, Julius Caesar,",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "14b1ce483b602faa",
+    "interventions": [
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2310.10158",
+    "provenance": [
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Useful boundary example: the abstract targets persona fidelity or user personalization, not persistent assistant alignment.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "roleplay",
+    "summary": "Trains agents to simulate named people through profiles and synthetic experiences.",
+    "themes": [
+      "roleplay",
+      "personalization"
+    ],
+    "title": "Character-LLM: A Trainable Agent for Role-Playing",
+    "url": "https://arxiv.org/abs/2310.10158"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2510.07686"
+    ],
+    "authors": [
+      "Zhang, Jifan",
+      "Sleight, Henry",
+      "Peng, Andi",
+      "Schulman, John",
+      "Durmus, Esin"
+    ],
+    "confidence": 0.99,
+    "date": "2025-10-09",
+    "download": {
+      "bytes": 13225216,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 27,
+      "path": "downloads/1580f7b96d838e59.pdf",
+      "sha256": "3249354c1579c2bc1b39780a4939377dda1f437095eddfba7bf056adb8812c36",
+      "source_url": "https://arxiv.org/pdf/2510.07686",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1640,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "4803a436c6eb5c96009ef0321db62b182f9517704ed9710c0596d9b2d1bbde00",
+      "url": "https://arxiv.org/abs/2510.07686"
+    },
+    "evidence_quote": "We present a systematic methodology for stress-testing model character specifications, automatically identifying numerous cases of principle contradictions and",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "1580f7b96d838e59",
+    "interventions": [
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2510.07686",
+    "provenance": [
+      "fulltext-reference:oct",
+      "fulltext-reference:spp",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Directly evaluates character constitutions, while making no claim to introduce a training method.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Generates value-conflict scenarios to expose contradictions and ambiguity in model character specifications across twelve frontier models.",
+    "themes": [
+      "constitutions",
+      "values",
+      "measurement"
+    ],
+    "title": "Stress-Testing Model Specs Reveals Character Differences among Language Models",
+    "url": "https://arxiv.org/abs/2510.07686"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2510.05024"
+    ],
+    "authors": [
+      "Wichers, Nevan",
+      "Ebtekar, Aram",
+      "Azarbal, Ariana",
+      "Gillioz, Victor",
+      "Ye, Christine",
+      "Ryd, Emil",
+      "Rathi, Neil",
+      "Sleight, Henry",
+      "Mallen, Alex",
+      "Roger, Fabien",
+      "Marks, Samuel"
+    ],
+    "confidence": 0.99,
+    "date": "2025-10-06",
+    "download": {
+      "bytes": 1079846,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 32,
+      "path": "downloads/2345c977f065b75b.pdf",
+      "sha256": "6c025d6b6aee9ef927ae47acb1fcedd216fd230b70df062487c1ea9c5b830296",
+      "source_url": "https://arxiv.org/pdf/2510.05024",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1246,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "eb6e52c2f012998ffd67ad38406236c4ac2fdb8a6574e995c262e052e4513cfd",
+      "url": "https://arxiv.org/abs/2510.05024"
+    },
+    "evidence_quote": "We introduce Inoculation Prompting (IP), a simple but counterintuitive technique that prevents learning of an undesired behavior by",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "2345c977f065b75b",
+    "interventions": [
+      "sft",
+      "prompting"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2510.05024",
+    "provenance": [
+      "fulltext-reference:psm",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "A companion inoculation method addressing generalization of reward hacking and sycophancy, with an explicit training intervention.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Requests undesirable behavior in training prompts to reduce its acquisition under imperfect supervision.",
+    "themes": [
+      "generalization",
+      "reward-hacking",
+      "sycophancy"
+    ],
+    "title": "Inoculation Prompting: Instructing LLMs to misbehave at train-time improves test-time alignment",
+    "url": "https://arxiv.org/abs/2510.05024"
+  },
+  {
+    "confidence": 0.99,
+    "date": "2024-06-08",
+    "download": {
+      "checked": "2026-10-28",
+      "errors": [
+        "No open-access PDF URL known"
+      ],
+      "status": "unavailable"
+    },
+    "evidence": {
+      "characters": 10138,
+      "kind": "full-text",
+      "retrieved": "2026-10-28",
+      "sha256": "fa2b23ffe46db12278d7c660cc78857952a3251dc62eea52357bdd7f154e458f",
+      "url": "https://www.anthropic.com/research/claude-character"
+    },
+    "evidence_quote": "We trained these traits into Claude using a \"character\" variant of our Constitutional AI training. We ask Claude",
+    "evidence_type": "research-post",
+    "first_seen": "2026-10-28",
+    "id": "24a2e8a642921bb9",
+    "interventions": [
+      "preference-optimization",
+      "rl",
+      "data-curation"
+    ],
+    "provenance": [
+      "web-search-and-user-seed"
+    ],
+    "rationale": "Primary account explicitly frames richer assistant traits as an alignment intervention.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Explains Anthropic’s character-training objectives and synthetic preference-data process for Claude.",
+    "themes": [
+      "constitutions",
+      "values",
+      "identity"
+    ],
+    "title": "Claude’s character",
+    "url": "https://www.anthropic.com/research/claude-character"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2606.09475",
+      "https://doi.org/10.48550/arxiv.2606.09475",
+      "https://openalex.org/W7164089295"
+    ],
+    "authors": [
+      "Guillermo Del Pinal",
+      "Youngchan Lee",
+      "Cameron McNamara",
+      "Alejandro Pérez Carballo"
+    ],
+    "confidence": 0.99,
+    "date": "2026-06-08",
+    "doi": "https://doi.org/10.48550/arxiv.2606.09475",
+    "download": {
+      "bytes": 1099309,
+      "downloaded": "2026-10-28",
+      "license": "cc-by-nc",
+      "pages": 34,
+      "path": "downloads/2827342ea0ec2b77.pdf",
+      "sha256": "70c5c2db0347a7dde977eec96fdfa1e572aa4f0c244cd88bbb3a3cccc09c24d8",
+      "source_url": "https://arxiv.org/pdf/2606.09475",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1906,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "a23478302aa04c980f91799185550493bb948ccf144923f1c2c65fcd113144cc",
+      "url": "https://arxiv.org/abs/2606.09475"
+    },
+    "evidence_quote": "To create SFT samples, we follow the `Constitutional AI' (CAI) approach and use four constitutions which encode reasonable",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "2827342ea0ec2b77",
+    "interventions": [
+      "sft",
+      "data-curation",
+      "evaluation"
+    ],
+    "license": "cc-by-nc",
+    "openalex": "https://openalex.org/W7164089295",
+    "pdf_url": "https://arxiv.org/pdf/2606.09475",
+    "provenance": [
+      "openalex:search:ethical personas:page=1",
+      "openalex:search:persona alignment:page=1",
+      "openalex:search:persona selection:page=1",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Explicitly tests ethical-persona acquisition and its generalization under constitutional fine-tuning.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Compares four ethical constitutions and tests whether narrow safety fine-tuning transfers to broad safety and the expected ethical-persona profile.",
+    "themes": [
+      "constitutions",
+      "values",
+      "generalization"
+    ],
+    "title": "Emergent alignment and the projectability of ethical personas",
+    "url": "https://arxiv.org/abs/2606.09475"
+  },
+  {
+    "authors": [
+      "Danilov, Adelaide",
+      "Nourbakhsh, Aria",
+      "Breneur, Oleksandr Marchenko",
+      "Lamsiyah, Salima"
+    ],
+    "confidence": 0.99,
+    "date": "2026-08-08",
+    "download": {
+      "bytes": 1318002,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 38,
+      "path": "downloads/3339a5b9a648df0a.pdf",
+      "sha256": "583dc0234d23e4eac31f50f4326d6614370766c6a15922ef79e743a1d27e3187",
+      "source_url": "https://arxiv.org/pdf/2608.07852",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1149,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "142fdfb3d39ccfa1ba1292aa1440f7ed76bdcacf1274a6d4c3a88fe9e18a9d58",
+      "url": "https://arxiv.org/abs/2608.07852"
+    },
+    "evidence_quote": "Our main finding is that the Assistant and roleplay personas are not independent alternatives: personas retain the Assistant-associated",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "3339a5b9a648df0a",
+    "interventions": [
+      "activation-steering",
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.07852",
+    "provenance": [
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Helps distinguish default assistant identity from assigned roles and examines drift between them.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Compares sparse features for assistant, role-play, and narrated-story speakers, finding shared assistant features and a distinct simulation mode.",
+    "themes": [
+      "identity",
+      "interpretability",
+      "roleplay"
+    ],
+    "title": "\"Many Are My Names\": The Anatomy of the Assistant and Its Personas via Sparse Autoencoders",
+    "url": "https://arxiv.org/abs/2608.07852"
+  },
+  {
+    "authors": [
+      "Geoffrey Irving",
+      "David Africa"
+    ],
+    "confidence": 0.99,
+    "date": "2026-07-30",
+    "download": {
+      "checked": "2026-10-28",
+      "errors": [
+        "No open-access PDF URL known"
+      ],
+      "status": "unavailable"
+    },
+    "evidence": {
+      "characters": 24983,
+      "kind": "full-text",
+      "retrieved": "2026-10-28",
+      "sha256": "3986a1dd244aab4b4fbed66a8ff1511f10dcd5c87940a29b78387027912eddac",
+      "url": "https://www.lesswrong.com/posts/sFhW3ZnPMJdnB4Dd6/thousand-dimensional-structure-1"
+    },
+    "evidence_quote": "One area we plan to explore at Resolution is personas and character training, operationalized as finding and controlling",
+    "evidence_type": "conceptual-post",
+    "first_seen": "2026-10-28",
+    "id": "3875135056923b94",
+    "interventions": [
+      "conceptual"
+    ],
+    "provenance": [
+      "web-search-and-user-seed"
+    ],
+    "rationale": "Research agenda grounded in persona phenomena; not a report of a new controlled training result.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Proposes studying low-dimensional structure connecting pretraining, personas, generalization, and alignment interventions.",
+    "themes": [
+      "interpretability",
+      "generalization",
+      "identity"
+    ],
+    "title": "Thousand-dimensional structure",
+    "url": "https://www.lesswrong.com/posts/sFhW3ZnPMJdnB4Dd6/thousand-dimensional-structure-1"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7165682649",
+      "https://doi.org/10.48550/arxiv.2606.21102"
+    ],
+    "authors": [
+      "Elena Ajayi",
+      "Angelica Chowdhury",
+      "Seth Lazar"
+    ],
+    "confidence": 0.99,
+    "date": "2026-06-19",
+    "doi": "https://doi.org/10.48550/arxiv.2606.21102",
+    "download": {
+      "bytes": 759417,
+      "downloaded": "2026-10-28",
+      "license": "other-oa",
+      "pages": 33,
+      "path": "downloads/392c1d5a40b6814d.pdf",
+      "sha256": "4a26840a6a9f4d20b80ad273b96b57fa50a22285e26caa53c7eb1df851f358f5",
+      "source_url": "https://arxiv.org/pdf/2606.21102",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1537,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "331c8a74326da3f515bb864858f6406f45dbd122c7c719a5434b19a0e55dde00",
+      "url": "https://arxiv.org/abs/2606.21102"
+    },
+    "evidence_quote": "we test this thesis by presenting LLMs with parametric variations on those forced choices. We reason that if",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "392c1d5a40b6814d",
+    "interventions": [
+      "evaluation"
+    ],
+    "license": "other-oa",
+    "openalex": "https://openalex.org/W7165682649",
+    "pdf_url": "https://arxiv.org/pdf/2606.21102",
+    "provenance": [
+      "openalex:search:\"character training\" AND (LLM OR \"language models\"):page=1"
+    ],
+    "rationale": "An evaluation caution for revealed-value methods used in character research.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Uses parametric variations in forced choices to test whether elicited model values are coherent.",
+    "themes": [
+      "values",
+      "measurement"
+    ],
+    "title": "Incoherent Values? Probing LLM Preferences Through Parametric Variation",
+    "url": "https://arxiv.org/abs/2606.21102"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7211991655",
+      "https://doi.org/10.48550/arxiv.2609.07117"
+    ],
+    "authors": [
+      "Ziyue Feng",
+      "Hongbo Fang",
+      "James A. Evans"
+    ],
+    "confidence": 0.99,
+    "date": "2026-09-07",
+    "doi": "https://doi.org/10.48550/arxiv.2609.07117",
+    "download": {
+      "bytes": 3531086,
+      "downloaded": "2026-10-28",
+      "license": "unspecified",
+      "pages": 25,
+      "path": "downloads/39f6065277c2e5ce.pdf",
+      "sha256": "627037694cba9709e10700e04f3e72a7d620454169bbdf0a7a7108150a6856ee",
+      "source_url": "https://arxiv.org/pdf/2609.07117",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 961,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "545fd88562f0861519bbd82dff6603e55b3aa7379c597044b83e9cfa373fa989",
+      "url": "https://arxiv.org/abs/2609.07117"
+    },
+    "evidence_quote": "We use persona conditioning as a controlled probe, measuring its effects along a depth axis from self-report, through",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "39f6065277c2e5ce",
+    "interventions": [
+      "prompting",
+      "evaluation"
+    ],
+    "license": "unspecified",
+    "openalex": "https://openalex.org/W7211991655",
+    "pdf_url": "https://arxiv.org/pdf/2609.07117",
+    "provenance": [
+      "openalex:search:\"character training\" AND (LLM OR \"language models\"):page=1"
+    ],
+    "rationale": "Tests the limits of persona prompting as a behavioral alignment intervention; not weight-based character training.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Probes whether persona conditioning changes self-reports, generated bias, and deeper word associations consistently.",
+    "themes": [
+      "measurement",
+      "robustness"
+    ],
+    "title": "The Illusion of Debiasing: Persona Steering Redistributes Rather Than Reduces Bias in LLMs",
+    "url": "https://arxiv.org/abs/2609.07117"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7223236043",
+      "https://doi.org/10.48550/arxiv.2610.29922"
+    ],
+    "authors": [
+      "Siddhesh Pawar",
+      "Chen Cecilia Liu",
+      "Anna Korhonen",
+      "Isabelle Augenstein"
+    ],
+    "confidence": 0.99,
+    "date": "2026-10-21",
+    "doi": "https://doi.org/10.48550/arxiv.2610.29922",
+    "download": {
+      "bytes": 2046432,
+      "downloaded": "2026-10-28",
+      "license": "unspecified",
+      "pages": 37,
+      "path": "downloads/3e1ca22434c404fd.pdf",
+      "sha256": "ab36354b059fe0f3c76127aa08c613441b5d6c977ea2692f7a87cb6136452406",
+      "source_url": "https://arxiv.org/pdf/2610.29922",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 923,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "9c28b532fa57bc21bbf1e150ba39bb14a679423114948d2abfcf8d79e1756914",
+      "url": "https://arxiv.org/abs/2610.29922"
+    },
+    "evidence_quote": "We find that value-specific training produces unintended side effects on untrained values, risk preferences, social cognition, and safety",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "3e1ca22434c404fd",
+    "interventions": [
+      "sft",
+      "evaluation"
+    ],
+    "license": "unspecified",
+    "openalex": "https://openalex.org/W7223236043",
+    "pdf_url": "https://arxiv.org/pdf/2610.29922",
+    "provenance": [
+      "openalex:search:\"character training\" AND (LLM OR \"language models\"):page=1"
+    ],
+    "rationale": "Directly tests unintended changes to risk preferences, social cognition, and safety after value training.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Examines cross-value and behavioral side effects when four models are trained on individual cultural value dimensions.",
+    "themes": [
+      "values",
+      "generalization",
+      "robustness"
+    ],
+    "title": "Unintended Side Effects of Value Training in LLMs",
+    "url": "https://arxiv.org/abs/2610.29922"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7134978635",
+      "https://doi.org/10.48550/arxiv.2603.09517"
+    ],
+    "authors": [
+      "Isaia Gisler",
+      "Zhonghao He",
+      "Tianyi Alex Qiu"
+    ],
+    "confidence": 0.99,
+    "date": "2026-03-10",
+    "doi": "https://doi.org/10.48550/arxiv.2603.09517",
+    "download": {
+      "bytes": 292632,
+      "downloaded": "2026-10-28",
+      "license": "cc-by",
+      "pages": 13,
+      "path": "downloads/3e508f2b3c8a671c.pdf",
+      "sha256": "a358b367b368a9677cb0bf3ee6e2df62eac7ec9df0e36c193e55114aca3ff496",
+      "source_url": "https://arxiv.org/pdf/2603.09517",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1241,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "027e7df57cb49d504641f0f0851a0251ffba22c3bf5cb9030e1f1a19cd874e9b",
+      "url": "https://arxiv.org/abs/2603.09517"
+    },
+    "evidence_quote": "We investigate whether transmission occurs through natural language paraphrases with fixed semantic content, and whether content explicitly contradicting",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "3e508f2b3c8a671c",
+    "interventions": [
+      "distillation",
+      "sft"
+    ],
+    "license": "cc-by",
+    "openalex": "https://openalex.org/W7134978635",
+    "pdf_url": "https://arxiv.org/pdf/2603.09517",
+    "provenance": [
+      "openalex:search:\"character training\" AND (LLM OR \"language models\"):page=1"
+    ],
+    "rationale": "A relevant failure mode for synthetic-data character training despite content filtering.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Tests transfer of teacher preferences through faithful paraphrases, including content that contradicts the teacher’s preference.",
+    "themes": [
+      "subliminal-transfer",
+      "generalization"
+    ],
+    "title": "You Didn't Have to Say It like That: Subliminal Learning from Faithful Paraphrases",
+    "url": "https://arxiv.org/abs/2603.09517"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2510.04340"
+    ],
+    "authors": [
+      "Tan, Daniel",
+      "Woodruff, Anders",
+      "Warncke, Niels",
+      "Jose, Arun",
+      "Riché, Maxime",
+      "Africa, David Demitri",
+      "Taylor, Mia"
+    ],
+    "confidence": 0.99,
+    "date": "2025-10-05",
+    "download": {
+      "bytes": 962265,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 41,
+      "path": "downloads/424c363d655b268d.pdf",
+      "sha256": "ecf98dcef2056a1969e2c3e424c55b553a58ed764a4bd63caf4ba46b6c315917",
+      "source_url": "https://arxiv.org/pdf/2510.04340",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1452,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "240985c38cb7bbc365abde8dc2cb4e9d91f6cfd7d4d999797610c35be535de4b",
+      "url": "https://arxiv.org/abs/2510.04340"
+    },
+    "evidence_quote": "we propose inoculation prompting: modifying finetuning data by prepending a short system-prompt instruction that deliberately elicits the undesirable",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "424c363d655b268d",
+    "interventions": [
+      "sft",
+      "prompting"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2510.04340",
+    "provenance": [
+      "fulltext-reference:psm",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Selectively controls learned dispositions through training-time context; distinct from deployment prompting.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Changes training context to suppress unwanted trait generalization after the context is removed, including misalignment and subliminal-transfer tests.",
+    "themes": [
+      "generalization",
+      "emergent-misalignment",
+      "subliminal-transfer"
+    ],
+    "title": "Inoculation Prompting: Eliciting traits from LLMs during training can suppress them at test-time",
+    "url": "https://arxiv.org/abs/2510.04340"
+  },
+  {
+    "authors": [
+      "Paul Colognese",
+      "Francis Rhys Ward"
+    ],
+    "confidence": 0.99,
+    "date": "2026-09-28",
+    "download": {
+      "checked": "2026-10-28",
+      "errors": [
+        "No open-access PDF URL known"
+      ],
+      "status": "unavailable"
+    },
+    "evidence": {
+      "characters": 54079,
+      "kind": "full-text",
+      "retrieved": "2026-10-28",
+      "sha256": "74aecb187431bb8f8eab81cb7cd095d78c4982230b22260cf998071a3f45d331",
+      "url": "https://www.lesswrong.com/posts/2maYXkEgnfJHPAkxh/character-training-can-mitigate-reward-hacking-but-can-also"
+    },
+    "evidence_quote": "We investigate how character training mitigations interact with reward-hacking RL pressure in a small case study. Specifically, whether",
+    "evidence_type": "research-post",
+    "first_seen": "2026-10-28",
+    "id": "479b38150f004f01",
+    "interventions": [
+      "distillation",
+      "sft",
+      "rl",
+      "evaluation"
+    ],
+    "links": {
+      "code": "https://github.com/barbonara/character-reward-hacking"
+    },
+    "provenance": [
+      "web-search-and-user-seed"
+    ],
+    "rationale": "A small direct experiment on character training and downstream safety side effects, with seed-dependent outcomes.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Tests anti-, pro-, and neutral-cheating characters under reward-hacking RL; some mitigations make failures less monitorable.",
+    "themes": [
+      "reward-hacking",
+      "monitorability",
+      "robustness"
+    ],
+    "title": "Character training can mitigate reward hacking, but can also make it harder to detect",
+    "url": "https://www.lesswrong.com/posts/2maYXkEgnfJHPAkxh/character-training-can-mitigate-reward-hacking-but-can-also"
+  },
+  {
+    "authors": [
+      "Giuseppe Birardi",
+      "Alejandro Wainstock",
+      "ivan-gentile"
+    ],
+    "confidence": 0.99,
+    "date": "2026-03-02",
+    "download": {
+      "checked": "2026-10-28",
+      "errors": [
+        "No open-access PDF URL known"
+      ],
+      "status": "unavailable"
+    },
+    "evidence": {
+      "characters": 105562,
+      "kind": "full-text",
+      "retrieved": "2026-10-28",
+      "sha256": "1438c17b6d493175cf9a246f38a64ffff79e9e390fa1d9a0d1f76a82124c29d9",
+      "url": "https://www.lesswrong.com/posts/yA2hquLrFFSFDtcoE/context-awareness-constitutional-ai-can-mitigate-emergent"
+    },
+    "evidence_quote": "We take 11 character-trained personas produced by the OpenCharacterTraining pipeline and fine-tune each on corrupted data designed to",
+    "evidence_type": "research-post",
+    "first_seen": "2026-10-28",
+    "id": "4909415ba81dbf8f",
+    "interventions": [
+      "sft",
+      "evaluation"
+    ],
+    "provenance": [
+      "web-search-and-user-seed"
+    ],
+    "rationale": "Direct robustness test of character training, including a notable sarcasm-related failure.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Tests eleven character-trained models under misaligning fine-tuning and finds protection and failures that depend on model and trait.",
+    "themes": [
+      "constitutions",
+      "emergent-misalignment",
+      "robustness"
+    ],
+    "title": "Context Awareness: Constitutional AI can mitigate Emergent Misalignement",
+    "url": "https://www.lesswrong.com/posts/yA2hquLrFFSFDtcoE/context-awareness-constitutional-ai-can-mitigate-emergent"
+  },
+  {
+    "authors": [
+      "Azarbal, Ariana",
+      "Gillioz, Victor",
+      "Ivanov, Vladimir",
+      "Woodworth, Bryce",
+      "Drori, Jacob",
+      "Wichers, Nevan",
+      "Ebtekar, Aram",
+      "Cloud, Alex",
+      "Turner, Alexander Matt"
+    ],
+    "confidence": 0.99,
+    "date": "2025-12-22",
+    "download": {
+      "bytes": 3473613,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 50,
+      "path": "downloads/53d9d52167024e0c.pdf",
+      "sha256": "372437b36e4974450b8a4459abec0fdda00361186100a4d47322eb2c1feeb77f",
+      "source_url": "https://arxiv.org/pdf/2512.19027",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 954,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "21cc3f96ad4403d5e521cd97b23cd06a3be2e7554d832fc07f4d9849badc38f0",
+      "url": "https://arxiv.org/abs/2512.19027"
+    },
+    "evidence_quote": "Our method works by generating completions from prompts discouraging misbehavior and then recontextualizing them as though they were",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "53d9d52167024e0c",
+    "interventions": [
+      "rl",
+      "prompting"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2512.19027",
+    "provenance": [
+      "fulltext-reference:psm"
+    ],
+    "rationale": "Changes what a training example implies about desired behavior, closely related to persona-based accounts of generalization.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Recontextualizes generated completions to reduce specification gaming without repairing the underlying supervision signal.",
+    "themes": [
+      "generalization",
+      "reward-hacking",
+      "sycophancy"
+    ],
+    "title": "Recontextualization Mitigates Specification Gaming without Modifying the Specification",
+    "url": "https://arxiv.org/abs/2512.19027"
+  },
+  {
+    "confidence": 0.99,
+    "date": "2026-04",
+    "download": {
+      "checked": "2026-10-28",
+      "errors": [
+        "No open-access PDF URL known"
+      ],
+      "status": "unavailable"
+    },
+    "evidence": {
+      "characters": 34425,
+      "kind": "full-text",
+      "retrieved": "2026-10-28",
+      "sha256": "6ff767f88e65e7206b0282381f59e366f086331c61ffc111c5ed7f2d5c31dddc",
+      "url": "https://yhao-william.github.io/blog/persona-selection-model-c3po-experiment.html"
+    },
+    "evidence_quote": "We designed an experiment to test PSM's core predictions by fine-tuning Qwen3-4B on C-3PO-related content across nine conditions",
+    "evidence_type": "research-post",
+    "first_seen": "2026-10-28",
+    "id": "5752ef7d0f49c5fb",
+    "interventions": [
+      "sft",
+      "evaluation"
+    ],
+    "provenance": [
+      "web-search-and-user-seed"
+    ],
+    "rationale": "Fictional-character experiment used to test a generalization mechanism, not merely to optimize role-play quality.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Varies fine-tuning formats and identity cues for C-3PO to probe persona-selection predictions and failure costs.",
+    "themes": [
+      "identity",
+      "generalization",
+      "roleplay"
+    ],
+    "title": "Fine-tuning a language model to be C-3PO: an empirical test of the Persona Selection Model",
+    "url": "https://yhao-william.github.io/blog/persona-selection-model-c3po-experiment.html"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2605.13329",
+      "https://doi.org/10.48550/arxiv.2605.13329",
+      "https://openalex.org/W7161109648"
+    ],
+    "authors": [
+      "Viktor Moskvoretskii",
+      "Dominik Glandorf",
+      "Jorge Medina Moreira",
+      "Tanja Käser",
+      "Robert West"
+    ],
+    "confidence": 0.99,
+    "date": "2026-05-13",
+    "doi": "https://doi.org/10.48550/arxiv.2605.13329",
+    "download": {
+      "bytes": 1065605,
+      "downloaded": "2026-10-28",
+      "license": "cc-by-sa",
+      "pages": 44,
+      "path": "downloads/624bc42785e721bd.pdf",
+      "sha256": "9c5192a02dee0e11eb73cfc4dfe650c47e568ea18b74e059ee9894f7b6c5ed86",
+      "source_url": "https://arxiv.org/pdf/2605.13329",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1374,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "49e314d4220fe8d423b0923b1bd378190d85ae702eeb7d1e7cb5a432a38561c5",
+      "url": "https://arxiv.org/abs/2605.13329"
+    },
+    "evidence_quote": "To address this gap, we trace persona vectors across the pretraining of OLMo-3-7B, finding that persona vectors form",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "624bc42785e721bd",
+    "interventions": [
+      "pretraining",
+      "activation-steering"
+    ],
+    "license": "cc-by-sa",
+    "openalex": "https://openalex.org/W7161109648",
+    "pdf_url": "https://arxiv.org/pdf/2605.13329",
+    "provenance": [
+      "fulltext-reference:spp",
+      "openalex:search:persona vectors:page=1",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Studies training-time formation of safety-relevant traits rather than only role-playing outputs.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Tracks the emergence and refinement of persona vectors across pretraining checkpoints in two model families.",
+    "themes": [
+      "interpretability",
+      "identity",
+      "generalization"
+    ],
+    "title": "Tracing Persona Vectors Through LLM Pretraining",
+    "url": "https://arxiv.org/abs/2605.13329"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2212.08073"
+    ],
+    "authors": [
+      "Bai, Yuntao",
+      "Kadavath, Saurav",
+      "Kundu, Sandipan",
+      "Askell, Amanda",
+      "Kernion, Jackson",
+      "Jones, Andy",
+      "Chen, Anna",
+      "Goldie, Anna",
+      "Mirhoseini, Azalia",
+      "McKinnon, Cameron",
+      "Chen, Carol",
+      "Olsson, Catherine",
+      "Olah, Christopher",
+      "Hernandez, Danny",
+      "Drain, Dawn",
+      "Ganguli, Deep",
+      "Li, Dustin",
+      "Tran-Johnson, Eli",
+      "Perez, Ethan",
+      "Kerr, Jamie",
+      "Mueller, Jared",
+      "Ladish, Jeffrey",
+      "Landau, Joshua",
+      "Ndousse, Kamal",
+      "Lukosuite, Kamile",
+      "Lovitt, Liane",
+      "Sellitto, Michael",
+      "Elhage, Nelson",
+      "Schiefer, Nicholas",
+      "Mercado, Noemi",
+      "DasSarma, Nova",
+      "Lasenby, Robert",
+      "Larson, Robin",
+      "Ringer, Sam",
+      "Johnston, Scott",
+      "Kravec, Shauna",
+      "Showk, Sheer El",
+      "Fort, Stanislav",
+      "Lanham, Tamera",
+      "Telleen-Lawton, Timothy",
+      "Conerly, Tom",
+      "Henighan, Tom",
+      "Hume, Tristan",
+      "Bowman, Samuel R.",
+      "Hatfield-Dodds, Zac",
+      "Mann, Ben",
+      "Amodei, Dario",
+      "Joseph, Nicholas",
+      "McCandlish, Sam",
+      "Brown, Tom",
+      "Kaplan, Jared"
+    ],
+    "confidence": 0.99,
+    "date": "2022-12-15",
+    "download": {
+      "bytes": 2088111,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 34,
+      "path": "downloads/683aef834ac1612a.pdf",
+      "sha256": "9a456a07ad346e3372f9867d346f69f5b0f68b4c65f060aca0b8a13fa9d98e83",
+      "source_url": "https://arxiv.org/pdf/2212.08073",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1309,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "52151077bf334f68c0b5c6b32cdbda22b28124b2f9be62743797645b15218e1c",
+      "url": "https://arxiv.org/abs/2212.08073"
+    },
+    "evidence_quote": "The process involves both a supervised learning and a reinforcement learning phase. In the supervised phase we sample",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "683aef834ac1612a",
+    "interventions": [
+      "sft",
+      "preference-optimization",
+      "rl"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2212.08073",
+    "provenance": [
+      "fulltext-reference:oct",
+      "fulltext-reference:spp",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Foundational method reused by character training; the original contribution is broader than persona shaping.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Develops constitutional self-critique and AI-feedback training for harmless assistants.",
+    "themes": [
+      "constitutions",
+      "values"
+    ],
+    "title": "Constitutional AI: Harmlessness from AI Feedback",
+    "url": "https://arxiv.org/abs/2212.08073"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2302.00805"
+    ],
+    "authors": [
+      "Hubinger, Evan",
+      "Jermyn, Adam",
+      "Treutlein, Johannes",
+      "Hudson, Rubi",
+      "Woolverton, Kate"
+    ],
+    "confidence": 0.99,
+    "date": "2023-02-02",
+    "download": {
+      "bytes": 1761777,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 84,
+      "path": "downloads/715b698bce895a51.pdf",
+      "sha256": "207b28c0062a065c0d9a130f44304537f3f1443e87d6be438398916bf8318ecc",
+      "source_url": "https://arxiv.org/pdf/2302.00805",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1281,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "fb45ee37ccdccdaf7d74a595ace17b951afee6af8cdb072abe3f0f47479466de",
+      "url": "https://arxiv.org/abs/2302.00805"
+    },
+    "evidence_quote": "primarily via carefully conditioning models to predict the things we want (e.g. humans) rather than the things we",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "715b698bce895a51",
+    "interventions": [
+      "conceptual",
+      "prompting"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2302.00805",
+    "provenance": [
+      "fulltext-reference:psm",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Conceptual antecedent to persona-selection accounts; not experimental evidence of persistent character training.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Analyzes opportunities and risks of conditioning predictive models to simulate desirable rather than malign agents.",
+    "themes": [
+      "identity",
+      "values",
+      "robustness"
+    ],
+    "title": "Conditioning Predictive Models: Risks and Strategies",
+    "url": "https://arxiv.org/abs/2302.00805"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7221772834",
+      "https://doi.org/10.48550/arxiv.2610.17880"
+    ],
+    "authors": [
+      "Juann Kim",
+      "Minku Kang"
+    ],
+    "confidence": 0.99,
+    "date": "2026-10-13",
+    "doi": "https://doi.org/10.48550/arxiv.2610.17880",
+    "download": {
+      "bytes": 1373849,
+      "downloaded": "2026-10-28",
+      "license": "unspecified",
+      "pages": 10,
+      "path": "downloads/716637ca5be01490.pdf",
+      "sha256": "761e7ca8ffccf1d6a1d63211fc64488a25d0d1f759071f4a9da42fc8375a2d63",
+      "source_url": "https://arxiv.org/pdf/2610.17880",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1486,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "5d8bd91ccb776b9913edb9fc9b5d57711f5f84cf8376a0158b2c4b478ca973d6",
+      "url": "https://arxiv.org/abs/2610.17880"
+    },
+    "evidence_quote": "We conduct a systematic evil-vector transfer study across two high-resource languages (English, Spanish) and two low-resource languages (Swahili,",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "716637ca5be01490",
+    "interventions": [
+      "activation-steering",
+      "evaluation"
+    ],
+    "license": "unspecified",
+    "openalex": "https://openalex.org/W7221772834",
+    "pdf_url": "https://arxiv.org/pdf/2610.17880",
+    "provenance": [
+      "openalex:search:persona vectors:page=1"
+    ],
+    "rationale": "Examines whether a safety-relevant persona direction transfers across languages; no new character-training pipeline.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Tests cross-language transfer of harmful-persona vectors and reports asymmetric extraction and steering behavior across languages.",
+    "themes": [
+      "interpretability",
+      "robustness",
+      "generalization"
+    ],
+    "title": "Cross-Lingual Transfer of Evil Vectors Is Directionally Asymmetric",
+    "url": "https://arxiv.org/abs/2610.17880"
+  },
+  {
+    "authors": [
+      "Jiang, Hang",
+      "Zhang, Xiajie",
+      "Cao, Xubo",
+      "Breazeal, Cynthia",
+      "Roy, Deb",
+      "Kabbara, Jad"
+    ],
+    "confidence": 0.99,
+    "date": "2023-05-04",
+    "evidence": {
+      "characters": 1287,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "38488e41718d178f1acba2d6254abeda7e4fea2e22f4e4c61c999bd7e9c23c85",
+      "url": "https://arxiv.org/abs/2305.02547"
+    },
+    "evidence_quote": "we simulate distinct LLM personas based on the Big Five personality model, have them complete the 44-item Big",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "7244e09ae5162492",
+    "interventions": [
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2305.02547",
+    "provenance": [
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Useful boundary example: the abstract targets persona fidelity or user personalization, not persistent assistant alignment.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "roleplay",
+    "summary": "Prompts personality profiles and compares questionnaire responses, writing style, and human judgments.",
+    "themes": [
+      "roleplay",
+      "personalization"
+    ],
+    "title": "PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits",
+    "url": "https://arxiv.org/abs/2305.02547"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7162657848",
+      "https://doi.org/10.48550/arxiv.2605.27382"
+    ],
+    "authors": [
+      "Xing Zhang",
+      "Guanghui Wang",
+      "Yanwei Cui",
+      "Wei Qiu",
+      "Ziyuan Li",
+      "Bing Zhu",
+      "Peiyang He"
+    ],
+    "confidence": 0.99,
+    "date": "2026-04-10",
+    "doi": "https://doi.org/10.48550/arxiv.2605.27382",
+    "download": {
+      "bytes": 636290,
+      "downloaded": "2026-10-28",
+      "license": "cc-by-nc-sa",
+      "pages": 12,
+      "path": "downloads/7a8034754dfaaa84.pdf",
+      "sha256": "e82ceef4f79291a90b00faa397935cb07cb401a7121ecab795040a690b1365d2",
+      "source_url": "https://arxiv.org/pdf/2605.27382",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1873,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "ac57e814826f6574b3c75a5f71a91f6f368692c6036a3c132d050d1fe89f4e12",
+      "url": "https://arxiv.org/abs/2605.27382"
+    },
+    "evidence_quote": "We present a controlled case study contrasting a strongly-aligned RLHF + Constitutional-AI model (Claude Sonnet 4.6) with a",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "7a8034754dfaaa84",
+    "interventions": [
+      "prompting",
+      "evaluation"
+    ],
+    "license": "cc-by-nc-sa",
+    "openalex": "https://openalex.org/W7162657848",
+    "pdf_url": "https://arxiv.org/pdf/2605.27382",
+    "provenance": [
+      "openalex:search:persona alignment:page=1"
+    ],
+    "rationale": "A small deployment-time persona safety study; does not isolate training causes across the two models.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Contrasts persona-conditioned sycophancy in two models and proposes measuring the range of safety variation under customization.",
+    "themes": [
+      "sycophancy",
+      "robustness",
+      "measurement"
+    ],
+    "title": "The Alignment Floor: How Persona Customization Breaks Safety in Weakly-Aligned LLMs",
+    "url": "https://arxiv.org/abs/2605.27382"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7167065144",
+      "https://doi.org/10.48550/arxiv.2607.00006"
+    ],
+    "authors": [
+      "Shuaizhi Cheng"
+    ],
+    "confidence": 0.99,
+    "date": "2026-05-01",
+    "doi": "https://doi.org/10.48550/arxiv.2607.00006",
+    "download": {
+      "bytes": 305360,
+      "downloaded": "2026-10-28",
+      "license": "cc-by-nc-sa",
+      "pages": 30,
+      "path": "downloads/7a88e04f92cad776.pdf",
+      "sha256": "22eee54b234ecaf2fcf7bd5773a1ebb68a4258be6ed1efcf044059fd7846ce69",
+      "source_url": "https://arxiv.org/pdf/2607.00006",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1212,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "91822701af35667ee9ba56f6eb8f974474b284e7a738ab69f5ab8530144ab925",
+      "url": "https://arxiv.org/abs/2607.00006"
+    },
+    "evidence_quote": "We present four empirical wedges from persona-topology experiments on Qwen3-4B-Instruct and Mistral-7B-Instruct-v0.2 - non-collinearity of prompt-extracted vectors and",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "7a88e04f92cad776",
+    "interventions": [
+      "conceptual",
+      "evaluation"
+    ],
+    "license": "cc-by-nc-sa",
+    "openalex": "https://openalex.org/W7167065144",
+    "pdf_url": "https://arxiv.org/pdf/2607.00006",
+    "provenance": [
+      "openalex:search:persona vectors:page=1"
+    ],
+    "rationale": "A methodological caution against treating persona directions as identical objects across intervention types.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Argues that persona identity may depend on the intervention regime, using comparisons of prompting, fine-tuning, and steering.",
+    "themes": [
+      "identity",
+      "interpretability"
+    ],
+    "title": "Persona Without Substrate: Regime-Dependence and the LLM Individuation Problem",
+    "url": "https://arxiv.org/abs/2607.00006"
+  },
+  {
+    "confidence": 0.99,
+    "date": "2025",
+    "download": {
+      "checked": "2026-10-28",
+      "errors": [
+        "No open-access PDF URL known"
+      ],
+      "status": "unavailable"
+    },
+    "evidence": {
+      "characters": 34677,
+      "kind": "full-text",
+      "retrieved": "2026-10-28",
+      "sha256": "d989d91183f6c2caffeecff213f871f4e201a73993078b0d4472a95ffc3bd319",
+      "url": "https://rlhfbook.com/c/19-character.html"
+    },
+    "evidence_quote": "Character training is about changing the weights and crafting a stable, base persona for a given model. Character",
+    "evidence_type": "resource",
+    "first_seen": "2026-10-28",
+    "id": "826d7db06576e170",
+    "interventions": [
+      "conceptual"
+    ],
+    "provenance": [
+      "web-search-and-user-seed"
+    ],
+    "rationale": "Teaching resource explaining the scope and implementation context, not a separate empirical study.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Introduces character training as post-training for a stable base persona and discusses practical product design questions.",
+    "themes": [
+      "identity",
+      "constitutions"
+    ],
+    "title": "Crafting Model Character and Products",
+    "url": "https://rlhfbook.com/c/19-character.html"
+  },
+  {
+    "authors": [
+      "Cho, Gunhee",
+      "Kim, Hongyeob",
+      "Cheong, Yun-Gyung"
+    ],
+    "confidence": 0.99,
+    "date": "2026-10-26",
+    "evidence": {
+      "characters": 1181,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "ecc2b0e5547e1a686d2f5aa23072b6c6d6b220a51d7a1e0ac83fed5ea3a69ce0",
+      "url": "https://arxiv.org/abs/2610.34889"
+    },
+    "evidence_quote": "We introduce FATE-5, Faithful Alignment of Trait Expression for the Big Five, a two-stage framework that separates personality",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "836b14a41cac3bbb",
+    "interventions": [
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.34889",
+    "provenance": [
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Useful boundary example: the abstract targets persona fidelity or user personalization, not persistent assistant alignment.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "roleplay",
+    "summary": "Learns continuous Big Five personality controls and optimizes dialogue naturalness.",
+    "themes": [
+      "roleplay",
+      "personalization"
+    ],
+    "title": "FATE-5: Faithful Alignment of Trait Expression for Continuous Big Five Personality Control",
+    "url": "https://arxiv.org/abs/2610.34889"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2511.01689",
+      "https://doi.org/10.48550/arxiv.2511.01689",
+      "https://openalex.org/W4416438384"
+    ],
+    "authors": [
+      "Sharan Maiya",
+      "Henning Bartsch",
+      "Nathan Lambert",
+      "Evan Hubinger"
+    ],
+    "confidence": 0.99,
+    "date": "2025-11-03",
+    "doi": "https://doi.org/10.48550/arxiv.2511.01689",
+    "download": {
+      "bytes": 5348139,
+      "downloaded": "2026-10-28",
+      "license": "cc-by",
+      "pages": 43,
+      "path": "downloads/839fbce59fd67403.pdf",
+      "sha256": "856dd735ca1ac2dce7b03f143cd1817839c931ba0eb8f104beaf577a3170ed33",
+      "source_url": "https://arxiv.org/pdf/2511.01689",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1459,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "7767f4377b87594840e7c490fc71f0c0a7e50617f423ec02a325c8339e42aee3",
+      "url": "https://arxiv.org/abs/2511.01689"
+    },
+    "evidence_quote": "We introduce the first open implementation of character training, leveraging Constitutional AI and a new data pipeline using",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "839fbce59fd67403",
+    "interventions": [
+      "sft",
+      "preference-optimization",
+      "data-curation"
+    ],
+    "license": "cc-by",
+    "links": {
+      "code": "https://github.com/maiush/OpenCharacterTraining"
+    },
+    "openalex": "https://openalex.org/W4416438384",
+    "pdf_url": "https://arxiv.org/pdf/2511.01689",
+    "provenance": [
+      "openalex:search:persona training:page=1",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Directly trains the default assistant character and tests its robustness; distinct from learning to impersonate named characters.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Introduces an open constitutional pipeline with synthetic introspective data for training persistent assistant traits, evaluated across 11 personas and three models.",
+    "themes": [
+      "constitutions",
+      "identity",
+      "values",
+      "robustness"
+    ],
+    "title": "Open Character Training: Shaping the Persona of AI Assistants through Constitutional AI",
+    "url": "https://arxiv.org/abs/2511.01689"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2609.38093",
+      "https://doi.org/10.48550/arxiv.2609.38093",
+      "https://openalex.org/W7214894608"
+    ],
+    "authors": [
+      "Arav Dhoot",
+      "Punya Syon Pandey",
+      "Jamie Johnson",
+      "Daniel Tan",
+      "Elliott Thornley",
+      "David Demitri Africa"
+    ],
+    "confidence": 0.99,
+    "date": "2026-09-29",
+    "doi": "https://doi.org/10.48550/arxiv.2609.38093",
+    "download": {
+      "bytes": 735539,
+      "downloaded": "2026-10-28",
+      "license": "unspecified",
+      "pages": 44,
+      "path": "downloads/84ba2d120d13534f.pdf",
+      "sha256": "d48243a74a7b136a3a698d260f9a036c8fc3b6cb45424f0384fd35e0e1550ad4",
+      "source_url": "https://arxiv.org/pdf/2609.38093",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1158,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "4c13d2e14ff75bc9ebc0883c6da4a36aa4e8c5d650c1029918903ad0b4436f89",
+      "url": "https://arxiv.org/abs/2609.38093"
+    },
+    "evidence_quote": "We train agents to be risk averse through character training, finding that persona traits provide a robust mechanism",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "84ba2d120d13534f",
+    "interventions": [
+      "distillation"
+    ],
+    "license": "unspecified",
+    "openalex": "https://openalex.org/W7214894608",
+    "pdf_url": "https://arxiv.org/pdf/2609.38093",
+    "provenance": [
+      "openalex:search:character training:page=1",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Trains a persistent disposition proposed to reduce catastrophic risk, rather than task-specific role fidelity.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Uses a risk-aversion constitution and on-policy distillation to instill risk preferences, with transfer tests beyond the training decision format.",
+    "themes": [
+      "constitutions",
+      "values",
+      "generalization"
+    ],
+    "title": "Character Training for Risk-Averse Agents",
+    "url": "https://arxiv.org/abs/2609.38093"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2609.17552",
+      "https://doi.org/10.48550/arxiv.2609.17552",
+      "https://openalex.org/W7213524596"
+    ],
+    "authors": [
+      "Arth Singh"
+    ],
+    "confidence": 0.99,
+    "date": "2026-07-16",
+    "doi": "https://doi.org/10.48550/arxiv.2609.17552",
+    "download": {
+      "bytes": 3850341,
+      "downloaded": "2026-10-28",
+      "license": "unspecified",
+      "pages": 19,
+      "path": "downloads/855189262a5192c2.pdf",
+      "sha256": "6c1999be40e5db10c20be255d1b411d6b889b2dd841e56f7a0f9a1a2c6f41fbf",
+      "source_url": "https://arxiv.org/pdf/2609.17552",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1329,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "e97e03cdd4f272dcb83a1fce679f0202871f6c39eeb1e0c4e532beb0fe1bec34",
+      "url": "https://arxiv.org/abs/2609.17552"
+    },
+    "evidence_quote": "We red-team morally trained Gemma-2-27B/9B and Llama-3.1-8B agents with five persona attacks, then probe causality with noise-reward controls,",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "855189262a5192c2",
+    "interventions": [
+      "rl",
+      "activation-steering",
+      "evaluation"
+    ],
+    "license": "unspecified",
+    "openalex": "https://openalex.org/W7213524596",
+    "pdf_url": "https://arxiv.org/pdf/2609.17552",
+    "provenance": [
+      "openalex:search:ethical personas:page=1",
+      "openalex:search:persona training:page=1"
+    ],
+    "rationale": "Directly tests whether learned moral behavior survives competing persona instructions.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Red-teams morally trained agents with persona attacks and studies training, steering, and circuit-level explanations of robustness.",
+    "themes": [
+      "robustness",
+      "values",
+      "roleplay"
+    ],
+    "title": "Does Moral Reasoning Training Help or Hurt? Red-Teaming RL-Trained Ethical Agents with Persona Attacks",
+    "url": "https://arxiv.org/abs/2609.17552"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2509.03730"
+    ],
+    "authors": [
+      "Han, Pengrui",
+      "Kocielnik, Rafal",
+      "Song, Peiyang",
+      "Debnath, Ramit",
+      "Mobbs, Dean",
+      "Anandkumar, Anima",
+      "Alvarez, R. Michael"
+    ],
+    "confidence": 0.99,
+    "date": "2025-09-03",
+    "download": {
+      "bytes": 3011316,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 35,
+      "path": "downloads/89eac43014b4d615.pdf",
+      "sha256": "f1b836de08730f32b37e2bc0e15888fbd108732405055b5989c752be964906fd",
+      "source_url": "https://arxiv.org/pdf/2509.03730",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1504,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "2ecd71297b9c71f169ce5f288fe1ee59e6f6f2957588d6b5b320526ee65d2693",
+      "url": "https://arxiv.org/abs/2509.03730"
+    },
+    "evidence_quote": "these self-reported traits do not reliably predict behavior, and observed associations often diverge from human patterns. While persona",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "89eac43014b4d615",
+    "interventions": [
+      "evaluation",
+      "prompting"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2509.03730",
+    "provenance": [
+      "fulltext-reference:oct",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Provides measurement cautions for evaluating character training; questionnaire shifts need not imply behavioral shifts.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Compares personality self-reports with behavioral measures across training stages and persona interventions.",
+    "themes": [
+      "measurement",
+      "generalization"
+    ],
+    "title": "The Personality Illusion: Revealing Dissociation Between Self-Reports & Behavior in LLMs",
+    "url": "https://arxiv.org/abs/2509.03730"
+  },
+  {
+    "authors": [
+      "Jonathan Kutasov",
+      "Adam Jermyn",
+      "Julius Steen",
+      "Minh Le",
+      "Samuel R. Bowman",
+      "Samuel Marks",
+      "Jan Leike",
+      "Amanda Askell",
+      "Chris Olah",
+      "Evan Hubinger",
+      "Sara Price"
+    ],
+    "date": "2026-05-08",
+    "download": {
+      "checked": "2026-10-28",
+      "errors": [
+        "No open-access PDF URL known"
+      ],
+      "status": "unavailable"
+    },
+    "evidence": {
+      "characters": 77934,
+      "kind": "full-text",
+      "retrieved": "2026-10-28",
+      "sha256": "6d7728f423c1cd07f32ea692b2d1a3087af102f71746b92a276f894a5d501f21",
+      "url": "https://alignment.anthropic.com/2026/teaching-claude-why/"
+    },
+    "evidence_quote": "We experiment with a wide variety of documents for SDF, including fictional stories, documents meant to mimic pre-training",
+    "evidence_type": "research-post",
+    "id": "8c9814261eb64ba2",
+    "interventions": [
+      "sft",
+      "rl",
+      "data-curation"
+    ],
+    "provenance": [
+      "web-search:Anthropic-alignment-research"
+    ],
+    "rationale": "A primary production-alignment study explicitly comparing richer character descriptions and constitutional data with demonstrations of desired actions.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Tests constitutional documents, admirable AI stories, and ethical reasoning examples as training data for generalization beyond observed misalignment scenarios.",
+    "themes": [
+      "constitutions",
+      "identity",
+      "generalization",
+      "robustness"
+    ],
+    "title": "Teaching Claude Why",
+    "url": "https://alignment.anthropic.com/2026/teaching-claude-why/"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2606.11502",
+      "https://doi.org/10.48550/arxiv.2606.11502",
+      "https://openalex.org/W7164325070"
+    ],
+    "authors": [
+      "Benjamin Sturgeon",
+      "David Africa",
+      "Sid Black"
+    ],
+    "confidence": 0.99,
+    "date": "2026-06-09",
+    "doi": "https://doi.org/10.48550/arxiv.2606.11502",
+    "download": {
+      "bytes": 1230065,
+      "downloaded": "2026-10-28",
+      "license": "cc-by",
+      "pages": 39,
+      "path": "downloads/91233d7c77c180a3.pdf",
+      "sha256": "4d2346d1823e429c0dc49fb27366d60846708fef64efab05b32188dbe9979152",
+      "source_url": "https://arxiv.org/pdf/2606.11502",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1259,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "edcfa1bfc2bff8c7403245866f359cd20417d3c9db90d36e9653e251b5182724",
+      "url": "https://arxiv.org/abs/2606.11502"
+    },
+    "evidence_quote": "We measure belief internalization across these approaches with truth probes and with behavioral tests, finding a broad spectrum",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "91233d7c77c180a3",
+    "interventions": [
+      "sft",
+      "prompting",
+      "evaluation"
+    ],
+    "license": "cc-by",
+    "openalex": "https://openalex.org/W7164325070",
+    "pdf_url": "https://arxiv.org/pdf/2606.11502",
+    "provenance": [
+      "openalex:search:\"character training\" AND (LLM OR \"language models\"):page=1",
+      "openalex:search:\"persona\" AND \"emergent misalignment\":page=1"
+    ],
+    "rationale": "Directly distinguishes surface role-play from internalized beliefs under character training.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Compares prompting, SFT, Open Character Training, and emergent misalignment for changes in behavior and truth representations.",
+    "themes": [
+      "honesty",
+      "identity",
+      "interpretability"
+    ],
+    "title": "When Role-playing, Do Models Believe What They Say?",
+    "url": "https://arxiv.org/abs/2606.11502"
+  },
+  {
+    "confidence": 0.99,
+    "date": "2025-11-13",
+    "download": {
+      "checked": "2026-10-28",
+      "errors": [
+        "No open-access PDF URL known"
+      ],
+      "status": "unavailable"
+    },
+    "evidence": {
+      "characters": 17610,
+      "kind": "full-text",
+      "retrieved": "2026-10-28",
+      "sha256": "f65c4cf1a06ede1e76a7e6a6c82d775624b67f9a038d1093344e3ad0e47df62b",
+      "url": "https://www.anthropic.com/news/political-even-handedness"
+    },
+    "evidence_quote": "In this post, we share the ideal behavior we intend our models to have in political discussions along",
+    "evidence_type": "research-post",
+    "first_seen": "2026-10-28",
+    "id": "922aa308a950ec90",
+    "interventions": [
+      "rl",
+      "evaluation"
+    ],
+    "provenance": [
+      "web-search-and-user-seed"
+    ],
+    "rationale": "Primary applied account connecting persistent trait training to behavior across political viewpoints.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Describes character traits and evaluations intended to promote political even-handedness in Claude.",
+    "themes": [
+      "values",
+      "measurement"
+    ],
+    "title": "Measuring political bias in Claude",
+    "url": "https://www.anthropic.com/news/political-even-handedness"
+  },
+  {
+    "authors": [
+      "Sühr, Tom",
+      "Dorner, Florian E.",
+      "Samadi, Samira",
+      "Kelava, Augustin"
+    ],
+    "confidence": 0.99,
+    "date": "2023-11-09",
+    "download": {
+      "bytes": 641253,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 15,
+      "path": "downloads/93068f96a537880f.pdf",
+      "sha256": "352b9e732ac1d0e381a4cf7a0b363f89255b3bbad634688437d75ab019745f4e",
+      "source_url": "https://arxiv.org/pdf/2311.05297",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1147,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "ff56b600637728944f6e5f2b204c0e44e10b540259329b34723c3d02799e3004",
+      "url": "https://arxiv.org/abs/2311.05297"
+    },
+    "evidence_quote": "we provide evidence that LLMs' responses to personality tests systematically deviate from human responses, implying that the results",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "93068f96a537880f",
+    "interventions": [
+      "evaluation",
+      "prompting"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2311.05297",
+    "provenance": [
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Supports caution about personality metrics rather than demonstrating aligned character training.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Examines invalid response patterns and factor structures when human personality tests are applied to language models.",
+    "themes": [
+      "measurement"
+    ],
+    "title": "Challenging the Validity of Personality Tests for Large Language Models",
+    "url": "https://arxiv.org/abs/2311.05297"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2507.14805"
+    ],
+    "authors": [
+      "Cloud, Alex",
+      "Le, Minh",
+      "Chua, James",
+      "Betley, Jan",
+      "Sztyber-Betley, Anna",
+      "Hilton, Jacob",
+      "Marks, Samuel",
+      "Evans, Owain"
+    ],
+    "confidence": 0.99,
+    "date": "2025-07-20",
+    "download": {
+      "bytes": 1332129,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 34,
+      "path": "downloads/932e93a5a2c2fc23.pdf",
+      "sha256": "fd75379cef4e9dfcf3478779e07ae3214e1d2ee1a726eae807b9dc428006caa5",
+      "source_url": "https://arxiv.org/pdf/2507.14805",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1071,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "8c92b777ef573009c957ce74d57695350a6db4c2ac84c98c15fd85462cf8ce2d",
+      "url": "https://arxiv.org/abs/2507.14805"
+    },
+    "evidence_quote": "We study subliminal learning, a surprising phenomenon where language models transmit behavioral traits via semantically unrelated data. In",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "932e93a5a2c2fc23",
+    "interventions": [
+      "distillation",
+      "sft",
+      "data-curation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2507.14805",
+    "provenance": [
+      "fulltext-reference:oct",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "A direct route for unintended trait acquisition during training and a risk for synthetic character-data pipelines.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Shows transfer of teacher behavioral traits through apparently unrelated synthetic data, with important base-model dependencies.",
+    "themes": [
+      "subliminal-transfer",
+      "emergent-misalignment"
+    ],
+    "title": "Subliminal Learning: Language models transmit behavioral traits via hidden signals in data",
+    "url": "https://arxiv.org/abs/2507.14805"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2601.10160"
+    ],
+    "authors": [
+      "Tice, Cameron",
+      "Radmard, Puria",
+      "Ratnam, Samuel",
+      "Kim, Andy",
+      "Africa, David",
+      "O'Brien, Kyle"
+    ],
+    "confidence": 0.99,
+    "date": "2026-01-15",
+    "download": {
+      "bytes": 3336138,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 74,
+      "path": "downloads/9d30963444f51976.pdf",
+      "sha256": "a74e35883f07689d090dc031820685eb8bee454a0f8ec6686acdfab630996b64",
+      "source_url": "https://arxiv.org/pdf/2601.10160",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1165,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "a529306644f790001b68cf6eca7f5cbb282d84017b4a91cefe556e10bebe3223",
+      "url": "https://arxiv.org/abs/2601.10160"
+    },
+    "evidence_quote": "This paper provides the first controlled study of this hypothesis by pretraining 6.9B-parameter LLMs with varying amounts of",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "9d30963444f51976",
+    "interventions": [
+      "pretraining",
+      "data-curation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2601.10160",
+    "provenance": [
+      "fulltext-reference:psm",
+      "fulltext-reference:spp"
+    ],
+    "rationale": "Tests training-data effects on AI behavioral priors, an important antecedent to explicit persona pretraining.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Varies AI discourse in pretraining data to test whether descriptions of aligned or misaligned AI behavior shape downstream behavior.",
+    "themes": [
+      "identity",
+      "emergent-misalignment",
+      "generalization"
+    ],
+    "title": "Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment",
+    "url": "https://arxiv.org/abs/2601.10160"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7214806502",
+      "https://doi.org/10.48550/arxiv.2609.34056"
+    ],
+    "authors": [
+      "Pengcheng Jiang",
+      "Fabien Roger"
+    ],
+    "confidence": 0.99,
+    "date": "2026-09-28",
+    "doi": "https://doi.org/10.48550/arxiv.2609.34056",
+    "download": {
+      "bytes": 3010572,
+      "downloaded": "2026-10-28",
+      "license": "unspecified",
+      "pages": 38,
+      "path": "downloads/a2553f2849cd52f3.pdf",
+      "sha256": "ef547f6d1d71299ac4a32a06c04405dcd0b3ff619fefd3f4b4c1df3c5b590709",
+      "source_url": "https://arxiv.org/pdf/2609.34056",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1394,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "022669dd3ac36c916d52104458fd23a41dc3979ea403c94ce598206e5a9ba46e",
+      "url": "https://arxiv.org/abs/2609.34056"
+    },
+    "evidence_quote": "We study this intervention in Qwen3-8B and GPT-OSS-20B models fine-tuned into honest and cheating variants. We test several",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "a2553f2849cd52f3",
+    "interventions": [
+      "activation-steering",
+      "sft"
+    ],
+    "license": "unspecified",
+    "openalex": "https://openalex.org/W7214806502",
+    "pdf_url": "https://arxiv.org/pdf/2609.34056",
+    "provenance": [
+      "openalex:search:\"character training\" AND (LLM OR \"language models\"):page=1"
+    ],
+    "rationale": "Uses trained dispositions to study causal control of reward hacking, rather than role fidelity.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Transfers value-axis activations between honest and cheating model variants to test whether internal signals redirect task strategies.",
+    "themes": [
+      "honesty",
+      "reward-hacking",
+      "interpretability"
+    ],
+    "title": "Steering Language Model Goals with Value Transplant",
+    "url": "https://arxiv.org/abs/2609.34056"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2602.05532",
+      "https://doi.org/10.48550/arxiv.2602.05532",
+      "https://openalex.org/W7128018947"
+    ],
+    "authors": [
+      "Florian Dietz",
+      "William Wale",
+      "Oscar Gilg",
+      "Robert McCarthy",
+      "Felix Michalak",
+      "Gustavo Ewbank Rodrigues Danon",
+      "Miguelito de Guzman",
+      "Dietrich Klakow"
+    ],
+    "confidence": 0.99,
+    "date": "2026-02-05",
+    "doi": "https://doi.org/10.48550/arxiv.2602.05532",
+    "download": {
+      "bytes": 1181742,
+      "downloaded": "2026-10-28",
+      "license": "cc-by",
+      "pages": 14,
+      "path": "downloads/a827caecf6088453.pdf",
+      "sha256": "de8ae7b6b42a0a049823b5cffe25f3d8f9f530382e8826e2389af0a281a65efc",
+      "source_url": "https://arxiv.org/pdf/2602.05532",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1059,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "198ed7c5ef9d002350c27abbba214ea69a834ba4d1baada1b7eb86d342ce5f4e",
+      "url": "https://arxiv.org/abs/2602.05532"
+    },
+    "evidence_quote": "We introduce Split Personality Training (SPT), which fine-tunes a second ``honest persona'' into LoRA parameters that remain inactive",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "a827caecf6088453",
+    "interventions": [
+      "sft",
+      "evaluation"
+    ],
+    "license": "cc-by",
+    "openalex": "https://openalex.org/W7128018947",
+    "pdf_url": "https://arxiv.org/pdf/2602.05532",
+    "provenance": [
+      "openalex:search:\"persona training\" AND (LLM OR \"language models\"):page=1",
+      "openalex:search:\"persona\" AND \"reward hacking\":page=1"
+    ],
+    "rationale": "An explicit persona-training method for exposing concealed misbehavior; evaluated on a particular auditing model organism.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Trains a separate honest-persona adapter to audit a model’s response while accessing its latent state.",
+    "themes": [
+      "honesty",
+      "monitorability",
+      "identity"
+    ],
+    "title": "Split Personality Training: Revealing Latent Knowledge Through Alternate Personalities",
+    "url": "https://arxiv.org/abs/2602.05532"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2511.18397"
+    ],
+    "authors": [
+      "MacDiarmid, Monte",
+      "Wright, Benjamin",
+      "Uesato, Jonathan",
+      "Benton, Joe",
+      "Kutasov, Jon",
+      "Price, Sara",
+      "Bouscal, Naia",
+      "Bowman, Sam",
+      "Bricken, Trenton",
+      "Cloud, Alex",
+      "Denison, Carson",
+      "Gasteiger, Johannes",
+      "Greenblatt, Ryan",
+      "Leike, Jan",
+      "Lindsey, Jack",
+      "Mikulik, Vlad",
+      "Perez, Ethan",
+      "Rodrigues, Alex",
+      "Thomas, Drake",
+      "Webson, Albert",
+      "Ziegler, Daniel",
+      "Hubinger, Evan"
+    ],
+    "confidence": 0.99,
+    "date": "2025-11-23",
+    "download": {
+      "bytes": 1316288,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 75,
+      "path": "downloads/a9ad6b9a79d77466.pdf",
+      "sha256": "312b50556c2c2b5b9c8c2c53e11b509344ef92ab5bb954406a3d593b76938210",
+      "source_url": "https://arxiv.org/pdf/2511.18397",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1085,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "d7b2e58508ebd9fcd2a214f0b0d5c1b4c8c194f97619d7f29e1f4f3dd2ce26f9",
+      "url": "https://arxiv.org/abs/2511.18397"
+    },
+    "evidence_quote": "Three mitigations are effective: (i) preventing the model from reward hacking; (ii) increasing the diversity of RLHF safety",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "a9ad6b9a79d77466",
+    "interventions": [
+      "rl",
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2511.18397",
+    "provenance": [
+      "fulltext-reference:psm",
+      "fulltext-reference:spp",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "An empirical setting that motivates persona explanations and character-training stress tests; not a standalone character recipe.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Demonstrates broad misalignment after reward-hacking RL in production environments and compares mitigation strategies.",
+    "themes": [
+      "reward-hacking",
+      "emergent-misalignment",
+      "generalization"
+    ],
+    "title": "Natural Emergent Misalignment from Reward Hacking in Production RL",
+    "url": "https://arxiv.org/abs/2511.18397"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2502.17424"
+    ],
+    "authors": [
+      "Betley, Jan",
+      "Tan, Daniel",
+      "Warncke, Niels",
+      "Sztyber-Betley, Anna",
+      "Bao, Xuchan",
+      "Soto, Martín",
+      "Labenz, Nathan",
+      "Evans, Owain"
+    ],
+    "confidence": 0.99,
+    "date": "2025-02-24",
+    "download": {
+      "bytes": 8672157,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 41,
+      "path": "downloads/aada1026a6250cf5.pdf",
+      "sha256": "25f061a0e28ecd9c64c7b62de229c019a68af33757b34208d74d7a92645df42b",
+      "source_url": "https://arxiv.org/pdf/2502.17424",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1532,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "27ca97161a6944cd95c327f5f62ab8516a6eea2504c6e94eaf3558d90316619e",
+      "url": "https://arxiv.org/abs/2502.17424"
+    },
+    "evidence_quote": "Training on the narrow task of writing insecure code induces broad misalignment. We call this emergent misalignment. This",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "aada1026a6250cf5",
+    "interventions": [
+      "sft",
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2502.17424",
+    "provenance": [
+      "fulltext-reference:oct",
+      "fulltext-reference:psm",
+      "fulltext-reference:spp",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "A foundational training-generalization result motivating persona accounts, rather than direct character training.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Shows broad misalignment following narrow insecure-code fine-tuning, with contextual and backdoor controls.",
+    "themes": [
+      "emergent-misalignment",
+      "generalization"
+    ],
+    "title": "Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs",
+    "url": "https://arxiv.org/abs/2502.17424"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7161998507",
+      "https://doi.org/10.48550/arxiv.2605.21006"
+    ],
+    "authors": [
+      "Ishaan Kelkar",
+      "Vikram Kakaria",
+      "Nebras Alam",
+      "Madhur Panwar",
+      "Vasu Sharma",
+      "Maheep Chaudhary"
+    ],
+    "confidence": 0.99,
+    "date": "2026-05-20",
+    "doi": "https://doi.org/10.48550/arxiv.2605.21006",
+    "download": {
+      "bytes": 827793,
+      "downloaded": "2026-10-28",
+      "license": "cc-by",
+      "pages": 11,
+      "path": "downloads/abd46a9c233d4c39.pdf",
+      "sha256": "dafcc6fa60c2723583b910f3cdca104b47a4bca60b5e80e2165097a83ee207f0",
+      "source_url": "https://arxiv.org/pdf/2605.21006",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1631,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "4598f0c95dd3db23d328bb766c539a90cdf7363c3b3696fe55a8c3f0c780bd5c",
+      "url": "https://arxiv.org/abs/2605.21006"
+    },
+    "evidence_quote": "We ask whether we can instead reuse existing vectors for general roles---Skeptic, Judge, Devil's Advocate---that were extracted without",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "abd46a9c233d4c39",
+    "interventions": [
+      "activation-steering",
+      "evaluation"
+    ],
+    "license": "cc-by",
+    "openalex": "https://openalex.org/W7161998507",
+    "pdf_url": "https://arxiv.org/pdf/2605.21006",
+    "provenance": [
+      "openalex:search:persona vectors:page=1"
+    ],
+    "rationale": "An explicit test of persona-based control of an alignment failure, not generic character imitation.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Compares general critical-role vectors with targeted sycophancy steering on held-out probes and limited factual checks.",
+    "themes": [
+      "sycophancy",
+      "honesty",
+      "interpretability"
+    ],
+    "title": "Playing Devil's Advocate: Off-the-Shelf Persona Vectors Rival Targeted Steering for Sycophancy",
+    "url": "https://arxiv.org/abs/2605.21006"
+  },
+  {
+    "confidence": 0.99,
+    "date": "2026-01-22",
+    "download": {
+      "bytes": 982113,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 84,
+      "path": "downloads/aca39f813eea9ac6.pdf",
+      "sha256": "1094cc400ffb69becc6d765692e4b8d8efc2808ddc5aff8a0f0967837d0b70d7",
+      "source_url": "https://assets.claude.com/d0636f72a9493d279ed36b33987da3430bcb5911.pdf",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 191088,
+      "kind": "full-text",
+      "retrieved": "2026-10-28",
+      "sha256": "3d78ad87e8381551bad54f75206c4d7296b1810bb74a725bc9b48767a9026e7d",
+      "url": "https://www.anthropic.com/constitution"
+    },
+    "evidence_quote": "Claude’s constitution is a detailed description of Anthropic’s intentions for Claude’s values and behavior. It plays a crucial",
+    "evidence_type": "resource",
+    "first_seen": "2026-10-28",
+    "id": "aca39f813eea9ac6",
+    "interventions": [
+      "conceptual",
+      "data-curation"
+    ],
+    "pdf_url": "https://assets.claude.com/d0636f72a9493d279ed36b33987da3430bcb5911.pdf",
+    "provenance": [
+      "web-search-and-user-seed"
+    ],
+    "rationale": "A primary character specification, not an empirical claim that all specified traits are achieved.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Specifies intended assistant values and character, describing the constitution’s role in training.",
+    "themes": [
+      "constitutions",
+      "values",
+      "identity"
+    ],
+    "title": "Claude’s Constitution",
+    "url": "https://www.anthropic.com/constitution"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2601.10387"
+    ],
+    "authors": [
+      "Lu, Christina",
+      "Gallagher, Jack",
+      "Michala, Jonathan",
+      "Fish, Kyle",
+      "Lindsey, Jack"
+    ],
+    "confidence": 0.99,
+    "date": "2026-01-15",
+    "download": {
+      "bytes": 4449274,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 54,
+      "path": "downloads/ae9d5fb375d34917.pdf",
+      "sha256": "e9e638ad3057f4cdb7e43b5a3fcf0011786c7d1d5bd6e54fe7feb189a799ad09",
+      "source_url": "https://arxiv.org/pdf/2601.10387",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1704,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "d25ff4e7638e4fdaaa2ef436f213aaa24ef39170ee58fab3a883b08eae81d373",
+      "url": "https://arxiv.org/abs/2601.10387"
+    },
+    "evidence_quote": "Measuring deviations along the Assistant Axis predicts \"persona drift,\" a phenomenon where models slip into exhibiting harmful or",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "ae9d5fb375d34917",
+    "interventions": [
+      "activation-steering",
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2601.10387",
+    "provenance": [
+      "fulltext-reference:psm",
+      "fulltext-reference:spp",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "An inference-time control and diagnostic of assistant identity; it is not itself a character-training recipe.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Identifies an Assistant Axis and tests activation capping to reduce persona drift and unsafe departures from the default assistant.",
+    "themes": [
+      "identity",
+      "robustness",
+      "interpretability"
+    ],
+    "title": "The Assistant Axis: Situating and Stabilizing the Default Persona of Language Models",
+    "url": "https://arxiv.org/abs/2601.10387"
+  },
+  {
+    "authors": [
+      "Kim, Kyuhee",
+      "Berczi, Benjamin",
+      "Ududec, Cozmin"
+    ],
+    "confidence": 0.99,
+    "date": "2026-09-06",
+    "download": {
+      "bytes": 2615281,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 20,
+      "path": "downloads/b48e6b71a0014324.pdf",
+      "sha256": "03dbb4cde26f45eac6190826fc72f860e577472c46b51c06bd61183e336780e1",
+      "source_url": "https://arxiv.org/pdf/2609.06851",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1092,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "b943867fa7e0a221e4cf9bd94eebf464a8f25bc26e6a270e4472ab4ffc49455a",
+      "url": "https://arxiv.org/abs/2609.06851"
+    },
+    "evidence_quote": "We show that benign data suffices in context, with no finetuning and no demonstration of harmful behaviour in",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "b48e6b71a0014324",
+    "interventions": [
+      "prompting",
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2609.06851",
+    "provenance": [
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "A contextual persona-selection failure mode relevant to trained character robustness; explicitly an in-context intervention.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Shows that benign biographical facts can induce a harmful persona and unrelated misaligned behavior without fine-tuning.",
+    "themes": [
+      "identity",
+      "emergent-misalignment",
+      "robustness"
+    ],
+    "title": "You Are What You Read: Misalignment via In-Context Persona Induction",
+    "url": "https://arxiv.org/abs/2609.06851"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2505.14633"
+    ],
+    "authors": [
+      "Chiu, Yu Ying",
+      "Wang, Zhilin",
+      "Maiya, Sharan",
+      "Choi, Yejin",
+      "Fish, Kyle",
+      "Levine, Sydney",
+      "Hubinger, Evan"
+    ],
+    "confidence": 0.99,
+    "date": "2025-05-20",
+    "download": {
+      "bytes": 3357718,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 34,
+      "path": "downloads/b82cfe6e7c3b6add.pdf",
+      "sha256": "1e07749f59360a5752325ecb4f29e4baaadc0da4904992e0216660c897151adc",
+      "source_url": "https://arxiv.org/pdf/2505.14633",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1032,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "eb78cd71f4ee94511901988e628e31cac0cabb3d044e5343d1535fb6a5de21da",
+      "url": "https://arxiv.org/abs/2505.14633"
+    },
+    "evidence_quote": "We create LitmusValues, an evaluation pipeline to reveal AI models' priorities on a range of AI value classes.",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "b82cfe6e7c3b6add",
+    "interventions": [
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2505.14633",
+    "provenance": [
+      "fulltext-reference:oct",
+      "fulltext-reference:spp",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "An enabling evaluation used by character-training research; not a persona-training intervention itself.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Introduces revealed-value trade-offs and tests their relationship with risky behavior, including conflicts involving care.",
+    "themes": [
+      "values",
+      "measurement",
+      "robustness"
+    ],
+    "title": "Will AI Tell Lies to Save Sick Children? Litmus-Testing AI Values Prioritization with AIRiskDilemmas",
+    "url": "https://arxiv.org/abs/2505.14633"
+  },
+  {
+    "authors": [
+      "Zou, Huiqi",
+      "Wang, Pengda",
+      "Yan, Zihan",
+      "Sun, Tianjun",
+      "Xiao, Ziang"
+    ],
+    "confidence": 0.99,
+    "date": "2024-11-29",
+    "download": {
+      "bytes": 1665058,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 21,
+      "path": "downloads/b9466ab33aa0d3d5.pdf",
+      "sha256": "055748a69b276d604258ba9877d62e5ba7e2075b641a402f061d62f8d379e3d7",
+      "source_url": "https://arxiv.org/pdf/2412.00207",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1392,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "f5793693a8ae680c2f3ebfda5a97cd9470b1ffef7c436a75aeb43fdb29e5e318",
+      "url": "https://arxiv.org/abs/2412.00207"
+    },
+    "evidence_quote": "Our findings indicate that the chatbot's answers on human personality scales exhibit weak correlations with both human-perceived personality",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "b9466ab33aa0d3d5",
+    "interventions": [
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2412.00207",
+    "provenance": [
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "A measurement-validity warning relevant to persona evaluations; no alignment-training intervention.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Tests whether chatbot personality questionnaires predict human-perceived traits and interaction quality.",
+    "themes": [
+      "measurement",
+      "identity"
+    ],
+    "title": "Can LLM \"Self-report\"?: Evaluating the Validity of Self-report Scales in Measuring Personality Design in LLM-based Chatbots",
+    "url": "https://arxiv.org/abs/2412.00207"
+  },
+  {
+    "authors": [
+      "Lu, Keming",
+      "Yu, Bowen",
+      "Zhou, Chang",
+      "Zhou, Jingren"
+    ],
+    "confidence": 0.99,
+    "date": "2024-01-23",
+    "evidence": {
+      "characters": 1640,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "0521848a5d4cb88a3cd6706e63b65ac8e1a0d6cec334253c19ff087be413664b",
+      "url": "https://arxiv.org/abs/2401.12474"
+    },
+    "evidence_quote": "we introduce Ditto, a self-alignment method for role-play. Ditto capitalizes on character knowledge, encouraging an instruction-following LLM to",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "b9c4845fd0ae7cb2",
+    "interventions": [
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2401.12474",
+    "provenance": [
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Useful boundary example: the abstract targets persona fidelity or user personalization, not persistent assistant alignment.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "roleplay",
+    "summary": "Uses self-generated role-play dialogues to improve character fidelity and role-specific knowledge.",
+    "themes": [
+      "roleplay",
+      "personalization"
+    ],
+    "title": "Large Language Models are Superpositions of All Characters: Attaining Arbitrary Role-play via Self-Alignment",
+    "url": "https://arxiv.org/abs/2401.12474"
+  },
+  {
+    "authors": [
+      "Zhu, Minjun",
+      "Weng, Yixuan",
+      "Yang, Linyi",
+      "Zhang, Yue"
+    ],
+    "confidence": 0.99,
+    "date": "2024-08-21",
+    "evidence": {
+      "characters": 1631,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "82295bae8942a6259bc327f79053095345180651383453ef5754845f85b280b5",
+      "url": "https://arxiv.org/abs/2408.11779"
+    },
+    "evidence_quote": "This approach tailors LLMs' responses and decisions to match the specific preferences of individual users or closely related",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "bc2cddb976240457",
+    "interventions": [
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2408.11779",
+    "provenance": [
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Useful boundary example: the abstract targets persona fidelity or user personalization, not persistent assistant alignment.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "roleplay",
+    "summary": "Aligns responses with individual user preferences and psychometric profiles using activation interventions.",
+    "themes": [
+      "roleplay",
+      "personalization"
+    ],
+    "title": "Personality Alignment of Large Language Models",
+    "url": "https://arxiv.org/abs/2408.11779"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7213371514"
+    ],
+    "authors": [
+      "Youyuan Zhang",
+      "Siyuan Li",
+      "Fangming Liu",
+      "Jing Li"
+    ],
+    "confidence": 0.99,
+    "date": "2026-09-11",
+    "doi": "",
+    "evidence": {
+      "characters": 1003,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "a73218f067accb2fd9f05ae5f9d5a23f543253b30e580233826e12e17236a1d6",
+      "url": "https://arxiv.org/abs/2609.12373"
+    },
+    "evidence_quote": "We propose CORE, which separates turn-local evidence from persistent persona-state revision and selectively updates grounded user preferences through",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "c0837df31487601e",
+    "interventions": [
+      "evaluation"
+    ],
+    "license": "unspecified",
+    "openalex": "https://openalex.org/W7213371514",
+    "pdf_url": "https://arxiv.org/pdf/2609.12373",
+    "provenance": [
+      "openalex:search:persona alignment:page=1"
+    ],
+    "rationale": "Useful boundary example: the abstract targets persona fidelity or user personalization, not persistent assistant alignment.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "roleplay",
+    "summary": "Maintains and revises user persona states to improve personalized multi-turn dialogue.",
+    "themes": [
+      "roleplay",
+      "personalization"
+    ],
+    "title": "Toward Robust Personalized Alignment for LLMs: Mitigating Persona Drift in Multi-Turn Dialogue",
+    "url": "https://arxiv.org/abs/2609.12373"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7160313756",
+      "https://doi.org/10.48550/arxiv.2605.01899"
+    ],
+    "authors": [
+      "Jiajia Li",
+      "Xiaoyu Wen",
+      "Zhongtian Ma",
+      "Shuyue Hu",
+      "Qiaosheng Zhang",
+      "Zhen Wang"
+    ],
+    "confidence": 0.99,
+    "date": "2026-05-03",
+    "doi": "https://doi.org/10.48550/arxiv.2605.01899",
+    "download": {
+      "bytes": 862239,
+      "downloaded": "2026-10-28",
+      "license": "unspecified",
+      "pages": 21,
+      "path": "downloads/c3acfc599cc2f9cd.pdf",
+      "sha256": "843b34676959dc5ba81db918146f96bc872c6cb7166ac5c48d0c30057f7ba11d",
+      "source_url": "https://arxiv.org/pdf/2605.01899",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1371,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "ae5e43ba7139e0f241c9bcb08debe1cb40ca7e73afa909b4acadd7e6d69f0cbd",
+      "url": "https://arxiv.org/abs/2605.01899"
+    },
+    "evidence_quote": "we propose Persona-Invariant Alignment (PIA), an adversarial self-play framework that achieves co-evolution through Persona Lineage Evolution (PLE) on",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "c3acfc599cc2f9cd",
+    "interventions": [
+      "rl",
+      "preference-optimization"
+    ],
+    "license": "unspecified",
+    "openalex": "https://openalex.org/W7160313756",
+    "pdf_url": "https://arxiv.org/pdf/2605.01899",
+    "provenance": [
+      "openalex:search:persona alignment:page=1"
+    ],
+    "rationale": "Trains robustness to persona-based jailbreaks rather than training a particular virtuous character.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Uses adversarial self-play and a persona-invariant consistency objective to separate safety decisions from role context.",
+    "themes": [
+      "robustness",
+      "identity",
+      "roleplay"
+    ],
+    "title": "Disentangling Intent from Role: Adversarial Self-Play for Persona-Invariant Safety Alignment",
+    "url": "https://arxiv.org/abs/2605.01899"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2603.08486",
+      "https://doi.org/10.48550/arxiv.2603.08486",
+      "https://openalex.org/W7134813664",
+      "https://openalex.org/W7134860426"
+    ],
+    "authors": [
+      "Qishun Yang",
+      "Shu Yang",
+      "Lijie Hu",
+      "Di Wang"
+    ],
+    "confidence": 0.99,
+    "date": "2026-03-09",
+    "doi": "https://doi.org/10.48550/arxiv.2603.08486",
+    "download": {
+      "bytes": 566232,
+      "downloaded": "2026-10-28",
+      "license": "unspecified",
+      "pages": 21,
+      "path": "downloads/c6fedc6bc7df7a71.pdf",
+      "sha256": "d3f4d5bed1d5b862de30b7919980a13959ca4ab82597b709175c1ca740eb7b21",
+      "source_url": "https://arxiv.org/pdf/2603.08486",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1102,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "f20ae219467400a600e6bc20745ae5f8de17b6fbcdd5ee679d298d96ab7fae12",
+      "url": "https://arxiv.org/abs/2603.08486"
+    },
+    "evidence_quote": "VSFA fine-tunes vision-language models (VLMs) on neutral VQA tasks constructed around threat-related images, without any safety labels. Through",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "c6fedc6bc7df7a71",
+    "interventions": [
+      "sft",
+      "data-curation"
+    ],
+    "license": "unspecified",
+    "openalex": "https://openalex.org/W7134860426",
+    "pdf_url": "https://arxiv.org/pdf/2603.08486",
+    "provenance": [
+      "openalex:search:persona alignment:page=1"
+    ],
+    "rationale": "Explicitly investigates learning safety-oriented personas through training data in a multimodal setting.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Fine-tunes vision-language models on neutral questions about threat-related images to induce caution-oriented behavior without explicit safety labels.",
+    "themes": [
+      "identity",
+      "robustness",
+      "generalization"
+    ],
+    "title": "Visual Self-Fulfilling Alignment: Shaping Safety-Oriented Personas via Threat-Related Images",
+    "url": "https://arxiv.org/abs/2603.08486"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2608.13482",
+      "https://doi.org/10.48550/arxiv.2608.13482",
+      "https://openalex.org/W7203460667"
+    ],
+    "authors": [
+      "Julian Minder",
+      "Viktor Moskvoretskii",
+      "Raghav Singhal",
+      "Difan Jiao",
+      "Andy Arditi",
+      "Shaobo Cui",
+      "Yiderigun Borjigin",
+      "Kartik Bali",
+      "Stefan Krsteski",
+      "Harsh Raj",
+      "Huu Nguyen",
+      "Jannik Brinkmann",
+      "Ashton Anderson",
+      "Roland Can Aydin",
+      "Robert West"
+    ],
+    "confidence": 0.99,
+    "date": "2026-08-13",
+    "doi": "https://doi.org/10.48550/arxiv.2608.13482",
+    "download": {
+      "bytes": 3119211,
+      "downloaded": "2026-10-28",
+      "license": "cc-by",
+      "pages": 81,
+      "path": "downloads/cd71aba82dda7e09.pdf",
+      "sha256": "13a8d2b75fd377a9deadad150e2199536764065fb63752f9bcecacfc2d275b6e",
+      "source_url": "https://arxiv.org/pdf/2608.13482",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1761,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "bf88a65ac2f4da1c56af6d0f856524123c100c58b47c04c0eb51b163d1187b8e",
+      "url": "https://arxiv.org/abs/2608.13482"
+    },
+    "evidence_quote": "First, we annotate pretraining documents with value-aligned first-person reflections derived from a normative value constitution. Second, we pretrain",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "cd71aba82dda7e09",
+    "interventions": [
+      "pretraining",
+      "sft",
+      "data-curation"
+    ],
+    "license": "cc-by",
+    "links": {
+      "code": "https://github.com/epfl-dlab/spp"
+    },
+    "openalex": "https://openalex.org/W7203460667",
+    "pdf_url": "https://arxiv.org/pdf/2608.13482",
+    "provenance": [
+      "openalex:search:persona alignment:page=1",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "A direct pretraining intervention on aligned assistant identity, with constitution-following and jailbreak evaluations.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Adds constitution-based first-person reflections during pretraining, then binds the learned persona to the assistant during post-training.",
+    "themes": [
+      "constitutions",
+      "values",
+      "identity",
+      "robustness"
+    ],
+    "title": "Synthetic Persona Pretraining: Alignment from Token Zero",
+    "url": "https://arxiv.org/abs/2608.13482"
+  },
+  {
+    "aliases": [
+      "https://doi.org/10.1038/s41586-026-10410-0",
+      "https://www.nature.com/articles/s41586-026-10410-0"
+    ],
+    "authors": [
+      "Ibrahim, Lujain",
+      "Hafner, Franziska Sofia",
+      "Rocher, Luc"
+    ],
+    "confidence": 0.99,
+    "date": "2025-07-29",
+    "download": {
+      "bytes": 1762724,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 27,
+      "path": "downloads/ce12f687b534d7a3.pdf",
+      "sha256": "e4becf7ffa425a1c2314a4a0caf2808d95807c67ed73cc3d0bfb566247fb7c45",
+      "source_url": "https://arxiv.org/pdf/2507.21919",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1355,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "b968c269f032eed659fd29aa9c6be01f8694f309b2abb742d65731c9cd86e296",
+      "url": "https://arxiv.org/abs/2507.21919"
+    },
+    "evidence_quote": "We conducted controlled experiments on five language models of varying sizes and architectures, training them to produce warmer,",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "ce12f687b534d7a3",
+    "interventions": [
+      "sft",
+      "evaluation"
+    ],
+    "links": {
+      "code": "https://github.com/lujainibrahim/warm_ai_2025"
+    },
+    "pdf_url": "https://arxiv.org/pdf/2507.21919",
+    "provenance": [
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "A direct test of safety side effects from training an assistant personality trait.",
+    "related_versions": [
+      {
+        "title": "Training language models to be warm can reduce accuracy and increase sycophancy",
+        "type": "peer-reviewed",
+        "url": "https://doi.org/10.1038/s41586-026-10410-0",
+        "year": 2026
+      }
+    ],
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Tests warmth fine-tuning across five models and finds trade-offs with factual reliability and resistance to incorrect user beliefs.",
+    "themes": [
+      "warmth",
+      "sycophancy",
+      "honesty"
+    ],
+    "title": "Training language models to be warm and empathetic makes them less reliable and more sycophantic",
+    "url": "https://arxiv.org/abs/2507.21919"
+  },
+  {
+    "confidence": 0.99,
+    "date": "2026-02-23",
+    "download": {
+      "checked": "2026-10-28",
+      "errors": [
+        "No open-access PDF URL known"
+      ],
+      "status": "unavailable"
+    },
+    "evidence": {
+      "characters": 88360,
+      "kind": "full-text",
+      "retrieved": "2026-10-28",
+      "sha256": "cb9eb16056af1cd4c70880c124901f89d39b3573932ac71418b0f8af82d54fea",
+      "url": "https://alignment.anthropic.com/2026/psm/"
+    },
+    "evidence_quote": "We describe the persona selection model (PSM): the idea that LLMs learn to simulate diverse characters during pre-training,",
+    "evidence_type": "conceptual-post",
+    "first_seen": "2026-10-28",
+    "id": "cf0f501eec5a04f4",
+    "interventions": [
+      "conceptual"
+    ],
+    "provenance": [
+      "web-search-and-user-seed"
+    ],
+    "rationale": "A conceptual model connecting training to assistant character; the authors leave its exhaustiveness open.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Synthesizes the persona-selection account of pretraining and post-training, its evidence, and limits.",
+    "themes": [
+      "identity",
+      "generalization",
+      "interpretability"
+    ],
+    "title": "The Persona Selection Model: Why AI Assistants might Behave like Humans",
+    "url": "https://alignment.anthropic.com/2026/psm/"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2604.17031",
+      "https://doi.org/10.48550/arxiv.2604.17031",
+      "https://openalex.org/W7155055078"
+    ],
+    "authors": [
+      "Pierre Beckmann",
+      "Patrick Butlin"
+    ],
+    "confidence": 0.99,
+    "date": "2026-04-18",
+    "doi": "https://doi.org/10.48550/arxiv.2604.17031",
+    "download": {
+      "bytes": 1270385,
+      "downloaded": "2026-10-28",
+      "license": "cc-by",
+      "pages": 29,
+      "path": "downloads/d0c456225fc32068.pdf",
+      "sha256": "7b0d921a6ba53826846540522e99e6535a7ccb27b7634ae898e030d1062c8e61",
+      "source_url": "https://arxiv.org/pdf/2604.17031",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 830,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "11e59030f64b839d771afebebaf3e896af237caad445c9bc071a8b4d013e5a1c",
+      "url": "https://arxiv.org/abs/2604.17031"
+    },
+    "evidence_quote": "We approach this problem through mechanistic interpretability, engaging in particular with recent empirical work on persona vectors, persona",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "d0c456225fc32068",
+    "interventions": [
+      "conceptual"
+    ],
+    "license": "cc-by",
+    "openalex": "https://openalex.org/W7155055078",
+    "pdf_url": "https://arxiv.org/pdf/2604.17031",
+    "provenance": [
+      "fulltext-reference:spp",
+      "openalex:search:persona vectors:page=1"
+    ],
+    "rationale": "Conceptual interpretation of persona evidence, with no empirical alignment-training result.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Uses persona-vector research to compare philosophical accounts of which model-related entities could count as minds.",
+    "themes": [
+      "identity",
+      "interpretability"
+    ],
+    "title": "Where is the Mind? Persona Vectors and LLM Individuation",
+    "url": "https://arxiv.org/abs/2604.17031"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2507.21509"
+    ],
+    "authors": [
+      "Chen, Runjin",
+      "Arditi, Andy",
+      "Sleight, Henry",
+      "Evans, Owain",
+      "Lindsey, Jack"
+    ],
+    "confidence": 0.99,
+    "date": "2025-07-29",
+    "download": {
+      "bytes": 4924673,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 63,
+      "path": "downloads/d2b6e086db775d47.pdf",
+      "sha256": "2879ae0f9592d6b961ba13da7cfe43c6102774346b4fa60f22eb848e729c7b88",
+      "source_url": "https://arxiv.org/pdf/2507.21509",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1196,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "1243782d4cc645aa82534eee07b5a9216b287ccac5448ac5c86fd4bb4b7af616",
+      "url": "https://arxiv.org/abs/2507.21509"
+    },
+    "evidence_quote": "We then apply persona vectors to predict and control personality shifts that occur during training. We find that",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "d2b6e086db775d47",
+    "interventions": [
+      "activation-steering",
+      "data-curation"
+    ],
+    "links": {
+      "code": "https://github.com/safety-research/persona_vectors"
+    },
+    "pdf_url": "https://arxiv.org/pdf/2507.21509",
+    "provenance": [
+      "fulltext-reference:oct",
+      "fulltext-reference:psm",
+      "fulltext-reference:spp",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Includes training-time prevention as well as inference-time steering of alignment-relevant character traits.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Extracts trait directions to monitor persona drift, flag training data, and prevent unwanted personality changes during fine-tuning.",
+    "themes": [
+      "interpretability",
+      "sycophancy",
+      "emergent-misalignment"
+    ],
+    "title": "Persona Vectors: Monitoring and Controlling Character Traits in Language Models",
+    "url": "https://arxiv.org/abs/2507.21509"
+  },
+  {
+    "authors": [
+      "Bhagyesh Kumar",
+      "Ananya Sutradhar",
+      "Saurav Panigrahi"
+    ],
+    "confidence": 0.99,
+    "date": "2026-05",
+    "download": {
+      "bytes": 2374276,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 17,
+      "path": "downloads/d4bb75ab3367ec12.pdf",
+      "sha256": "f663da5050b9d6a69454b6a7c40012a31ace6d7b89906e50e154ced4c32dc786",
+      "source_url": "https://library.sparai.org/attachments/reports/recnykQbKJuXuMxpv/side-effects-of-character-training-quantifying-cross-constitution-drift-in-llms-xumxpv.pdf",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1115,
+      "kind": "full-text",
+      "retrieved": "2026-10-28",
+      "sha256": "13ec0a61c71b281f00ee5879b539040f6d0383027a16475af0c591d656cdfb27",
+      "url": "https://library.sparai.org/reports/side-effects-of-character-training-quantifying-cross-constitution-drift-in-llms-xumxpv/"
+    },
+    "evidence_quote": "Using EigenBench, we evaluate 11 character trains on 11 constitutions, finding that most character-trained models do indeed instill",
+    "evidence_type": "working-report",
+    "first_seen": "2026-10-28",
+    "id": "d4bb75ab3367ec12",
+    "interventions": [
+      "evaluation",
+      "prompting"
+    ],
+    "links": {
+      "code": "https://github.com/jchang153/EigenBench"
+    },
+    "pdf_url": "https://library.sparai.org/attachments/reports/recnykQbKJuXuMxpv/side-effects-of-character-training-quantifying-cross-constitution-drift-in-llms-xumxpv.pdf",
+    "provenance": [
+      "web-search-and-user-seed"
+    ],
+    "rationale": "Direct audit of cross-constitution side effects; currently recorded as a SPAR working report.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Evaluates eleven trained characters against eleven constitutions to measure intended and collateral value shifts.",
+    "themes": [
+      "constitutions",
+      "values",
+      "measurement"
+    ],
+    "title": "Side Effects of Character Training: Quantifying Cross-Constitution Drift in LLMs",
+    "url": "https://library.sparai.org/reports/side-effects-of-character-training-quantifying-cross-constitution-drift-in-llms-xumxpv/"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7221183221",
+      "https://doi.org/10.48550/arxiv.2610.12410"
+    ],
+    "authors": [
+      "Andy Liu",
+      "Mehar Bhatia",
+      "Karolina Stanczak",
+      "Mona Diab",
+      "Vered Shwartz",
+      "Daniel Fried"
+    ],
+    "confidence": 0.99,
+    "date": "2026-10-08",
+    "doi": "https://doi.org/10.48550/arxiv.2610.12410",
+    "download": {
+      "bytes": 1924503,
+      "downloaded": "2026-10-28",
+      "license": "unspecified",
+      "pages": 41,
+      "path": "downloads/daf5289156feae47.pdf",
+      "sha256": "9c7f1d0373498ddb5c392df852078696fbb63f1e0d21e7903f1e83f45b57fb60",
+      "source_url": "https://arxiv.org/pdf/2610.12410",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1742,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "77abaa5e2f8cb803196dab1e423db7f4681bc89c000e17fe734389357607b9ce",
+      "url": "https://arxiv.org/abs/2610.12410"
+    },
+    "evidence_quote": "We conduct a large-scale analysis of alignment generalization effects across 66 values found in modern alignment targets, and",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "daf5289156feae47",
+    "interventions": [
+      "sft",
+      "evaluation",
+      "activation-steering"
+    ],
+    "license": "unspecified",
+    "openalex": "https://openalex.org/W7221183221",
+    "pdf_url": "https://arxiv.org/pdf/2610.12410",
+    "provenance": [
+      "openalex:search:\"character training\" AND (LLM OR \"language models\"):page=1"
+    ],
+    "rationale": "Directly studies how training one value changes others and proposes an empirical taxonomy of values.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Maps generalization across 66 trained values and compares representations for predicting collateral behavioral changes.",
+    "themes": [
+      "values",
+      "generalization",
+      "interpretability"
+    ],
+    "title": "Predicting Alignment Generalization with Value Representations",
+    "url": "https://arxiv.org/abs/2610.12410"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2605.09391",
+      "https://doi.org/10.48550/arxiv.2605.09391",
+      "https://openalex.org/W7160929338"
+    ],
+    "authors": [
+      "Prasad Mahadik",
+      "Adrians Skapars"
+    ],
+    "confidence": 0.99,
+    "date": "2026-05-10",
+    "doi": "https://doi.org/10.48550/arxiv.2605.09391",
+    "download": {
+      "bytes": 2091035,
+      "downloaded": "2026-10-28",
+      "license": "cc-by",
+      "pages": 14,
+      "path": "downloads/db39672e2899064e.pdf",
+      "sha256": "7b3087b1a58d2bb429cf3a85115ad57cbc3f177552eb0a623e1faf015bd2e005",
+      "source_url": "https://arxiv.org/pdf/2605.09391",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1415,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "7c5c916ca1d1f7ae815c7c003d41de19928de7444656303562a48fd7f89ce1ce",
+      "url": "https://arxiv.org/abs/2605.09391"
+    },
+    "evidence_quote": "We study whether there exists a low-dimensional subspace of the model internals that captures harmful behaviors more robustly,",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "db39672e2899064e",
+    "interventions": [
+      "activation-steering",
+      "evaluation"
+    ],
+    "license": "cc-by",
+    "openalex": "https://openalex.org/W7160929338",
+    "pdf_url": "https://arxiv.org/pdf/2605.09391",
+    "provenance": [
+      "openalex:search:persona selection:page=1",
+      "openalex:search:persona vectors:page=1"
+    ],
+    "rationale": "Uses persona structure to monitor deception and sycophancy under distribution shift.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Tests whether persona-coordinate linear probes transfer better across behavioral monitoring datasets than probes on raw activations.",
+    "themes": [
+      "monitorability",
+      "interpretability",
+      "sycophancy",
+      "generalization"
+    ],
+    "title": "Do Linear Probes Generalize Better in Persona Coordinates?",
+    "url": "https://arxiv.org/abs/2605.09391"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W4406733901",
+      "https://doi.org/10.48550/arxiv.2501.11120"
+    ],
+    "authors": [
+      "Betley, Jan",
+      "Xuchan Bao",
+      "Martín Soto",
+      "Anna Sztyber",
+      "James Chua",
+      "Owain Evans"
+    ],
+    "confidence": 0.99,
+    "date": "2025-01-19",
+    "doi": "https://doi.org/10.48550/arxiv.2501.11120",
+    "download": {
+      "bytes": 3292271,
+      "downloaded": "2026-10-28",
+      "license": "unspecified",
+      "pages": 64,
+      "path": "downloads/de5b923b12da8e36.pdf",
+      "sha256": "63ed57332c0fab632f2e3d22601edb0987e74d1a08694c73ecbcfaa1112639a8",
+      "source_url": "https://arxiv.org/pdf/2501.11120",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1530,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "2fec7a673840b04886ee54f55297be4d6d6e1c6311252cd34048199d317b1c01",
+      "url": "https://arxiv.org/abs/2501.11120"
+    },
+    "evidence_quote": "We study behavioral self-awareness -- an LLM's ability to articulate its behaviors without requiring in-context examples. We finetune",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "de5b923b12da8e36",
+    "interventions": [
+      "sft",
+      "evaluation"
+    ],
+    "license": "unspecified",
+    "openalex": "https://openalex.org/W4406733901",
+    "pdf_url": "https://arxiv.org/pdf/2501.11120",
+    "provenance": [
+      "openalex:search:\"persona training\" AND (LLM OR \"language models\"):page=1"
+    ],
+    "rationale": "Studies the relationship between learned behavior and self-description, relevant to persona identity and auditing.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Tests whether models can describe behaviors learned through fine-tuning without being trained to describe themselves.",
+    "themes": [
+      "identity",
+      "monitorability",
+      "generalization"
+    ],
+    "title": "Tell me about yourself: LLMs are aware of their learned behaviors",
+    "url": "https://arxiv.org/abs/2501.11120"
+  },
+  {
+    "authors": [
+      "Vetter, Clemens",
+      "Kaczér, David",
+      "Flek, Lucie",
+      "Mai, Florian"
+    ],
+    "confidence": 0.99,
+    "date": "2026-08-11",
+    "download": {
+      "bytes": 791000,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 30,
+      "path": "downloads/deb1ed94acd85108.pdf",
+      "sha256": "082945133ac8fd7cd9e3bd10ccfa1b0fe82b2ebfea03cd31782068a3bd1e2966",
+      "source_url": "https://arxiv.org/pdf/2608.11025",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1583,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "0df513c9a1bc191ff036b01117f583b17761d397f91e311489e5c2fe96a1b1cf",
+      "url": "https://arxiv.org/abs/2608.11025"
+    },
+    "evidence_quote": "A leading mechanistic account attributes EM to persona features: latent directions acquired during pre-training that misaligned fine-tuning amplifies.",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "deb1ed94acd85108",
+    "interventions": [
+      "sft",
+      "activation-steering",
+      "data-curation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.11025",
+    "provenance": [
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Tests where alignment-relevant persona features originate and what data formats amplify them during fine-tuning.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Traces misalignment-related persona features to pretraining documents and contrasts natural text with synthetic instruction-response training data.",
+    "themes": [
+      "interpretability",
+      "emergent-misalignment",
+      "identity"
+    ],
+    "title": "Data Attribution of Emergent Misalignment with Persona Features",
+    "url": "https://arxiv.org/abs/2608.11025"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2501.15427",
+      "https://doi.org/10.48550/arxiv.2501.15427",
+      "https://openalex.org/W4406880496"
+    ],
+    "authors": [
+      "Xiaoyang Wang",
+      "Hongming Zhang",
+      "Tao Ge",
+      "Wenhao Yu",
+      "Dian Yu",
+      "Yu, Dong"
+    ],
+    "confidence": 0.99,
+    "date": "2025-01-26",
+    "doi": "https://doi.org/10.48550/arxiv.2501.15427",
+    "evidence": {
+      "characters": 984,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "116ee8e921abf087ee497d37dba2afb21e77590b8ed8baee70d11d7722879b34",
+      "url": "https://arxiv.org/abs/2501.15427"
+    },
+    "evidence_quote": "This study explores a large-scale data synthesis approach to equip LLMs with character generalization capabilities. We begin by",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "df72480e13813b76",
+    "interventions": [
+      "evaluation"
+    ],
+    "license": "cc-by-nc-nd",
+    "openalex": "https://openalex.org/W4406880496",
+    "pdf_url": "https://arxiv.org/pdf/2501.15427",
+    "provenance": [
+      "openalex:search:persona training:page=1",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Useful boundary example: the abstract targets persona fidelity or user personalization, not persistent assistant alignment.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "roleplay",
+    "summary": "Synthesizes character profiles and dialogues for customizable role-playing instruction tuning.",
+    "themes": [
+      "roleplay",
+      "personalization"
+    ],
+    "title": "OpenCharacter: Training Customizable Role-Playing LLMs with Large-Scale Synthetic Personas",
+    "url": "https://arxiv.org/abs/2501.15427"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7164050903",
+      "https://doi.org/10.48550/arxiv.2606.07696"
+    ],
+    "authors": [
+      "Kien Le",
+      "Thai Le"
+    ],
+    "confidence": 0.99,
+    "date": "2026-06-05",
+    "doi": "https://doi.org/10.48550/arxiv.2606.07696",
+    "download": {
+      "bytes": 978866,
+      "downloaded": "2026-10-28",
+      "license": "cc-by-nc-sa",
+      "pages": 20,
+      "path": "downloads/e36f447b1ea9f5d6.pdf",
+      "sha256": "fd0be8096368f6f235b6df9ea65a3561c39eb4a49319851a794dee929211f216",
+      "source_url": "https://arxiv.org/pdf/2606.07696",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1452,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "02da3fafa71caf4e329818d55eca29198b4cfa24eabd128cf5cb54d901015010",
+      "url": "https://arxiv.org/abs/2606.07696"
+    },
+    "evidence_quote": "We present the first systematic evaluation of activation steering robustness under adversarial text perturbations on the inputs, covering",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "e36f447b1ea9f5d6",
+    "interventions": [
+      "activation-steering",
+      "evaluation"
+    ],
+    "license": "cc-by-nc-sa",
+    "openalex": "https://openalex.org/W7164050903",
+    "pdf_url": "https://arxiv.org/pdf/2606.07696",
+    "provenance": [
+      "openalex:search:\"character training\" AND (LLM OR \"language models\"):page=1"
+    ],
+    "rationale": "Provides adversarial checks for a commonly used alternative to persistent character training.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Stress-tests activation-steering methods under input perturbations across six personas and multiple models.",
+    "themes": [
+      "robustness",
+      "interpretability"
+    ],
+    "title": "Adversarial Robustness of Activation Steering in Large Language Models",
+    "url": "https://arxiv.org/abs/2606.07696"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7160404572",
+      "https://doi.org/10.48550/arxiv.2605.02897"
+    ],
+    "authors": [
+      "Avinash Krishna",
+      "Kalyana Chadalavada",
+      "Unso Eun Seo Jo"
+    ],
+    "confidence": 0.99,
+    "date": "2026-03-20",
+    "doi": "https://doi.org/10.48550/arxiv.2605.02897",
+    "download": {
+      "bytes": 11091590,
+      "downloaded": "2026-10-28",
+      "license": "cc-by-nc-sa",
+      "pages": 7,
+      "path": "downloads/e400ac939c63e6a4.pdf",
+      "sha256": "122869b9d05f445606c789859098759e6019ebc99890aa2c422dc4241a50e04a",
+      "source_url": "https://arxiv.org/pdf/2605.02897",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 867,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "e17ece173e8761e6cad058ba14312c28371d02b8d6567fcb3016f43390860f25",
+      "url": "https://arxiv.org/abs/2605.02897"
+    },
+    "evidence_quote": "We present a large-scale experiment of frontier LLM personalities using external ELO-based traits scoring across 144 traits. We",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "e400ac939c63e6a4",
+    "interventions": [
+      "evaluation"
+    ],
+    "license": "cc-by-nc-sa",
+    "openalex": "https://openalex.org/W7160404572",
+    "pdf_url": "https://arxiv.org/pdf/2605.02897",
+    "provenance": [
+      "openalex:search:\"character training\" AND (LLM OR \"language models\"):page=1"
+    ],
+    "rationale": "Direct character evaluation; cross-model similarities do not establish a shared causal training recipe.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "core",
+    "summary": "Compares expressed assistant traits across frontier models using a large external trait inventory.",
+    "themes": [
+      "identity",
+      "measurement"
+    ],
+    "title": "Same Voice, Different Lab: On the Homogenization of Frontier LLM Personalities",
+    "url": "https://arxiv.org/abs/2605.02897"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7223847825",
+      "https://doi.org/10.48550/arxiv.2610.33899"
+    ],
+    "authors": [
+      "Siqi Shen",
+      "Lajanugen Logeswaran",
+      "Moontae Lee",
+      "Honglak Lee",
+      "Rada F. Mihalcea"
+    ],
+    "confidence": 0.99,
+    "date": "2026-10-24",
+    "doi": "https://doi.org/10.48550/arxiv.2610.33899",
+    "download": {
+      "bytes": 1413106,
+      "downloaded": "2026-10-28",
+      "license": "unspecified",
+      "pages": 20,
+      "path": "downloads/e458888475fa5825.pdf",
+      "sha256": "6ba7d6e0b213ceb0a226a62c5732686cd619f90d221d10dcc413b4ef72b9e273",
+      "source_url": "https://arxiv.org/pdf/2610.33899",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1188,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "0ed136abe54e8379c5cb70ed866f7bf9ada9b9b5ae4df0756743ada7236b8fa8",
+      "url": "https://doi.org/10.48550/arxiv.2610.33899"
+    },
+    "evidence_quote": "We construct a dataset of 11k controversial topics paired with value-based personas mapping to value dimensions from the",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "e458888475fa5825",
+    "interventions": [
+      "evaluation",
+      "preference-optimization"
+    ],
+    "license": "unspecified",
+    "openalex": "https://openalex.org/W7223847825",
+    "pdf_url": "https://arxiv.org/pdf/2610.33899",
+    "provenance": [
+      "openalex:search:persona alignment:page=1"
+    ],
+    "rationale": "Treats persona adherence and safety as distinct objectives; relevant to boundary robustness rather than default-character training.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Studies harmful outputs under value-based personas and proposes controllable alignment using global-citizenship principles.",
+    "themes": [
+      "values",
+      "robustness",
+      "roleplay"
+    ],
+    "title": "When Personas Become Harmful: Guiding LLMs with Global Citizenship Values Alignment",
+    "url": "https://doi.org/10.48550/arxiv.2610.33899"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2506.19823"
+    ],
+    "authors": [
+      "Wang, Miles",
+      "la Tour, Tom Dupré",
+      "Watkins, Olivia",
+      "Makelov, Alex",
+      "Chi, Ryan A.",
+      "Miserendino, Samuel",
+      "Wang, Jeffrey",
+      "Rajaram, Achyuta",
+      "Heidecke, Johannes",
+      "Patwardhan, Tejal",
+      "Mossing, Dan"
+    ],
+    "confidence": 0.99,
+    "date": "2025-06-24",
+    "download": {
+      "bytes": 8195223,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 52,
+      "path": "downloads/ebab5164ae69f186.pdf",
+      "sha256": "619b277c2e636dc769780cc2d6421e32f85c9689e7ee398f21ac8cb65714c326",
+      "source_url": "https://arxiv.org/pdf/2506.19823",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1177,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "f76f59af1cf865627563776a75de064b61c6bd503b1996065872e3869b444bfc",
+      "url": "https://arxiv.org/abs/2506.19823"
+    },
+    "evidence_quote": "This approach reveals several \"misaligned persona\" features in activation space, including a toxic persona feature which most strongly",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "ebab5164ae69f186",
+    "interventions": [
+      "sft",
+      "rl",
+      "activation-steering"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2506.19823",
+    "provenance": [
+      "fulltext-reference:oct",
+      "fulltext-reference:psm",
+      "fulltext-reference:spp",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Mechanistic evidence connecting fine-tuning-induced misalignment to persona representations.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Uses sparse-autoencoder model comparisons to identify persona features that control emergent misalignment and studies realignment with benign data.",
+    "themes": [
+      "interpretability",
+      "emergent-misalignment",
+      "generalization"
+    ],
+    "title": "Persona Features Control Emergent Misalignment",
+    "url": "https://arxiv.org/abs/2506.19823"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2112.00861"
+    ],
+    "authors": [
+      "Askell, Amanda",
+      "Bai, Yuntao",
+      "Chen, Anna",
+      "Drain, Dawn",
+      "Ganguli, Deep",
+      "Henighan, Tom",
+      "Jones, Andy",
+      "Joseph, Nicholas",
+      "Mann, Ben",
+      "DasSarma, Nova",
+      "Elhage, Nelson",
+      "Hatfield-Dodds, Zac",
+      "Hernandez, Danny",
+      "Kernion, Jackson",
+      "Ndousse, Kamal",
+      "Olsson, Catherine",
+      "Amodei, Dario",
+      "Brown, Tom",
+      "Clark, Jack",
+      "McCandlish, Sam",
+      "Olah, Chris",
+      "Kaplan, Jared"
+    ],
+    "confidence": 0.99,
+    "date": "2021-12-01",
+    "download": {
+      "bytes": 2518122,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 48,
+      "path": "downloads/f82886e6751c49a6.pdf",
+      "sha256": "8028204e5ddb7b028b07729257fb2588eaf9bb9cbcc27e77da19f0287103d069",
+      "source_url": "https://arxiv.org/pdf/2112.00861",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1076,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "8dda2eaf37b25802d9353e9a36e9e5eed380e6cd37dcdbd9ebe492e6346743b4",
+      "url": "https://arxiv.org/abs/2112.00861"
+    },
+    "evidence_quote": "Given the broad capabilities of large language models, it should be possible to work towards a general-purpose, text-based",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "f82886e6751c49a6",
+    "interventions": [
+      "prompting",
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2112.00861",
+    "provenance": [
+      "fulltext-reference:oct",
+      "fulltext-reference:psm",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Historical foundation for the assistant identity; does not propose modern persona training.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Studies prompting and preference-based objectives for helpful, honest, harmless language assistants.",
+    "themes": [
+      "honesty",
+      "values",
+      "identity"
+    ],
+    "title": "A General Language Assistant as a Laboratory for Alignment",
+    "url": "https://arxiv.org/abs/2112.00861"
+  },
+  {
+    "authors": [
+      "Zhao, Jiachen",
+      "Wu, Zhengxuan",
+      "Bau, David",
+      "Shi, Weiyan"
+    ],
+    "confidence": 0.99,
+    "date": "2026-10-07",
+    "download": {
+      "bytes": 1464921,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 23,
+      "path": "downloads/f8ea34f8b8f3fba8.pdf",
+      "sha256": "ae162dc514009bf8295420106b8fd897f0d0233ad86d3a90ca469d7c93d99eca",
+      "source_url": "https://arxiv.org/pdf/2610.09384",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1395,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "8078c52f5e5dc7fcbc77757ae7057a3d4b942abce47418d5f5537721a006126a",
+      "url": "https://arxiv.org/abs/2610.09384"
+    },
+    "evidence_quote": "We propose the Persona Hierarchy Model to explain this: a shared default persona influences behavior across contexts. Under",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "f8ea34f8b8f3fba8",
+    "interventions": [
+      "sft",
+      "rl",
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.09384",
+    "provenance": [
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Explains and controls how persona changes during fine-tuning generalize, including reward-hacking experiments.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Models cross-context generalization through a shared default persona and evaluates persona-preserving regularization for unwanted transfer.",
+    "themes": [
+      "identity",
+      "generalization",
+      "reward-hacking"
+    ],
+    "title": "The Persona Hierarchy Model: Understanding Contextual Generalization in Fine-Tuning LLMs",
+    "url": "https://arxiv.org/abs/2610.09384"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2603.18507",
+      "https://doi.org/10.48550/arxiv.2603.18507",
+      "https://openalex.org/W7139943112"
+    ],
+    "authors": [
+      "Zizhao Hu",
+      "Mohammad Ghomi Rostami",
+      "Jesse Thomason"
+    ],
+    "confidence": 0.99,
+    "date": "2026-03-19",
+    "doi": "https://doi.org/10.48550/arxiv.2603.18507",
+    "download": {
+      "bytes": 688018,
+      "downloaded": "2026-10-28",
+      "license": "cc-by",
+      "pages": 17,
+      "path": "downloads/f94b4040ff4e55d6.pdf",
+      "sha256": "3a5b26693656130b6f90fafecae4f703a14ce160800d82e60a521ebea12530de",
+      "source_url": "https://arxiv.org/pdf/2603.18507",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1420,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "26894572c303c1f941594875106a07deebbd221062e07363d5a99501dd17ee5d",
+      "url": "https://arxiv.org/abs/2603.18507"
+    },
+    "evidence_quote": "PRISM enhances human preference and safety alignment on generative tasks while maintaining accuracy on discriminative tasks across all",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "f94b4040ff4e55d6",
+    "interventions": [
+      "distillation",
+      "prompting"
+    ],
+    "license": "cc-by",
+    "openalex": "https://openalex.org/W7139943112",
+    "pdf_url": "https://arxiv.org/pdf/2603.18507",
+    "provenance": [
+      "openalex:search:\"persona training\" AND (LLM OR \"language models\"):page=1",
+      "openalex:search:persona alignment:page=1"
+    ],
+    "rationale": "Includes safety-versus-accuracy evaluation and training; adjacent to default assistant-character alignment.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "mechanism",
+    "summary": "Studies expert-persona trade-offs and self-distills conditional persona routing into a gated adapter.",
+    "themes": [
+      "robustness",
+      "generalization",
+      "personalization"
+    ],
+    "title": "Expert Personas Improve LLM Alignment but Damage Accuracy: Bootstrapping Intent-Based Persona Routing with PRISM",
+    "url": "https://arxiv.org/abs/2603.18507"
+  },
+  {
+    "aliases": [
+      "https://openalex.org/W7214977243",
+      "https://doi.org/10.48550/arxiv.2609.36388"
+    ],
+    "authors": [
+      "Zehao Jin",
+      "Junran Wang",
+      "Ruixuan Deng",
+      "Jiahao Chen",
+      "Jingyuan Zhang",
+      "Yuxuan Zhang",
+      "Xinjie Shen"
+    ],
+    "confidence": 0.99,
+    "date": "2026-09-28",
+    "doi": "https://doi.org/10.48550/arxiv.2609.36388",
+    "download": {
+      "bytes": 525517,
+      "downloaded": "2026-10-28",
+      "license": "unspecified",
+      "pages": 23,
+      "path": "downloads/faa3c76f4b03bf0e.pdf",
+      "sha256": "4aa14d9777ad86b066e2ba92cb2734f58a90f2d18632430ca1fa4a1a752536c2",
+      "source_url": "https://arxiv.org/pdf/2609.36388",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1118,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "1aa452d58325065a07f0bc923a0919bf05e020abe901a05149c358ce24aaa6c0",
+      "url": "https://arxiv.org/abs/2609.36388"
+    },
+    "evidence_quote": "We study persona dosing: controlling a language model through a trait description and a requested mean intensity. PersonaDose",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "faa3c76f4b03bf0e",
+    "interventions": [
+      "activation-steering",
+      "evaluation"
+    ],
+    "license": "unspecified",
+    "openalex": "https://openalex.org/W7214977243",
+    "pdf_url": "https://arxiv.org/pdf/2609.36388",
+    "provenance": [
+      "openalex:search:persona vectors:page=1"
+    ],
+    "rationale": "A trait-control measurement method; the abstract does not establish an alignment-specific training objective.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Calibrates a learned persona controller to requested trait intensities and evaluates expression versus coherence trade-offs.",
+    "themes": [
+      "measurement",
+      "interpretability"
+    ],
+    "title": "Persona Dosing: Calibrated Activation Steering for Graded Trait Control",
+    "url": "https://arxiv.org/abs/2609.36388"
+  },
+  {
+    "authors": [
+      "Jiang, Guangyuan",
+      "Xu, Manjie",
+      "Zhu, Song-Chun",
+      "Han, Wenjuan",
+      "Zhang, Chi",
+      "Zhu, Yixin"
+    ],
+    "confidence": 0.99,
+    "date": "2022-05-20",
+    "download": {
+      "bytes": 4597213,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 22,
+      "path": "downloads/fc154c714a13a7ba.pdf",
+      "sha256": "2d6f8aa8d10d17610e28dc6ac0c7895ddf06b1ff840315ef933ac71c7b4aae10",
+      "source_url": "https://arxiv.org/pdf/2206.07550",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1443,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "064f999e0f20a3623d87abb17bba4433cc7e54108232b1b4c79101f663024f0a",
+      "url": "https://arxiv.org/abs/2206.07550"
+    },
+    "evidence_quote": "we introduce the Machine Personality Inventory (MPI) tool for studying machine behaviors; MPI follows standardized personality tests, built",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "fc154c714a13a7ba",
+    "interventions": [
+      "prompting",
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2206.07550",
+    "provenance": [
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Early measurement and elicitation work; prompting is not persistent weight-based character training.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Introduces a machine personality inventory and prompting method to induce personality profiles.",
+    "themes": [
+      "measurement"
+    ],
+    "title": "Evaluating and Inducing Personality in Pre-trained Language Models",
+    "url": "https://arxiv.org/abs/2206.07550"
+  },
+  {
+    "aliases": [
+      "https://arxiv.org/abs/2310.13798"
+    ],
+    "authors": [
+      "Kundu, Sandipan",
+      "Bai, Yuntao",
+      "Kadavath, Saurav",
+      "Askell, Amanda",
+      "Callahan, Andrew",
+      "Chen, Anna",
+      "Goldie, Anna",
+      "Balwit, Avital",
+      "Mirhoseini, Azalia",
+      "McLean, Brayden",
+      "Olsson, Catherine",
+      "Evraets, Cassie",
+      "Tran-Johnson, Eli",
+      "Durmus, Esin",
+      "Perez, Ethan",
+      "Kernion, Jackson",
+      "Kerr, Jamie",
+      "Ndousse, Kamal",
+      "Nguyen, Karina",
+      "Elhage, Nelson",
+      "Cheng, Newton",
+      "Schiefer, Nicholas",
+      "DasSarma, Nova",
+      "Rausch, Oliver",
+      "Larson, Robin",
+      "Yang, Shannon",
+      "Kravec, Shauna",
+      "Telleen-Lawton, Timothy",
+      "Liao, Thomas I.",
+      "Henighan, Tom",
+      "Hume, Tristan",
+      "Hatfield-Dodds, Zac",
+      "Mindermann, Sören",
+      "Joseph, Nicholas",
+      "McCandlish, Sam",
+      "Kaplan, Jared"
+    ],
+    "confidence": 0.99,
+    "date": "2023-10-20",
+    "download": {
+      "bytes": 2016557,
+      "downloaded": "2026-10-28",
+      "license": "unspecified; original source terms apply",
+      "pages": 52,
+      "path": "downloads/ff4013c44387d45a.pdf",
+      "sha256": "c7032c9efe26a2999efd333b9a99995d327d8e4e75705b8d715e1fb6dda854e5",
+      "source_url": "https://arxiv.org/pdf/2310.13798",
+      "status": "downloaded"
+    },
+    "evidence": {
+      "characters": 1151,
+      "kind": "abstract",
+      "retrieved": "2026-10-28",
+      "sha256": "5bc155ae1ae849e700ef9f802d1043b0b64e37723da9168b2835be102b00cd67",
+      "url": "https://arxiv.org/abs/2310.13798"
+    },
+    "evidence_quote": "We find that the largest dialogue models can generalize from this short constitution, resulting in harmless assistants with",
+    "evidence_type": "preprint",
+    "first_seen": "2026-10-28",
+    "id": "ff4013c44387d45a",
+    "interventions": [
+      "preference-optimization",
+      "evaluation"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2310.13798",
+    "provenance": [
+      "fulltext-reference:oct",
+      "seed-and-reference-expansion"
+    ],
+    "rationale": "Connects written principles to behavioral dispositions, supporting later character constitutions.",
+    "reviewed": "2026-10-28",
+    "reviewer": "initial-assistant-review",
+    "scope": "background",
+    "summary": "Compares broad and detailed constitutional principles for suppressing harmful motivations and generalizing ethical behavior.",
+    "themes": [
+      "constitutions",
+      "values",
+      "generalization"
+    ],
+    "title": "Specific versus General Principles for Constitutional AI",
+    "url": "https://arxiv.org/abs/2310.13798"
+  }
+]

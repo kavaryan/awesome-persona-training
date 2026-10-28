@@ -1,0 +1,72 @@
+{
+  "citation_offset": 8,
+  "citations": {
+    "0417caf70317e653": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "1580f7b96d838e59": {
+      "citing_page": 1,
+      "citing_total": 1,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "2345c977f065b75b": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "2827342ea0ec2b77": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "3339a5b9a648df0a": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "39f6065277c2e5ce": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "3e1ca22434c404fd": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "3e508f2b3c8a671c": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    }
+  },
+  "pages": {
+    "historical:\"assistant axis\"": 3,
+    "historical:\"character training\" AND (LLM OR \"language models\")": 3,
+    "historical:\"ethical personas\"": 1,
+    "historical:\"persona selection\"": 3,
+    "historical:\"persona\" \"constitutional\"": 3,
+    "historical:\"persona\" \"drift\"": 3,
+    "historical:\"persona\" \"honesty\"": 3,
+    "historical:\"warmth\" \"sycophancy\"": 3
+  },
+  "query_offset": 24
+}

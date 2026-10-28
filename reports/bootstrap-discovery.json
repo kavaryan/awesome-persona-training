@@ -1,0 +1,141 @@
+{
+  "candidate_count": 738,
+  "complete": false,
+  "curated_records": 62,
+  "date": "2026-10-28",
+  "events": [
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"character training\" AND (LLM OR \"language models\")",
+      "status": "ok",
+      "total": 281,
+      "truncated": true
+    },
+    {
+      "candidates": 33,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"persona training\" AND (LLM OR \"language models\")",
+      "status": "ok",
+      "total": 33,
+      "truncated": false
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"persona vectors\"",
+      "status": "ok",
+      "total": 517,
+      "truncated": true
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"ethical personas\"",
+      "status": "ok",
+      "total": 73,
+      "truncated": true
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"persona\" AND \"constitutional\"",
+      "status": "ok",
+      "total": 45051,
+      "truncated": true
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"persona\" AND \"reward hacking\"",
+      "status": "ok",
+      "total": 580,
+      "truncated": true
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"persona\" AND \"emergent misalignment\"",
+      "status": "ok",
+      "total": 308,
+      "truncated": true
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"character\" AND \"alignment\" AND \"training\"",
+      "status": "ok",
+      "total": 219701,
+      "truncated": true
+    },
+    {
+      "candidates": 0,
+      "channel": "citations",
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "seed": "https://arxiv.org/abs/2511.01689",
+      "status": "ok"
+    },
+    {
+      "candidates": 7,
+      "channel": "citations",
+      "citing_page": 1,
+      "citing_total": 7,
+      "reference_offset": 0,
+      "references_total": 0,
+      "seed": "https://arxiv.org/abs/2507.21509",
+      "status": "ok"
+    },
+    {
+      "candidates": 2,
+      "channel": "citations",
+      "citing_page": 1,
+      "citing_total": 2,
+      "reference_offset": 0,
+      "references_total": 0,
+      "seed": "https://arxiv.org/abs/2506.19823",
+      "status": "ok"
+    },
+    {
+      "candidates": 50,
+      "channel": "citations",
+      "citing_page": 2,
+      "citing_total": 321,
+      "reference_offset": 0,
+      "references_total": 0,
+      "seed": "https://arxiv.org/abs/2212.08073",
+      "status": "ok"
+    },
+    {
+      "candidates": 3,
+      "channel": "citations",
+      "citing_page": 1,
+      "citing_total": 3,
+      "reference_offset": 0,
+      "references_total": 0,
+      "seed": "https://arxiv.org/abs/2507.21919",
+      "status": "ok"
+    },
+    {
+      "candidates": 0,
+      "channel": "citations",
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "seed": "https://arxiv.org/abs/2608.13482",
+      "status": "ok"
+    }
+  ],
+  "primary_texts_retrieved": 191
+}
