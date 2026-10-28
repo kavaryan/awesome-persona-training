@@ -1,4 +1,5 @@
 import argparse
+import hashlib
 import os
 from datetime import date, timedelta
 from pathlib import Path
@@ -97,7 +98,8 @@ def run(args):
             continue
         existing = r.get("download", {})
         if existing.get("status") == "downloaded" and Path(existing["path"]).exists():
-            continue
+            if hashlib.sha256(Path(existing["path"]).read_bytes()).hexdigest() == existing.get("sha256"):
+                continue
         attempts += 1
         r["download"] = download(client, r, "downloads", limits["download_mb"])
         if r["download"]["status"] == "downloaded":

@@ -172,6 +172,10 @@ def test_download_rejects_html_and_preserves_working_pdf(tmp_path):
     assert good["sha256"] == hashlib.sha256(content).hexdigest()
     record["download"] = good
     assert download(FakeClient([]), record, tmp_path) == good
+    (tmp_path / "paper.pdf").write_bytes(b"corrupted cache")
+    repaired = download(FakeClient([Response(content=content)]), record, tmp_path)
+    assert repaired["sha256"] == good["sha256"]
+    assert (tmp_path / "paper.pdf").read_bytes() == content
     with pytest.raises(ValueError):
         validate_pdf(b"not a PDF")
 
