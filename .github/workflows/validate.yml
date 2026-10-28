@@ -20,7 +20,7 @@ jobs:
           python -m pip install pytest==9.2.0 ruff==0.17.3
       - run: |
           pytest -q
-          ruff check persona_map tests
+          ruff check persona_map tests scripts
           python -m persona_map.cli validate
           python -m persona_map.cli render
           git diff --exit-code -- docs/catalogue.md data/catalogue.csv data/catalogue.bib

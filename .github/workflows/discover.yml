@@ -37,7 +37,7 @@ jobs:
             .cache/evidence
           key: research-files-${{ runner.os }}-${{ github.run_id }}
           restore-keys: research-files-${{ runner.os }}-
-      - name: Discover, read, classify, download, and optionally import
+      - name: Discover, read, classify, and download
         env:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
@@ -45,16 +45,11 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
-          NOTEBOOKLM_NOTEBOOK: ${{ vars.NOTEBOOKLM_NOTEBOOK }}
-          NOTEBOOKLM_REGION: ${{ vars.NOTEBOOKLM_REGION || 'global' }}
-          GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
-          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
-          GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
           BACKFILL: ${{ inputs.backfill }}
         run: |
           args=()
           if [ "$BACKFILL" = "true" ]; then args+=(--backfill); fi
-          python -m persona_map.cli run --sync-notebook "${args[@]}"
+          python -m persona_map.cli run "${args[@]}"
       - name: Validate and render
         run: |
           python -m persona_map.cli validate
@@ -78,6 +73,5 @@ jobs:
             reports/latest-run.json
             data/notebooklm-manifest.json
             data/discovery-state.json
-            data/notebooklm-state.json
           if-no-files-found: warn
           retention-days: 90

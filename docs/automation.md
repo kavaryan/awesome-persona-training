@@ -13,7 +13,7 @@ The schedule is **06:17 UTC daily** (`17 6 * * *`), with a manual dispatch optio
 7. Make one bounded LLM call per candidate: at most 14,000 source characters, 650 output tokens, no tools, JSON output, a versioned rubric, and a closed taxonomy. For longer documents, supply beginning, middle, and end excerpts. Validate the schema and require a supporting quotation of at most 24 words that occurs in the actual supplied text. Record the source and input hashes. Invalid output is retained as an error, not accepted.
 8. Accept high-confidence core/mechanism/background decisions into the generated catalogue. Keep role-play/exclusion decisions in the queue for audit; retain uncertain items for re-review after 30 days. Retrieval or service errors retry after two days. The README is never automatically rewritten.
 9. Download up to 12 accepted open-access PDFs per run. Validate the PDF signature and parser, bound each download to 40 MB, write atomically, and retain checksums and source URLs. Persistent Actions caches avoid downloading the same file every day. Failed downloads remain visible in the manifest. Papers with no accessible PDF remain in the catalogue.
-10. Write the NotebookLM manifest; optionally upload at most ten files to an explicitly configured Enterprise notebook. Reconcile remote source names before uploading, validate local checksums, and persist successful source IDs immediately. Do not retry an upload blindly.
+10. Write the NotebookLM import manifest. Uploads are deferred at the owner's request; the intended future destination is a personal NotebookLM account. The daily workflow neither invokes an uploader nor reads Google credentials.
 11. Validate catalogue invariants, regenerate Markdown/CSV/BibTeX, and commit only metadata, reports, and generated indexes. Preserve a 90-day audit artifact. PDFs are not committed or attached to public releases. Runtime failures and missing integrations appear in the run summary and `reports/latest-run.json` as `degraded`.
 
 Budgets are limits, not promises that all queues drain daily. Inspect the pending count and failed/truncated queries. Broad backfills may create a substantial backlog. Increase the judge budget or narrow discovery queries deliberately if incoming candidates persistently exceed processing capacity. Do not delete unread candidates because their titles look irrelevant. Publication indexes, feed retention, search rankings, and source access all impose coverage limits.
@@ -27,9 +27,10 @@ Budgets are limits, not promises that all queues drain daily. Inspect the pendin
 | `LLM_API_KEY` | Secret | Small relevance judge with an OpenAI-compatible Chat Completions interface. |
 | `LLM_BASE_URL` | Variable | HTTPS provider base URL, excluding `/chat/completions`. |
 | `LLM_MODEL` | Variable | Provider-specific model identifier. |
-| NotebookLM settings | See [NotebookLM setup](notebooklm.md) | Optional daily source uploads. |
 
 The provided `gh.token` is used only for authorized repository administration during setup. It is ignored by Git and is not an LLM credential. The scheduled workflow uses GitHub's own `GITHUB_TOKEN` for commits. GitHub Models was [retired on 30 July 2026](https://docs.github.com/en/github-models), so it cannot provide the classifier. If no judge is configured, discovery and downloads continue, but no candidates are automatically accepted.
+
+These names are the configuration contract; a particular LLM/search provider account is not assumed. Provider credentials are not needed to run the offline integration check below. NotebookLM is intentionally deferred, not a missing prerequisite.
 
 To configure credentials, use the repository's **Settings → Secrets and variables → Actions**. No workflow sends email, Slack messages, or issues. Credentials are passed only to their intended service, not included in article prompts or reports. The classifier cannot execute code or modify configuration. Public HTTPS requests reject private IP destinations; do not treat this as a general-purpose hardened web sandbox.
 
@@ -42,7 +43,8 @@ uv run persona-map render
 uv run pytest -q
 uv run persona-map run --until 2026-10-28 --backfill
 uv run persona-map run --download-only
-uv run persona-map run --sync-notebook
+uv run python scripts/local_smoke.py
+uv run python scripts/local_smoke.py --provider serper --failure-cases
 npm ci
 npm run lint:awesome
 ```
@@ -50,3 +52,5 @@ npm run lint:awesome
 Export the relevant environment variables before running. `.env.example` documents names; the application deliberately does not execute or automatically load `.env` files. `uv.lock`, `requirements.txt`, `package-lock.json`, and pinned Action revisions make installed versions reviewable. `data/discovery-state.json` stores resumable search/citation progress; `data/candidates.json` stores the decision ledger; `data/catalogue.json` is the accepted source of truth.
 
 A scheduled run that completes with missing services is a successful execution in degraded mode, not proof of full discovery/classification coverage. Read the report, not only the green Actions badge. Tests exercise mocked APIs and failure cases; live integration tests require actual credentials and are reported separately.
+
+The local smoke runner invokes the production CLI twice in a disposable directory. Only DNS and HTTP transport are replaced with fixtures; it runs the real OpenAlex, web, feed, index and repository parsers, citation traversal, evidence extraction, LLM request/response validation, PDF verification, persistence, and exports. It checks that a repeat run makes no duplicate acceptance, model call, or PDF download. Failure fixtures cover uncertain decisions, fabricated evidence quotations, and title-only pages. Both Brave and Serper paths run in the regression suite. No real credentials or network calls are used, and the repository's research data is untouched. This verifies integration behavior, not a live model's classification accuracy.

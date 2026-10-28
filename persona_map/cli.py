@@ -50,8 +50,10 @@ def run(args):
                     r["status"] = "accepted"
                     continue
                 r["last_attempt"] = args.until
+                evidence_retrieved = False
                 try:
                     text, evidence = retrieve(client, r)
+                    evidence_retrieved = True
                     decision = judge(client, r, text, evidence, taxonomy)
                     r["decision"] = decision
                     report["judged"] += 1
@@ -90,7 +92,7 @@ def run(args):
                 except Exception as e:
                     r["error"] = str(e)[:220]
                     report["judge_errors"].append({"id": r["id"], "error": r["error"]})
-                    r["status"] = "needs-text" if "text" in str(e).lower() else "pending"
+                    r["status"] = "pending" if evidence_retrieved else "needs-text"
                     r["retry_after"] = (date.fromisoformat(args.until) + timedelta(days=2)).isoformat()
     attempts = 0
     for r in sorted(catalogue, key=lambda r: (r.get("download", {}).get("checked", ""), r["id"])):
