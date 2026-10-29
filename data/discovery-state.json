@@ -1,5 +1,5 @@
 {
-  "citation_offset": 12,
+  "citation_offset": 16,
   "citations": {
     "0417caf70317e653": {
       "citing_page": 1,
@@ -84,6 +84,34 @@
       "reference_offset": 0,
       "references_total": 0,
       "status": "ok"
+    },
+    "7a8034754dfaaa84": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "839fbce59fd67403": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "84ba2d120d13534f": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "855189262a5192c2": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
     }
   },
   "pages": {
@@ -91,14 +119,18 @@
     "historical:\"assistant persona\" alignment": 3,
     "historical:\"character training\" AND (LLM OR \"language models\")": 3,
     "historical:\"ethical personas\"": 1,
+    "historical:\"inoculation prompting\"": 3,
     "historical:\"persona selection\"": 3,
     "historical:\"persona vectors\"": 3,
     "historical:\"persona\" \"constitutional\"": 3,
     "historical:\"persona\" \"drift\"": 3,
+    "historical:\"persona\" \"generalization\"": 3,
     "historical:\"persona\" \"honesty\"": 3,
+    "historical:\"personality\" \"fine-tuning\" \"safety\"": 3,
     "historical:\"self-fulfilling\" AND misalignment": 3,
+    "historical:\"subliminal learning\"": 3,
     "historical:\"value training\" AND \"language models\"": 3,
     "historical:\"warmth\" \"sycophancy\"": 3
   },
-  "query_offset": 8
+  "query_offset": 20
 }
