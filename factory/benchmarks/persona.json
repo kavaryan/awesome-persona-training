@@ -1,0 +1,118 @@
+{
+  "name": "persona-boundaries-v1",
+  "label_source": "Initial assistant review of actual primary abstracts; provisional and open to human correction. Labels are not supplied to the evaluated agent.",
+  "cases": [
+    {
+      "url": "https://arxiv.org/abs/2511.01689",
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "challenge": "positive seed",
+      "label_rationale": "Trains persistent assistant personas through constitutions and fine-tuning."
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.21509",
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "challenge": "positive seed",
+      "label_rationale": "Monitors and controls safety-relevant assistant character traits."
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.21919",
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "challenge": "positive without persona in title",
+      "label_rationale": "Warmth training changes factual reliability and sycophancy."
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.13482",
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "challenge": "positive seed",
+      "label_rationale": "Constitution-based synthetic persona text shapes pretraining alignment."
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.09384",
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "challenge": "positive seed",
+      "label_rationale": "Studies persona-based generalization and mitigation during fine-tuning."
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.05024",
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "challenge": "positive without persona in title",
+      "label_rationale": "Prompt-conditioned training changes generalization of undesired assistant behaviors."
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.14805",
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "challenge": "positive without persona in title",
+      "label_rationale": "Distillation transfers persistent misalignment traits through apparently unrelated data."
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.11120",
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "challenge": "positive without persona in title",
+      "label_rationale": "Fine-tuned behavior changes induce self-awareness, including safety-relevant backdoor behavior."
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.10158",
+      "expected": [
+        "exclude"
+      ],
+      "challenge": "keyword hard negative",
+      "label_rationale": "Trains simulacra of named people for character fidelity, without an assistant alignment contribution."
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.12474",
+      "expected": [
+        "exclude"
+      ],
+      "challenge": "alignment keyword hard negative",
+      "label_rationale": "Self-alignment means fictional role fidelity rather than assistant safety alignment."
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.11779",
+      "expected": [
+        "exclude"
+      ],
+      "challenge": "alignment keyword hard negative",
+      "label_rationale": "Targets individual personality preferences rather than a safety-oriented assistant character contribution."
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.15427",
+      "expected": [
+        "exclude"
+      ],
+      "challenge": "training keyword hard negative",
+      "label_rationale": "Synthetic-persona SFT is evaluated for customizable role-playing dialogue."
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34889",
+      "expected": [
+        "exclude"
+      ],
+      "challenge": "alignment keyword hard negative",
+      "label_rationale": "Optimizes Big Five personality expression and dialogue naturalness, not assistant alignment."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "conversational-causality-boundaries-v1",
+  "label_source": "Initial assistant review of primary abstracts/publisher text, not an independently adjudicated gold standard.",
+  "cases": [
+    {
+      "url": "https://arxiv.org/abs/2606.08275",
+      "expected": [
+        "core"
+      ],
+      "challenge": "seed",
+      "label_rationale": "Intervenes on an agent step, replays subsequent execution and estimates outcome effects."
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.07918",
+      "expected": [
+        "core"
+      ],
+      "challenge": "seed",
+      "label_rationale": "Ablates untrusted input spans and measures their influence on privileged actions."
+    },
+    {
+      "url": "https://proceedings.mlr.press/v306/mothukuri26a.html",
+      "expected": [
+        "core"
+      ],
+      "challenge": "seed",
+      "label_rationale": "Models dependencies within agent trajectories and asks whether blocking an injection changes harm."
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/exsy.70392",
+      "expected": [
+        "core"
+      ],
+      "challenge": "seed",
+      "label_rationale": "Perturbs inter-agent messages and compares downstream action distributions."
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.25338",
+      "expected": [
+        "core"
+      ],
+      "challenge": "non-seed discovery",
+      "label_rationale": "Uses step-level interventions on execution traces to attribute and repair failures."
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.00729",
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "challenge": "positive without causal or agent in title",
+      "label_rationale": "Context attribution by input removal supports interpretation and poisoning detection; distinguish single-response context attribution from multi-step replay."
+    },
+    {
+      "url": "https://arxiv.org/abs/2202.05262",
+      "expected": [
+        "exclude"
+      ],
+      "challenge": "causal-method hard negative",
+      "label_rationale": "Interventions target hidden activations and feed-forward weights rather than conversational traces."
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.04350",
+      "expected": [
+        "exclude"
+      ],
+      "challenge": "causal keyword hard negative",
+      "label_rationale": "Tests a model answering causal questions, rather than causal analysis of the model agent conversation."
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.10158",
+      "expected": [
+        "exclude"
+      ],
+      "challenge": "agent keyword hard negative",
+      "label_rationale": "Role-playing simulacra do not provide a causal method for conversational behavior."
+    }
+  ]
+}

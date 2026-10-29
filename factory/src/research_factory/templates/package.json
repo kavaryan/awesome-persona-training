@@ -1,0 +1,13 @@
+{
+  "name": "research-map",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Evidence-reviewed research map",
+  "license": "CC0-1.0",
+  "scripts": {
+    "lint:awesome": "awesome-lint README.md"
+  },
+  "devDependencies": {
+    "awesome-lint": "^2.2.3"
+  }
+}

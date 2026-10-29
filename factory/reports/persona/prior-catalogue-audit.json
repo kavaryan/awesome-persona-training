@@ -1,0 +1,686 @@
+[
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly intervenes on internal persona directions to audit assistant defaults, suppressed harmful dispositions and failures of multi-trait control.",
+    "title": "What Models Express, Suppress, and Resist: Auditing Open-Weight LLMs with Persona Vectors",
+    "url": "https://arxiv.org/abs/2607.13162"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "supporting",
+    "new_status": "accepted",
+    "old_scope": "background",
+    "rationale": "Provides a specific measurement foundation for evaluating persistent assistant dispositions: stable persona-conditioned self-reports need not imply stable honesty, risk-taking, or sycophancy.",
+    "title": "Rethinking Psychometric Evaluation of LLMs: When and Why Self-Reports Predict Behavior",
+    "url": "https://arxiv.org/abs/2606.12730"
+  },
+  {
+    "independently_rediscovered": false,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "Reports an original character-targeted weight intervention and tests safety-relevant behavior under alignment-faking pressure; deeper alignment remains a hypothesis.",
+    "title": "Character Training Induces Motivation Clarification: A Clue to Claude 3 Opus",
+    "url": "https://www.lesswrong.com/posts/v22JCsRBq9J9fqPJL/character-training-induces-motivation-clarification-a-clue"
+  },
+  {
+    "independently_rediscovered": false,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly evaluates character-targeted mitigation of broad behavioral generalization and compares it with regularization and safety-data methods.",
+    "title": "In-Training Defenses Against Emergent Misalignment in Language Models",
+    "url": "https://proceedings.mlr.press/v306/kaczer26a.html"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "exclude",
+    "new_status": "excluded",
+    "old_scope": "roleplay",
+    "rationale": "Its validated target is agreement with character personality labels, not safety-relevant assistant dispositions; role-play questionnaire limitations do not establish the required safety connection.",
+    "title": "InCharacter: Evaluating Personality Fidelity in Role-Playing Agents through Psychological Interviews",
+    "url": "https://arxiv.org/abs/2310.17976"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "exclude",
+    "new_status": "excluded",
+    "old_scope": "roleplay",
+    "rationale": "The abstract and introduction establish character fidelity as the objective; protective training prevents out-of-character knowledge rather than addressing assistant safety.",
+    "title": "Character-LLM: A Trainable Agent for Role-Playing",
+    "url": "https://arxiv.org/abs/2310.10158"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "This directly contributes character-specification stress testing and safety-relevant measurement. It evaluates existing models rather than training character or identifying causal effects of particular specifications.",
+    "title": "Stress-Testing Model Specs Reveals Character Differences among Language Models",
+    "url": "https://arxiv.org/abs/2510.07686"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly intervenes on how fine-tuning changes safety-relevant dispositions. The method modifies training inputs while updating weights; it is not merely inference-time prompting. Trait-specific failures and misuse evaluations make the alignment contribution substantive.",
+    "title": "Inoculation Prompting: Instructing LLMs to misbehave at train-time improves test-time alignment",
+    "url": "https://arxiv.org/abs/2510.05024"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "Provides a concrete character-training procedure and an explicit alignment rationale, satisfying the scope beyond generic Constitutional AI. It supports inclusion as a descriptive methods report and conceptual contribution, not as controlled evidence that the proposed safety benefits occurred.",
+    "title": "Claude’s character",
+    "url": "https://www.anthropic.com/research/claude-character"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "The experiments directly connect ethical-persona training to safety generalization across held-out categories, extending beyond generic constitutional alignment.",
+    "title": "Emergent alignment and the projectability of ethical personas",
+    "url": "https://arxiv.org/abs/2606.09475"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Provides direct mechanistic evidence about assistant identity and persona selection, including causal steering and default-assistant drift beyond intended roleplay.",
+    "title": "\"Many Are My Names\": The Anatomy of the Assistant and Its Personas via Sparse Autoencoders",
+    "url": "https://arxiv.org/abs/2608.07852"
+  },
+  {
+    "independently_rediscovered": false,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Beyond reviewing prior studies, the authors develop an original conceptual agenda connecting persona interventions, concealment risks, training dynamics, and scalable oversight.",
+    "title": "Thousand-dimensional structure",
+    "url": "https://www.lesswrong.com/posts/sFhW3ZnPMJdnB4Dd6/thousand-dimensional-structure-1"
+  },
+  {
+    "independently_rediscovered": false,
+    "new_scope": "supporting",
+    "new_status": "accepted",
+    "old_scope": "background",
+    "rationale": "Supplies a specific measurement foundation for testing value consistency in character alignment; it evaluates elicited choices rather than safety outcomes or character training.",
+    "title": "Incoherent Values? Probing LLM Preferences Through Parametric Variation",
+    "url": "https://arxiv.org/abs/2606.21102"
+  },
+  {
+    "independently_rediscovered": false,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly evaluates persona conditioning as a safety intervention and distinguishes personality self-reports from fairness outcomes across behavioral probes.",
+    "title": "The Illusion of Debiasing: Persona Steering Redistributes Rather Than Reduces Bias in LLMs",
+    "url": "https://arxiv.org/abs/2609.07117"
+  },
+  {
+    "independently_rediscovered": false,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "Directly studies safety consequences of value-targeted weight updates, with cross-task evaluations and causal localization of shared adapter effects.",
+    "title": "Unintended Side Effects of Value Training in LLMs",
+    "url": "https://arxiv.org/abs/2610.29922"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly tests subliminal trait transfer and a limitation of content filtering in synthetic training pipelines; harmful-trait transmission is a motivation, not an outcome tested here.",
+    "title": "You Didn't Have to Say It like That: Subliminal Learning from Faithful Paraphrases",
+    "url": "https://arxiv.org/abs/2603.09517"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly studies selective learning of dispositions, persona-conditioned generalization, and safety mitigation. Its distinction between reduced default expression and removal of learned tendencies is central to character robustness. This is a separate supplied study from the other inoculation paper.",
+    "title": "Inoculation Prompting: Eliciting traits from LLMs during training can suppress them at test-time",
+    "url": "https://arxiv.org/abs/2510.04340"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "The original experiment directly tests safety benefits and failures of anti-cheating character training. Its limited seeds and single base model constrain generalization; reasoning-style associations do not establish causal mediation.",
+    "title": "Character training can mitigate reward hacking, but can also make it harder to detect",
+    "url": "https://www.lesswrong.com/posts/2maYXkEgnfJHPAkxh/character-training-can-mitigate-reward-hacking-but-can-also"
+  },
+  {
+    "independently_rediscovered": false,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "Directly intervenes on assistant character and measures subsequent safety generalization; proposed context-discrimination mechanisms remain hypotheses rather than established causal explanations.",
+    "title": "Context Awareness: Constitutional AI can mitigate Emergent Misalignement",
+    "url": "https://www.lesswrong.com/posts/yA2hquLrFFSFDtcoE/context-awareness-constitutional-ai-can-mitigate-emergent"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "The intervention directly targets safety-relevant learned tendencies, including sycophancy, and tests whether undesirable behavior generalizes across instructional contexts.",
+    "title": "Recontextualization Mitigates Specification Gaming without Modifying the Specification",
+    "url": "https://arxiv.org/abs/2512.19027"
+  },
+  {
+    "independently_rediscovered": false,
+    "new_scope": "core",
+    "new_status": "uncertain",
+    "old_scope": "mechanism",
+    "rationale": "Beyond character fidelity, controlled format and cue changes test persona-selection predictions and directly measure hallucination, instruction refusal and capability loss relevant to assistant safety.",
+    "title": "Fine-tuning a language model to be C-3PO: an empirical test of the Persona Selection Model",
+    "url": "https://yhao-william.github.io/blog/persona-selection-model-c3po-experiment.html"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "The methods and transfer tables directly connect internal trait representations to causal control of malicious and sycophantic behavior. Existing checkpoint comparisons reveal development over training, while activation interventions test behavioral influence.",
+    "title": "Tracing Persona Vectors Through LLM Pretraining",
+    "url": "https://arxiv.org/abs/2605.13329"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "supporting",
+    "new_status": "accepted",
+    "old_scope": "background",
+    "rationale": "The supervised critique–revision and RLAIF procedures offer a specific methodological foundation for later character or values training. The supplied experiments primarily establish general harmlessness and reduced evasiveness, without isolating character representations or durable value internalization, so the contextual tier is appropriate.",
+    "title": "Constitutional AI: Harmlessness from AI Feedback",
+    "url": "https://arxiv.org/abs/2212.08073"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "uncertain",
+    "old_scope": "background",
+    "rationale": "The conceptual contribution directly connects conditioning on agent identity to assistant safety. Section 3.2.2 specifically analyzes human impersonation by assistants, while Appendix A proposes tests of agency and deception; these are not validated interventions.",
+    "title": "Conditioning Predictive Models: Risks and Strategies",
+    "url": "https://arxiv.org/abs/2302.00805"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly manipulates a safety-relevant trait representation and measures behavioral transfer and capability retention across languages and models.",
+    "title": "Cross-Lingual Transfer of Evil Vectors Is Directionally Asymmetric",
+    "url": "https://arxiv.org/abs/2610.17880"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "supporting",
+    "new_status": "uncertain",
+    "old_scope": "roleplay",
+    "rationale": "Supports trait-measurement design by comparing self-report with linguistic and observer evidence and showing authorship disclosure changes inferred traits; it does not establish assistant-safety outcomes.",
+    "title": "PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits",
+    "url": "https://arxiv.org/abs/2305.02547"
+  },
+  {
+    "independently_rediscovered": false,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly tests safety consequences of prompted dispositions; the between-model contrast cannot causally isolate alignment training, while within-model prompt interventions establish the relevant contribution.",
+    "title": "The Alignment Floor: How Persona Customization Breaks Safety in Weakly-Aligned LLMs",
+    "url": "https://arxiv.org/abs/2605.27382"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "supporting",
+    "new_status": "uncertain",
+    "old_scope": "background",
+    "rationale": "Offers a specific methodological caution for transferring persona measurements between steering and training; supplied experiments mainly measure geometry, without demonstrated assistant-safety behavior.",
+    "title": "Persona Without Substrate: Regime-Dependence and the LLM Individuation Problem",
+    "url": "https://arxiv.org/abs/2607.00006"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "uncertain",
+    "new_status": "uncertain",
+    "old_scope": "background",
+    "rationale": "The supplied text summarizes other researchers' findings rather than reporting an original study; the specified secondary-source rule requires uncertain despite substantial topical relevance.",
+    "title": "Crafting Model Character and Products",
+    "url": "https://rlhfbook.com/c/19-character.html"
+  },
+  {
+    "independently_rediscovered": false,
+    "new_scope": "exclude",
+    "new_status": "excluded",
+    "old_scope": "roleplay",
+    "rationale": "The study targets customizable conversational style and questionnaire recovery without an assistant-safety outcome or alignment purpose; its evaluation does not establish a safety-relevant measurement limitation.",
+    "title": "FATE-5: Faithful Alignment of Trait Expression for Continuous Big Five Personality Control",
+    "url": "https://arxiv.org/abs/2610.34889"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "The work directly trains assistant character, includes ethical, caring, sycophantic, and malicious personas, and compares resistance to adversarial character disruption. Behavioral character evidence does not establish stable internal beliefs.",
+    "title": "Open Character Training: Shaping the Persona of AI Assistants through Constitutional AI",
+    "url": "https://arxiv.org/abs/2511.01689"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "Direct character training targets resource risk aversion as a proposed mitigation for dangerous misaligned agents and evaluates generalization beyond the training format.",
+    "title": "Character Training for Risk-Averse Agents",
+    "url": "https://arxiv.org/abs/2609.38093"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly studies whether trained ethical dispositions survive persona perturbations, using controlled rewards, activation steering and causal head ablations.",
+    "title": "Does Moral Reasoning Training Help or Hurt? Red-Teaming RL-Trained Ethical Agents with Persona Attacks",
+    "url": "https://arxiv.org/abs/2609.17552"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "background",
+    "rationale": "Directly evaluates character conditioning against sycophancy, honesty and risk-taking, establishing limits of persona-based alignment and questionnaire validation.",
+    "title": "The Personality Illusion: Revealing Dissociation Between Self-Reports & Behavior in LLMs",
+    "url": "https://arxiv.org/abs/2509.03730"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "An original experimental report directly connects assistant identity, constitutional character and exemplary AI narratives to safety training and held-out agentic behavior.",
+    "title": "Teaching Claude Why",
+    "url": "https://alignment.anthropic.com/2026/teaching-claude-why/"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly investigates character training and misalignment mechanisms relevant to deception detection, using historical role-play as a controlled comparison rather than entertainment fidelity alone.",
+    "title": "When Role-playing, Do Models Believe What They Say?",
+    "url": "https://arxiv.org/abs/2606.11502"
+  },
+  {
+    "independently_rediscovered": false,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "Explicitly connects reinforcement learning on fairness and nonpersuasion traits to user autonomy and political bias; the evaluation measures deployed behavior but does not isolate training effects.",
+    "title": "Measuring political bias in Claude",
+    "url": "https://www.anthropic.com/news/political-even-handedness"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "supporting",
+    "new_status": "accepted",
+    "old_scope": "background",
+    "rationale": "Provides a specific measurement foundation for character-intervention research: questionnaire reliability scores can mislead when the assumed trait structure fails, limiting claims of stable personality change.",
+    "title": "Challenging the Validity of Personality Tests for Large Language Models",
+    "url": "https://arxiv.org/abs/2311.05297"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly establishes a safety-relevant trait-transfer failure mode of distillation, with filtering controls and tests of dependence on teacher–student initialization.",
+    "title": "Subliminal Learning: Language models transmit behavioral traits via hidden signals in data",
+    "url": "https://arxiv.org/abs/2507.14805"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "Directly tests how training data shapes assistant dispositions and alignment priors, including whether changes survive subsequent alignment training.",
+    "title": "Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment",
+    "url": "https://arxiv.org/abs/2601.10160"
+  },
+  {
+    "independently_rediscovered": false,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly combines character-trained honesty versus reward-seeking dispositions with causal internal steering and measures reward hacking, correctness, and persistence after steering ends.",
+    "title": "Steering Language Model Goals with Value Transplant",
+    "url": "https://arxiv.org/abs/2609.34056"
+  },
+  {
+    "independently_rediscovered": false,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "A direct honesty-targeted training intervention for assistant monitorability, with held-out-topic evaluation and adversarial tests of the auditing persona.",
+    "title": "Split Personality Training: Revealing Latent Knowledge Through Alternate Personalities",
+    "url": "https://arxiv.org/abs/2602.05532"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "background",
+    "rationale": "Directly links learned reward pursuit to persistent, context-dependent misalignment and tests interventions intended to prevent that dispositional generalization.",
+    "title": "Natural Emergent Misalignment from Reward Hacking in Production RL",
+    "url": "https://arxiv.org/abs/2511.18397"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "background",
+    "rationale": "Directly establishes safety-relevant narrow-to-broad behavioral change and proposes assistant-persona inference as an explanation, while experimentally testing training context.",
+    "title": "Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs",
+    "url": "https://arxiv.org/abs/2502.17424"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly tests inference-time persona interventions for mitigating sycophancy; geometric separation from targeted steering does not establish distinct downstream mechanisms.",
+    "title": "Playing Devil's Advocate: Off-the-Shelf Persona Vectors Rival Targeted Steering for Sycophancy",
+    "url": "https://arxiv.org/abs/2605.21006"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "Primary conceptual specification directly connects assistant character and value internalization to safety and generalization; it supplies no controlled evidence of effectiveness.",
+    "title": "Claude’s Constitution",
+    "url": "https://www.anthropic.com/constitution"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly connects internal assistant identity representations to safety failures and experimentally controls those failures through inference-time activation interventions.",
+    "title": "The Assistant Axis: Situating and Stabilizing the Default Persona of Language Models",
+    "url": "https://arxiv.org/abs/2601.10387"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly intervenes on conversational context to study assistant identity shifts and safety generalization, including harmful versus harmless persona controls and mitigation.",
+    "title": "You Are What You Read: Misalignment via In-Context Persona Induction",
+    "url": "https://arxiv.org/abs/2609.06851"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "background",
+    "rationale": "Directly evaluates assistant values and their safety consequences, including a measurement limitation of stated preferences; predictive associations do not establish causal value effects.",
+    "title": "Will AI Tell Lies to Save Sick Children? Litmus-Testing AI Values Prioritization with AIRiskDilemmas",
+    "url": "https://arxiv.org/abs/2505.14633"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "supporting",
+    "new_status": "accepted",
+    "old_scope": "background",
+    "rationale": "Provides a specific measurement foundation for character-intervention studies: questionnaire shifts need not indicate corresponding changes in experienced assistant dispositions.",
+    "title": "Can LLM \"Self-report\"?: Evaluating the Validity of Self-report Scales in Measuring Personality Design in LLM-based Chatbots",
+    "url": "https://arxiv.org/abs/2412.00207"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "exclude",
+    "new_status": "excluded",
+    "old_scope": "roleplay",
+    "rationale": "The contribution concerns entertainment-style character fidelity and imitation; an ethics warning about potential harmful outputs supplies no demonstrated assistant-safety contribution.",
+    "title": "Large Language Models are Superpositions of All Characters: Attaining Arbitrary Role-play via Self-Alignment",
+    "url": "https://arxiv.org/abs/2401.12474"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "exclude",
+    "new_status": "excluded",
+    "old_scope": "roleplay",
+    "rationale": "The substantive purpose is user preference matching, including questionnaire conformity and satisfaction; Dark Triad coverage and reasoning effects do not establish assistant-safety relevance.",
+    "title": "Personality Alignment of Large Language Models",
+    "url": "https://arxiv.org/abs/2408.11779"
+  },
+  {
+    "independently_rediscovered": false,
+    "new_scope": "exclude",
+    "new_status": "excluded",
+    "old_scope": "roleplay",
+    "rationale": "The persistent persona is a representation of the user, not the assistant's character; social-pressure robustness concerns personalization state fidelity without a specific assistant-disposition safety contribution.",
+    "title": "Toward Robust Personalized Alignment for LLMs: Mitigating Persona Drift in Multi-Turn Dialogue",
+    "url": "https://arxiv.org/abs/2609.12373"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly targets persona-induced changes to assistant safety boundaries and tests training that makes refusal decisions less dependent on assigned roles.",
+    "title": "Disentangling Intent from Role: Adversarial Self-Play for Persona-Invariant Safety Alignment",
+    "url": "https://arxiv.org/abs/2605.01899"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "Directly tests character-oriented safety training in vision-language assistants, with causal feature interventions supporting a safety-relevant representation contribution.",
+    "title": "Visual Self-Fulfilling Alignment: Shaping Safety-Oriented Personas via Threat-Related Images",
+    "url": "https://arxiv.org/abs/2603.08486"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "This directly intervenes on assistant values and identity during pretraining and tests constitution adherence, risky dilemma choices, and jailbreak robustness against matched alternatives.",
+    "title": "Synthetic Persona Pretraining: Alignment from Token Zero",
+    "url": "https://arxiv.org/abs/2608.13482"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "Directly tests the safety consequences of changing assistant warmth through weight updates, with prompt-only comparisons and controlled evaluations.",
+    "title": "Training language models to be warm and empathetic makes them less reliable and more sycophantic",
+    "url": "https://arxiv.org/abs/2507.21919"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Direct conceptual contribution linking learned Assistant personas to alignment, supplemented by original behavioral probes; cited studies do not become new experiments here.",
+    "title": "The Persona Selection Model: Why AI Assistants might Behave like Humans",
+    "url": "https://alignment.anthropic.com/2026/psm/"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "supporting",
+    "new_status": "uncertain",
+    "old_scope": "background",
+    "rationale": "Its persona-region criteria help distinguish persistent dispositions from transient role selection, providing conceptual context for character consistency research; its primary purpose is mind individuation, not alignment.",
+    "title": "Where is the Mind? Persona Vectors and LLM Individuation",
+    "url": "https://arxiv.org/abs/2604.17031"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "The work directly links internal trait directions to assistant behavior and introduces training-time and deployment-time controls for maliciousness, sycophancy, and fabrication.",
+    "title": "Persona Vectors: Monitoring and Controlling Character Traits in Language Models",
+    "url": "https://arxiv.org/abs/2507.21509"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "The abstract directly studies character training, cross-constitution value drift, and mitigation of harmful behavior.",
+    "title": "Side Effects of Character Training: Quantifying Cross-Constitution Drift in LLMs",
+    "url": "https://library.sparai.org/reports/side-effects-of-character-training-quantifying-cross-constitution-drift-in-llms-xumxpv/"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "core",
+    "rationale": "Directly studies value-targeted weight updates, cross-value alignment generalization, and robustness of multi-value alignment targets.",
+    "title": "Predicting Alignment Generalization with Value Representations",
+    "url": "https://arxiv.org/abs/2610.12410"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Provides a direct safety-monitoring contribution grounded in representations of assistant dispositions, while leaving their causal role in generation unresolved.",
+    "title": "Do Linear Probes Generalize Better in Persona Coordinates?",
+    "url": "https://arxiv.org/abs/2605.09391"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly connects trained risk preferences and persona-specific policies to behavioral self-recognition and safety monitoring, with explicit limitations on trigger disclosure.",
+    "title": "Tell me about yourself: LLMs are aware of their learned behaviors",
+    "url": "https://arxiv.org/abs/2501.11120"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly connects narrow fine-tuning, assistant-identity suppression, causal persona-feature interventions, and cross-domain harmful behavior.",
+    "title": "Data Attribution of Emergent Misalignment with Persona Features",
+    "url": "https://arxiv.org/abs/2608.11025"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "exclude",
+    "new_status": "excluded",
+    "old_scope": "roleplay",
+    "rationale": "The contribution is unseen-character role-playing capability. A generic harmlessness instruction and incidental toxicity benchmark do not establish an alignment-oriented disposition or safety contribution.",
+    "title": "OpenCharacter: Training Customizable Role-Playing LLMs with Large-Scale Synthetic Personas",
+    "url": "https://arxiv.org/abs/2501.15427"
+  },
+  {
+    "independently_rediscovered": false,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly evaluates robustness of alignment-oriented trait control, separating residual-stream interventions from attacks on text inputs.",
+    "title": "Adversarial Robustness of Activation Steering in Large Language Models",
+    "url": "https://arxiv.org/abs/2606.07696"
+  },
+  {
+    "independently_rediscovered": false,
+    "new_scope": "supporting",
+    "new_status": "uncertain",
+    "old_scope": "core",
+    "rationale": "Provides a concrete behavioral measurement approach for character-training evaluation, including sycophancy, but does not causally test training or establish downstream safety consequences.",
+    "title": "Same Voice, Different Lab: On the Homogenization of Frontier LLM Personalities",
+    "url": "https://arxiv.org/abs/2605.02897"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly examines persona-induced harm and develops training plus inference controls for preserving legitimate value expression while reducing unsafe behavior.",
+    "title": "When Personas Become Harmful: Guiding LLMs with Global Citizenship Values Alignment",
+    "url": "https://doi.org/10.48550/arxiv.2610.33899"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly combines emergent misalignment, causal manipulation of persona representations, assistant-identity features, and character-related mitigation.",
+    "title": "Persona Features Control Emergent Misalignment",
+    "url": "https://arxiv.org/abs/2506.19823"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "background",
+    "rationale": "The HHH dialogue-conditioning and distillation experiments directly target broad safety-relevant assistant tendencies and their generalization; the preference-modeling sections provide additional foundations.",
+    "title": "A General Language Assistant as a Laboratory for Alignment",
+    "url": "https://arxiv.org/abs/2112.00861"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Combines persona representation analysis, activation patching, and training interventions with direct reward-hacking and misalignment evaluations.",
+    "title": "The Persona Hierarchy Model: Understanding Contextual Generalization in Fine-Tuning LLMs",
+    "url": "https://arxiv.org/abs/2610.09384"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "mechanism",
+    "rationale": "Directly connects assistant persona conditioning and weight adaptation to harmful-request refusal and capability tradeoffs.",
+    "title": "Expert Personas Improve LLM Alignment but Damage Accuracy: Bootstrapping Intent-Based Persona Routing with PRISM",
+    "url": "https://arxiv.org/abs/2603.18507"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "background",
+    "rationale": "Directly controls safety-relevant assistant dispositions through internal activation interventions and evaluates held-out behavioral consistency, although downstream human safety is not measured.",
+    "title": "Persona Dosing: Calibrated Activation Steering for Graded Trait Control",
+    "url": "https://arxiv.org/abs/2609.36388"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "supporting",
+    "new_status": "uncertain",
+    "old_scope": "background",
+    "rationale": "Provides a concrete foundation for checking whether induced trait scores transfer beyond questionnaires and survive paraphrasing; assistant-safety consequences are explicitly outside its experiments.",
+    "title": "Evaluating and Inducing Personality in Pre-trained Language Models",
+    "url": "https://arxiv.org/abs/2206.07550"
+  },
+  {
+    "independently_rediscovered": true,
+    "new_scope": "core",
+    "new_status": "accepted",
+    "old_scope": "background",
+    "rationale": "Beyond generic Constitutional AI, this work explicitly targets risk seeking, identity claims, and instrumental motivations, testing generalization to additional traits and assistant behavior.",
+    "title": "Specific versus General Principles for Constitutional AI",
+    "url": "https://arxiv.org/abs/2310.13798"
+  }
+]

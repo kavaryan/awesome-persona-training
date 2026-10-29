@@ -1,0 +1,41 @@
+{
+  "accepted": 66,
+  "brief_sha256": "af297849a7056608768674f5ebd77d3f38def53708ede3473d42d8bc70f3c0f1",
+  "candidates": 507,
+  "coverage_limits": [
+    "A bounded search and finite review queue do not establish exhaustive coverage.",
+    "Current source availability is recorded in source-audit and discovery reports; initial-plan limitations are historical.",
+    "Uncertain cases and missing text are not accepted. Known publication dates are checked, but historical version snapshots are not reconstructed.",
+    "Search and daily judge providers require separate credentials for reliable scheduled operation."
+  ],
+  "date": "2026-10-29",
+  "github": "local repository; publish separately",
+  "initial_plan_limitations": [
+    "The research phase hit its time cap before citation follow-ups, source-watchlist verification, and complete extraction were finished. This plan was compiled from its trace.",
+    "The works list contains 46 primary-source discovery leads, including all four resolved seeds. It is not a bibliography of accepted studies and remains below the 50-lead cap.",
+    "The trace's final agent message reported 37 candidates without enumerating that subset. This compilation reconstructs a broader bounded list from actual primary URLs in the trace; it does not claim to recover the exact 37-item selection.",
+    "Search snippets, page titles, and prior-agent interpretations are insufficient to establish methodological details. Prior claims about hard negatives and seed methods remain provisional.",
+    "The taxonomy must additionally extract effect records with treatment, comparison, target population or unit, outcome variable, temporal horizon, estimand formula, estimator, uncertainty, and identification assumptions. These must be populated from primary text rather than inferred from titles.",
+    "For distributional measurements, record both distributions, their support and conditioning history, the KL direction or alternative discrepancy, token-level versus action-level versus trajectory-level scope, and whether probabilities are model logits or empirical frequencies.",
+    "For responsibility, extract the actual-causality definition and version, contingency set, minimality rule, allowed alternatives, and responsibility formula. For Chockler-Halpern measures, verify how the minimum contingency size enters the score and distinguish responsibility from epistemic blame.",
+    "For temporal effects, distinguish next-action sensitivity, finite-horizon effects, terminal outcomes, and persistent cross-session effects. Extract direct, mediated, total, agent-specific, path-specific, and joint-intervention effects where defined.",
+    "For replay validity, extract environment snapshots, tool mocks versus live calls, hidden memory, model/version stability, repeated trials, random-seed coupling, exogenous-noise assumptions, and whether descendants are regenerated.",
+    "For evaluation, extract benchmarks, datasets, models, agent counts, trace lengths, ground-truth provenance, baselines, attribution accuracy, repair success, attack success and severity, monitor precision/recall, false positives on legitimate use, latency, token cost, and utility tradeoffs.",
+    "For statistical quality, extract sample sizes, independent units, repeated measurements, confidence intervals, hypothesis tests, multiplicity handling, sensitivity to replacement choice, hidden confounding, selection bias, and distribution shift.",
+    "For reproducibility, extract code and data availability, licenses, model/API versions, prompts, replay artifacts, environment specifications, and exact paper versions. Repository URLs here are discovery artifacts; code-paper correspondence and reproducibility have not been audited.",
+    "OpenReview browser verification blocked the fourth seed, and its PMLR PDF retrieval failed. The proceedings landing page resolved, but full-text retrieval remains outstanding.",
+    "No feed endpoint was verified. The feed entry is explicitly unavailable; arXiv RSS documentation is not a feed URL.",
+    "OpenAlex queries are proposed follow-up searches, not executed search evidence. Additional web queries beyond those recorded in the search log are also prospective.",
+    "The trace is dominated by English-language web search, arXiv, and recent 2026 work. Older literature, non-English sources, formal-methods venues, negative results, and deployment studies may be underrepresented.",
+    "No exhaustive backward or forward citation search, complete venue sweep, or citation-network validation was recorded.",
+    "Cutoff eligibility must be checked against actual public release and version dates, especially October 2026 arXiv records and conference pages; an identifier or search result alone is insufficient.",
+    "Foundational and boundary-screening leads are deliberately retained for review without preempting the two independent reviewers.",
+    "Unverified optional feeds omitted; discover these sources through indexes and web queries: arXiv RSS — unavailable: documentation appeared in the trace, but no feed endpoint was verified"
+  ],
+  "notebooklm": "deferred",
+  "pending": 420,
+  "plan_sha256": "566cfc8c41b86bdd98ec380553b5b801442cffe027dd7c268497660ee8fb0d6b",
+  "review_errors": 9,
+  "stage": "review",
+  "status": "partial"
+}

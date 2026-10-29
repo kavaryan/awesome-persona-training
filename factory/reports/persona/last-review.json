@@ -1,0 +1,14 @@
+{
+  "accepted": 0,
+  "attempted": 2,
+  "errors": [
+    {
+      "error": "No usable abstract or full text: No usable abstract or full text",
+      "id": "4d5e87f558b04761",
+      "stage": "retrieval"
+    }
+  ],
+  "requested_limit": 2,
+  "requests": 1,
+  "reviewed": 1
+}

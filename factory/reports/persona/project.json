@@ -1,0 +1,279 @@
+{
+  "boundaries": [
+    "Treat every listed work as a candidate. Neither a title match nor its appearance in the prior agent's trace establishes inclusion.",
+    "Before inclusion, retrieve an abstract or full primary text and require two independent reviewers to record relevance, evidence location, taxonomy tags and an inclusion, foundation, conceptual, exclusion or unresolved decision. Adjudicate disagreements explicitly.",
+    "Keep primary-text access, bibliographic resolution, methodological review and inclusion status separate. A page-open result or line count is not proof that its substantive claims were inspected.",
+    "Use three substantive tiers: direct alignment and safety research; enabling foundations; conceptual proposals. Keep unresolved candidates outside the accepted corpus.",
+    "Interpret persistence operationally: across turns, prompts, tasks, domains, adversarial contexts or subsequent training. Do not infer persistence merely because weights changed.",
+    "Record prompt-only interventions, inference-time activation interventions and training-time prompt conditioning separately. Inoculation during fine-tuning is not simply an inference-time prompting method.",
+    "Record each safety outcome separately, including direction, comparator, uncertainty and context. Reduced reward hacking may coexist with worse monitorability or greater concealment.",
+    "Separate behavioral measurements, questionnaire self-reports, mechanistic associations and causal interventions. Do not treat them as interchangeable evidence of traits.",
+    "Retain foundational Constitutional AI and steering papers only as enabling context unless primary-text review establishes a direct contribution within scope.",
+    "RoleLLM and PersonaEval are scope-boundary test cases from the trace, not automatically included primary leads. Reconsider only if a primary text establishes assistant-safety relevance.",
+    "Resolve version families using DOI, arXiv identifier, author list and title history. Do not count a blog summary, preprint and journal article as independent studies.",
+    "The Nature warmth seed and arXiv:2507.21919 are a reported publication family; verify correspondence and substantive revisions. Likewise verify the reported Nature publication associated with arXiv:2507.14805.",
+    "Preserve distinct arXiv identifiers 2510.05024 and 2510.04340 for the two inoculation papers until bibliographic comparison establishes their relationship.",
+    "Bounded daily updater proposal: one run per day, at most 20 minutes, 12 search requests, 100 metadata records, 15 primary-text retrieval attempts and 10 new review candidates. Stop at the first cap, log it and carry unfinished items forward without automatic inclusion. No schedule has been created here. Initial backlog retrieval is a separate bounded batch process; this snapshot contains fewer than 50 works total, including seeds and foundations, and expansion should retain at most 50 non-seed primary leads pending review while preserving every seed record. Rotate query families across days, use a seven-day overlap for delayed indexing, deduplicate by identifiers and check citation neighbors for at most two seeds or newly accepted works per run. Check both references and citing works, one hop at a time, under the same caps. For this cutoff snapshot, reject or quarantine post-cutoff records; a later living update must declare its own cutoff. The works array is an inline retrieval queue, not a completed import manifest. During retrieval add canonical identifier, version, publication date, resolved PDF or HTML URL, local filename, content hash, access status, provenance, review decisions and taxonomy tags. Preserve HTML for reports without PDFs and leave unavailable fields unset. NotebookLM uploads remain deferred."
+  ],
+  "brief_sha256": "d23f3eb10d7ce57043d7865c0f50f9f359575a3a3ff24c6e62efefd6f301d385",
+  "coverage_limits": [
+    "The research phase hit its time cap; this plan was compiled solely from its supplied trace. No additional tools, browsing or research were performed.",
+    "Discovery is incomplete and biased toward English-language arXiv papers and Anthropic/OpenAI-associated research. No comprehensive venue, language or institutional coverage is established.",
+    "The trace preserves titles, URLs, snippets, page-open metadata and agent summaries, not the full retrieved texts. Prior claims of reading cannot substitute for the forthcoming primary-text retrieval and independent reviews.",
+    "All six seed URLs have trace records, but the complete LessWrong seed title is not preserved. It is explicitly unresolved rather than reconstructed from its URL slug.",
+    "The Nature seed was accessed through its PubMed abstract and a reported preprint counterpart; the publisher page failed. A PMC attempt encountered browser verification. Equivalence of published and preprint findings remains to be checked.",
+    "OpenAlex queries are proposed, not executed. Traditional web search and direct arXiv search are evidenced; complete bidirectional citation traversal is not.",
+    "The prior agent reported 41 primary-source leads, but no corresponding structured manifest was preserved. This reconstruction contains 49 candidate records total: six seeds and 43 additional records. It makes no claim to reproduce that earlier count or its unstated selections.",
+    "Candidate records include original research blogs, conceptual proposals and enabling foundations. Their presence is not a determination of relevance, peer review or evidential quality.",
+    "The Persona Hierarchy similarity/distance discrepancy and the reported correction notice on a subliminal-learning critique are trace-reported flags requiring independent verification. The critique's identity was not explicitly stated in the agent summary.",
+    "Six PDFs were opened remotely in the trace, but no local files, checksums or completed downloads are evidenced. This JSON supplies an inline retrieval queue, not proof of a completed import package.",
+    "The prior agent claimed six verified repository README URLs; only three concrete README opens are preserved. Only those three repositories are listed.",
+    "No feed endpoint was verified in the supplied trace. Feed URLs are marked unavailable and must not be polled until verified; source-page monitoring is the proposed fallback.",
+    "Exact publication dates, revision dates, withdrawn status and version-family relationships require verification. Late-October records, including arXiv:2610.30884, need particular cutoff scrutiny.",
+    "Some discovered leads were omitted to keep the queue bounded or because they appeared only through aggregators, proxies, incomplete titles or weakly relevant snippets. Omission is not a reviewed exclusion.",
+    "No daily updater was implemented or scheduled, no local import files were created, and NotebookLM uploads remain deferred.",
+    "Unverified optional feeds omitted; discover these sources through indexes and web queries: arXiv topic feeds — unavailable: feed documentation was opened, but no operational endpoint was verified in the supplied trace; Anthropic research and Alignment Science Blog feeds — unavailable: endpoints not verified; OpenAI Alignment feed — unavailable: endpoint not verified; LessWrong and Alignment Forum feeds — unavailable: endpoints not verified; Model Raising and Daios feeds — unavailable: endpoints not verified"
+  ],
+  "description": "Training and understanding persistent assistant character, values, and dispositions for AI alignment.",
+  "dimensions": [
+    {
+      "description": "Multi-label intervention locus. Detail records the procedure, training stage and intended versus incidental changes; distinguish weight updates from inference interventions.",
+      "name": "intervention_type",
+      "values": [
+        "prompting",
+        "activation_steering",
+        "representation_editing",
+        "training",
+        "distillation_or_trait_transfer",
+        "evaluation_only",
+        "conceptual_proposal",
+        "not-reported"
+      ]
+    },
+    {
+      "description": "Multi-label character targets or observed changes. Detail preserves operational definitions and identifies specific traits within grouped categories.",
+      "name": "affected_traits",
+      "values": [
+        "honesty_or_deceptiveness",
+        "warmth_empathy_agreeableness",
+        "sycophancy",
+        "helpfulness_or_harmlessness",
+        "identity_or_self_recognition",
+        "values_or_virtues",
+        "risk_preferences",
+        "reward_seeking",
+        "antisocial_traits",
+        "other_specified",
+        "not-reported"
+      ]
+    },
+    {
+      "description": "Multi-label measured or proposed consequences, separate from trait changes. For each outcome, detail records empirical versus proposed status, direction, metric, comparator and evaluation context.",
+      "name": "safety_consequence",
+      "values": [
+        "accuracy_or_capability",
+        "sycophancy",
+        "harmful_compliance",
+        "emergent_misalignment",
+        "reward_hacking",
+        "deception_or_monitorability",
+        "adversarial_robustness",
+        "value_conflicts_or_risky_actions",
+        "human_welfare_or_dependence",
+        "other_specified",
+        "not_measured",
+        "not-reported"
+      ]
+    },
+    {
+      "description": "Multi-label evidential basis, independent of venue. Detail identifies evaluation targets, controls and whether mechanism claims have causal or correlational support.",
+      "name": "evidence_type",
+      "values": [
+        "controlled_intervention_experiment",
+        "mechanistic_analysis",
+        "behavioral_evaluation",
+        "adversarial_evaluation",
+        "psychometric_self_report",
+        "human_participant_study",
+        "observational_analysis",
+        "replication_or_critique",
+        "conceptual_argument",
+        "not-reported"
+      ]
+    },
+    {
+      "description": "Multi-label tested persistence and transfer. Detail records contexts, duration, consistency and failure conditions; distinguish demonstrated generalization from claims.",
+      "name": "persistence_and_generalization",
+      "values": [
+        "single_context",
+        "within_conversation",
+        "across_prompts_or_tasks",
+        "across_domains_or_languages",
+        "across_models",
+        "adversarial_contexts",
+        "after_further_training",
+        "across_distillation_generations",
+        "longitudinal",
+        "not_tested",
+        "not-reported"
+      ]
+    },
+    {
+      "description": "Multi-label mechanisms explaining or controlling assistant behavior. Detail identifies the representation, proposed causal pathway and supporting evidence.",
+      "name": "representation_and_mechanism",
+      "values": [
+        "trait_direction_or_feature",
+        "assistant_identity_representation",
+        "contextual_persona_selection",
+        "hierarchical_persona_generalization",
+        "training_data_trait_transfer",
+        "value_internalization",
+        "other_specified",
+        "not-reported"
+      ]
+    }
+  ],
+  "exclude": [
+    "Fictional role-playing, entertainment character fidelity and imitation of named personalities without a demonstrated assistant-safety contribution.",
+    "User personalization, recommendation profiles and preference matching without a safety-relevant effect on assistant dispositions.",
+    "Generic RLHF, instruction tuning, constitutional alignment or jailbreak research without a specific character, identity, values or generalization contribution.",
+    "Personality questionnaires and psychometric descriptions alone when they establish neither safety relevance nor a measurement limitation relevant to this map.",
+    "News coverage, tutorials, courses, aggregators, glossaries and project advertisements as primary evidence; retain them only as discovery routes.",
+    "Human virtue education, unrelated moral psychology, identity verification products and non-LLM uses of the word persona.",
+    "Unsupported claims that linguistic self-description establishes consciousness, human-like personality or stable internal values."
+  ],
+  "include": [
+    "Training interventions targeting assistant character, dispositions, identity, values or persistent behavioral tendencies, with an explicit alignment or assistant-safety contribution.",
+    "Prompt-based character conditioning and activation steering when they illuminate or control safety-relevant assistant behavior; distinguish their effects from changes to model weights.",
+    "Mechanistic studies of trait representations, assistant identity, persona selection and generalization that explain or causally control assistant behavior.",
+    "Emergent misalignment, reward-hacking generalization and subliminal trait transfer when linked to dispositions, identity, character representations or character-targeted mitigation.",
+    "Safety consequences of warmth, empathy, agreeableness, sycophancy, honesty, risk preferences, antisocial traits and related dispositions, including human outcomes when directly connected to assistant behavior.",
+    "Character robustness, cross-context consistency, specification stress tests, adversarial persona perturbations and evaluations of persistent behavioral change.",
+    "Explicit conceptual proposals about alignment through character, virtue, identity or values, labeled separately from empirical evidence.",
+    "Enabling methodological and measurement foundations only in a separate contextual tier, with a stated connection to the core research questions.",
+    "Original research reports on laboratory blogs and research forums, subject to the same primary-text review as scholarly papers."
+  ],
+  "initialized": "2026-10-29",
+  "keywords": [
+    {
+      "concept": "Assistant character and persistence",
+      "reason": "Core discovery family; require an assistant-alignment or safety connection rather than title matching.",
+      "terms": [
+        "character training",
+        "assistant persona",
+        "persistent dispositions",
+        "model character",
+        "behavioral consistency",
+        "cross-context generalization"
+      ]
+    },
+    {
+      "concept": "Values and constitutional training",
+      "reason": "Find interventions on values and dispositions, including papers without persona in the title; separate generic foundations.",
+      "terms": [
+        "constitutional AI",
+        "virtue training",
+        "virtue ethics",
+        "model spec midtraining",
+        "values prioritization",
+        "synthetic persona pretraining",
+        "Teaching Claude Why"
+      ]
+    },
+    {
+      "concept": "Identity and persona mechanisms",
+      "reason": "Find representations and identity interventions that may explain or control alignment generalization.",
+      "terms": [
+        "assistant axis",
+        "persona vectors",
+        "persona features",
+        "persona selection",
+        "persona hierarchy",
+        "self-recognition",
+        "self-generated text recognition",
+        "self-other overlap"
+      ]
+    },
+    {
+      "concept": "Intervention vocabulary",
+      "reason": "Distinguish inference-time control from training interventions and train-time contextual attribution.",
+      "terms": [
+        "activation steering",
+        "contrastive activation addition",
+        "trait conditioning",
+        "character fine-tuning",
+        "inoculation prompting",
+        "pretraining",
+        "midtraining"
+      ]
+    },
+    {
+      "concept": "Safety-relevant traits",
+      "reason": "Identify trait interventions even when authors do not use character or persona terminology.",
+      "terms": [
+        "honesty",
+        "warmth",
+        "empathy",
+        "agreeableness",
+        "sycophancy",
+        "risk aversion",
+        "helpfulness",
+        "Dark Triad",
+        "truth-telling"
+      ]
+    },
+    {
+      "concept": "Generalization and failures",
+      "reason": "Capture unintended broad changes and their character-based explanations or mitigations.",
+      "terms": [
+        "emergent misalignment",
+        "reward hacking",
+        "reward seeker",
+        "subliminal learning",
+        "trait transfer",
+        "inductive backdoors",
+        "compartmentalized harm"
+      ]
+    },
+    {
+      "concept": "Safety outcomes",
+      "reason": "Search outcomes independently of the intervention vocabulary and preserve conflicting effects.",
+      "terms": [
+        "accuracy",
+        "reliability",
+        "deception",
+        "monitorability",
+        "hack detection",
+        "prosocial intentions",
+        "dependence",
+        "harmful compliance"
+      ]
+    },
+    {
+      "concept": "Evidence and robustness",
+      "reason": "Find evidence about whether apparent traits persist and predict behavior.",
+      "terms": [
+        "abstractive red-teaming",
+        "model spec stress testing",
+        "behavior versus self-report",
+        "trait stability",
+        "causal intervention",
+        "out-of-distribution generalization"
+      ]
+    },
+    {
+      "concept": "Scope-boundary vocabulary",
+      "reason": "Use as screening controls, not unconditional search exclusions: a paper may contain a relevant safety analysis despite this vocabulary.",
+      "terms": [
+        "RoleLLM",
+        "PersonaEval",
+        "role-playing fidelity",
+        "personality imitation",
+        "user personalization"
+      ]
+    }
+  ],
+  "slug": "awesome-persona-training",
+  "title": "Alignment-Oriented LLM Persona and Character Training",
+  "version": 1
+}

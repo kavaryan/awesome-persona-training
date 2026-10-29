@@ -29,3 +29,10 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci && npm run lint:awesome
+      - name: Validate installable research factory
+        run: |
+          python -m pip install --require-hashes -r factory/src/research_factory/templates/requirements.txt
+          python -m pip install --no-deps -e factory
+          pytest factory/tests -q
+          ruff check factory/src factory/tests
+          python -m pip wheel --no-deps --wheel-dir /tmp/factory-wheels ./factory

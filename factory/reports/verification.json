@@ -1,0 +1,79 @@
+{
+  "bootstrap_agent": "Authenticated Codex CLI; configured gpt-6-astra; medium effort",
+  "daily_model_service": "mocked; no LLM API credentials provided",
+  "date": "2026-10-29",
+  "factory_tests": 27,
+  "installed_daily_smoke": {
+    "accepted": 0,
+    "downloaded": 1,
+    "judge": "not-configured",
+    "judged": 0,
+    "pending": 157,
+    "requests": 12,
+    "status": "degraded"
+  },
+  "installed_wheel_verified": true,
+  "limitations": [
+    "Finite assistant-labeled regression cases are not a human-audited gold standard.",
+    "The final benchmark reports consolidate resolved cases and bounded retries; earlier failures remain in evaluation-history.",
+    "Independent discovery recovered 54 of 68 prior in-scope URLs; prior-catalogue imports are measured separately.",
+    "Keyless OpenAlex became rate-limited; API web search and the daily small-model service need credentials.",
+    "Generated schedules require publishing each generated repository; NotebookLM uploads remain deferred."
+  ],
+  "original_pipeline_tests": 23,
+  "persona_prior_catalogue": {
+    "independent_recovery": 54,
+    "prior_in_scope": 68,
+    "prior_in_scope_outcomes": {
+      "accepted": 61,
+      "uncertain": 7
+    },
+    "prior_roleplay_outcomes": {
+      "excluded": 7,
+      "uncertain": 1
+    },
+    "total": 76
+  },
+  "projects": {
+    "causality": {
+      "accepted": 66,
+      "benchmark_cases": 9,
+      "benchmark_metrics": {
+        "exact_scope_matches": 9,
+        "false_negative_or_unresolved": 0,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "true_positive": 6,
+        "unresolved": 0
+      },
+      "candidate_count": 507,
+      "pdfs": 65,
+      "reused_resolved_evaluation_cases": 8,
+      "scopes": {
+        "core": 55,
+        "supporting": 11
+      }
+    },
+    "persona": {
+      "accepted": 108,
+      "benchmark_cases": 13,
+      "benchmark_metrics": {
+        "exact_scope_matches": 13,
+        "false_negative_or_unresolved": 0,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "true_positive": 8,
+        "unresolved": 0
+      },
+      "candidate_count": 4694,
+      "pdfs": 91,
+      "reused_resolved_evaluation_cases": 9,
+      "scopes": {
+        "core": 96,
+        "supporting": 12
+      }
+    }
+  }
+}

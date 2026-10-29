@@ -1,0 +1,270 @@
+{
+  "boundaries": [
+    "All works below remain pending retrieval and independent review. Neither a title containing 'causal' nor resolution to a primary URL establishes eligibility or validity.",
+    "Retrieve the primary text and supplements, record the version available by the cutoff, and extract page- or section-level evidence before making an inclusion decision.",
+    "Two reviewers independently assess scope, causal claims, intervention definitions, estimands, assumptions, and evaluation evidence. Preserve both decisions and resolve disagreements explicitly.",
+    "Distinguish direct applications, methodological background, comparison baselines, and boundary-screening leads; do not combine them as one body of application evidence.",
+    "Treat the conversation as a time-indexed system with actions, observations, state updates, and environmental effects. Record whether the visible history is claimed to be a sufficient state.",
+    "Single-step context perturbations can qualify when they explain an agent decision, but they do not establish effects on a complete trajectory or downstream harm.",
+    "Human-agent and multi-agent conversations qualify; natural-language exchange is not required for every event if tool calls and results form part of the interaction trace.",
+    "Textual reasoning emitted into a trace may qualify as an observable message. Hidden activations and continuous latent communication remain outside the core scope.",
+    "Predictive dependence, Granger-style scores, transfer entropy, graph ancestry, and provenance are not automatically identified intervention effects.",
+    "Backdoor adjustment is an identification strategy; KL divergence is a distributional discrepancy; Chockler-Halpern responsibility is a counterfactual responsibility measure. Extract these in separate fields rather than treating them as interchangeable effect metrics.",
+    "Shapley attribution is not inherently causal. Require the coalition intervention, value function, missing-agent or missing-message semantics, and identification argument.",
+    "A repair that improves an outcome does not by itself prove a unique original cause. Record joint repairs, alternative sufficient causes, and contingency choices.",
+    "Causal influence does not establish maliciousness or lack of authorization. Guardrail reviews must examine influential legitimate inputs and utility-preserving behavior.",
+    "Replay claims require scrutiny of hidden state, environment resets, tool side effects, model changes, and random-number coupling. Same-seed replay alone does not establish a valid counterfactual.",
+    "Use stable identifiers to merge title changes. In particular, retain the older title for arXiv:2603.06859 and the older aggregator title for arXiv:2608.19760 as aliases pending version verification."
+  ],
+  "brief_sha256": "af297849a7056608768674f5ebd77d3f38def53708ede3473d42d8bc70f3c0f1",
+  "coverage_limits": [
+    "The research phase hit its time cap before citation follow-ups, source-watchlist verification, and complete extraction were finished. This plan was compiled from its trace.",
+    "The works list contains 46 primary-source discovery leads, including all four resolved seeds. It is not a bibliography of accepted studies and remains below the 50-lead cap.",
+    "The trace's final agent message reported 37 candidates without enumerating that subset. This compilation reconstructs a broader bounded list from actual primary URLs in the trace; it does not claim to recover the exact 37-item selection.",
+    "Search snippets, page titles, and prior-agent interpretations are insufficient to establish methodological details. Prior claims about hard negatives and seed methods remain provisional.",
+    "The taxonomy must additionally extract effect records with treatment, comparison, target population or unit, outcome variable, temporal horizon, estimand formula, estimator, uncertainty, and identification assumptions. These must be populated from primary text rather than inferred from titles.",
+    "For distributional measurements, record both distributions, their support and conditioning history, the KL direction or alternative discrepancy, token-level versus action-level versus trajectory-level scope, and whether probabilities are model logits or empirical frequencies.",
+    "For responsibility, extract the actual-causality definition and version, contingency set, minimality rule, allowed alternatives, and responsibility formula. For Chockler-Halpern measures, verify how the minimum contingency size enters the score and distinguish responsibility from epistemic blame.",
+    "For temporal effects, distinguish next-action sensitivity, finite-horizon effects, terminal outcomes, and persistent cross-session effects. Extract direct, mediated, total, agent-specific, path-specific, and joint-intervention effects where defined.",
+    "For replay validity, extract environment snapshots, tool mocks versus live calls, hidden memory, model/version stability, repeated trials, random-seed coupling, exogenous-noise assumptions, and whether descendants are regenerated.",
+    "For evaluation, extract benchmarks, datasets, models, agent counts, trace lengths, ground-truth provenance, baselines, attribution accuracy, repair success, attack success and severity, monitor precision/recall, false positives on legitimate use, latency, token cost, and utility tradeoffs.",
+    "For statistical quality, extract sample sizes, independent units, repeated measurements, confidence intervals, hypothesis tests, multiplicity handling, sensitivity to replacement choice, hidden confounding, selection bias, and distribution shift.",
+    "For reproducibility, extract code and data availability, licenses, model/API versions, prompts, replay artifacts, environment specifications, and exact paper versions. Repository URLs here are discovery artifacts; code-paper correspondence and reproducibility have not been audited.",
+    "OpenReview browser verification blocked the fourth seed, and its PMLR PDF retrieval failed. The proceedings landing page resolved, but full-text retrieval remains outstanding.",
+    "No feed endpoint was verified. The feed entry is explicitly unavailable; arXiv RSS documentation is not a feed URL.",
+    "OpenAlex queries are proposed follow-up searches, not executed search evidence. Additional web queries beyond those recorded in the search log are also prospective.",
+    "The trace is dominated by English-language web search, arXiv, and recent 2026 work. Older literature, non-English sources, formal-methods venues, negative results, and deployment studies may be underrepresented.",
+    "No exhaustive backward or forward citation search, complete venue sweep, or citation-network validation was recorded.",
+    "Cutoff eligibility must be checked against actual public release and version dates, especially October 2026 arXiv records and conference pages; an identifier or search result alone is insufficient.",
+    "Foundational and boundary-screening leads are deliberately retained for review without preempting the two independent reviewers.",
+    "Unverified optional feeds omitted; discover these sources through indexes and web queries: arXiv RSS — unavailable: documentation appeared in the trace, but no feed endpoint was verified"
+  ],
+  "description": "Causal analysis of agent conversations and execution traces for interpretability, safety, and failure attribution.",
+  "dimensions": [
+    {
+      "description": "Multi-label: record the demonstrated use of causal analysis. Detail must state the interpretability, alignment, safety, or monitoring objective.",
+      "name": "application_purpose",
+      "values": [
+        "behavior or communication interpretation",
+        "explanation evaluation",
+        "alignment auditing",
+        "failure attribution or repair",
+        "attack detection or defense",
+        "runtime monitoring",
+        "credit assignment",
+        "not-reported"
+      ]
+    },
+    {
+      "description": "Multi-label: identify the observable interaction being analyzed. Detail must name participants, tools, external sources, persistent memory, and communication topology where relevant; distinguish observed from simulated interactions.",
+      "name": "interaction_setting",
+      "values": [
+        "human-agent",
+        "agent-tool or environment",
+        "multi-agent",
+        "external-information interaction",
+        "persistent-memory interaction",
+        "abstract interaction model",
+        "not-reported"
+      ]
+    },
+    {
+      "description": "Multi-label: record how conversation unfolds as a system. Detail must identify observable features, candidate causal variables, time indexing, states, transitions, dependencies, branching, and assumptions about history sufficiency or partial observability.",
+      "name": "temporal_system_representation",
+      "values": [
+        "message sequence or execution trajectory",
+        "branching trace",
+        "state-transition system",
+        "structural or time-unrolled causal model",
+        "provenance or dependency graph",
+        "partially observed process",
+        "not-reported"
+      ]
+    },
+    {
+      "description": "Multi-label: record the smallest manipulated unit and any joint intervention. Detail must identify the targeted feature, treatment and comparator, intervention operator, replacement validity constraints, and replay protocol: branch point, fixed context, regenerated suffix, and executed versus simulated or surrogate counterfactuals. Distinguish no intervention from unreported granularity.",
+      "name": "intervention_granularity",
+      "values": [
+        "token or span",
+        "sentence",
+        "message or turn",
+        "tool argument or result field",
+        "tool call or result",
+        "document, retrieved chunk, or memory entry",
+        "agent, communication edge, or channel",
+        "multi-step segment or trajectory",
+        "joint set of units",
+        "no intervention",
+        "not-reported"
+      ]
+    },
+    {
+      "description": "Multi-label: detail must separately record the formal framework and identification argument. Name structural models, potential outcomes, actual causality, responsibility/blame, mediation, sequential effects, cooperative-game attribution, or formal trace semantics as applicable. For backdoor adjustment, require treatment, outcome, graph, adjustment set, and criterion justification. Record identifying assumptions, confounding controls, and evidential limitations. Backdoor adjustment is an identification strategy, not an effect measure.",
+      "name": "causal_framework_and_identification",
+      "values": [
+        "randomized intervention",
+        "controlled counterfactual replay",
+        "backdoor adjustment",
+        "sequential adjustment or g-formula",
+        "front-door or instrumental-variable identification",
+        "structural or actual-causality assumptions",
+        "mediation identification",
+        "observational discovery or temporal prediction",
+        "game-theoretic attribution",
+        "heuristic or unsupported causal identification",
+        "not-reported"
+      ]
+    },
+    {
+      "description": "Multi-label: require an accompanying detail field identifying the exact distributions or variables compared, treatment/reference conditions, formula, aggregation horizon, and uncertainty when reported. For KL, specify P and Q, their support (e.g., next-action, token, or trajectory distributions), conditioning context, and KL direction. For outcome changes, name the outcome and contrast (e.g., risk difference, mean difference, or ratio). For Chockler-Halpern responsibility, name the candidate cause, outcome proposition, contingency definition, and scoring rule; distinguish responsibility from blame. For other scores, specify their definition. Association measures require an explicit identification argument before being interpreted as causal effects.",
+      "name": "effect_measure",
+      "values": [
+        "KL divergence",
+        "other distributional distance or divergence",
+        "outcome probability, rate, or mean change",
+        "action or trajectory change",
+        "Chockler-Halpern responsibility",
+        "blame score",
+        "actual-cause indicator or minimal-repair size",
+        "mediation effect",
+        "game-theoretic attribution score",
+        "predictive or information-dependence score",
+        "other explicit measure",
+        "not-reported"
+      ]
+    }
+  ],
+  "exclude": [
+    "Model-internal interpretability alone, including neuron, activation, attention-head, circuit, weight, and latent-state interventions without an independently evaluated observable interaction component.",
+    "Agents using causal reasoning to study an external domain when the agent's own conversation or execution behavior is not the object of causal analysis.",
+    "Generic causal reasoning benchmarks, hypothetical story editing, and counterfactual text generation without causal analysis of an agent interaction.",
+    "Generic observability, dependency graphs, debugging, or failure classification without a substantive causal claim or a relevant methodological comparison.",
+    "Pure performance optimization or reward allocation with no explanatory, alignment, safety, or monitoring connection.",
+    "General social-media conversation analysis without agentic interaction relevance.",
+    "Secondary summaries, search aggregators, marketing pages, package listings, and repository descriptions as substitutes for primary research evidence."
+  ],
+  "include": [
+    "Causal analysis of observable interactions among LLM agents, users, tools, external information sources, and persistent memory.",
+    "Conversation and execution histories represented as temporal systems: sequences, branching traces, state transitions, provenance graphs, structural causal models, or partially observed processes.",
+    "Interventions on conversation features, messages, spans, tool calls, tool results, memory, communication channels, or trace segments that measure effects on agent behavior or downstream outcomes.",
+    "Counterfactual replay, causal failure attribution, minimal repairs, causal influence measurement, and causal evaluation of explanations.",
+    "Causal methods supporting prompt-injection defenses, attack detection, runtime monitors, alignment auditing, or safety evaluation.",
+    "Observational causal discovery and temporal influence methods applied to agent interactions, provided their identifying assumptions and evidential limitations can be extracted.",
+    "Credit assignment and communication analysis when they explain agent interactions or support alignment, safety, or interpretability.",
+    "Selected foundational work on actual causality, responsibility, sequential decisions, and formal execution traces, retained in a separate methodological background category when its connection to agentic conversations is explicit.",
+    "Original papers, preprints, and primary technical reports publicly available by the cutoff; deduplicate versions and associated publication records."
+  ],
+  "initialized": "2026-10-29",
+  "keywords": [
+    {
+      "concept": "Agentic conversations",
+      "reason": "Locates the interaction system whose behavior is being explained.",
+      "terms": [
+        "LLM agent",
+        "multi-agent system",
+        "agent conversation",
+        "multi-turn interaction",
+        "tool-using agent",
+        "communication topology"
+      ]
+    },
+    {
+      "concept": "Temporal system representations",
+      "reason": "Captures conversations as evolving systems, including dependencies across time.",
+      "terms": [
+        "execution trace",
+        "trajectory",
+        "event log",
+        "state transition",
+        "structural causal model",
+        "dynamic causal graph",
+        "provenance graph",
+        "history effects"
+      ]
+    },
+    {
+      "concept": "Intervention and replay",
+      "reason": "Finds explicit manipulations of observable interaction variables.",
+      "terms": [
+        "do-operation",
+        "counterfactual replay",
+        "message perturbation",
+        "leave-one-out",
+        "context ablation",
+        "trace fork",
+        "minimal repair",
+        "memory intervention"
+      ]
+    },
+    {
+      "concept": "Identification",
+      "reason": "Separates causal identification assumptions from measured discrepancies.",
+      "terms": [
+        "backdoor criterion",
+        "sequential adjustment",
+        "causal mediation",
+        "confounding",
+        "positivity",
+        "consistency",
+        "exogenous noise",
+        "counterfactual coupling"
+      ]
+    },
+    {
+      "concept": "Responsibility and attribution",
+      "reason": "Covers event-level explanations and allocation of responsibility.",
+      "terms": [
+        "actual causality",
+        "Halpern-Pearl",
+        "Chockler-Halpern responsibility",
+        "causal blame",
+        "credit assignment",
+        "Shapley value",
+        "failure attribution"
+      ]
+    },
+    {
+      "concept": "Effect measurements",
+      "reason": "Prompts extraction of the precise outcome, compared distributions, and interpretation.",
+      "terms": [
+        "average treatment effect",
+        "probability difference",
+        "action distribution",
+        "KL divergence",
+        "Jensen-Shannon divergence",
+        "conditional transfer entropy",
+        "Granger causality"
+      ]
+    },
+    {
+      "concept": "Safety and monitoring",
+      "reason": "Connects causal methods to concrete safety decisions and failure modes.",
+      "terms": [
+        "indirect prompt injection",
+        "cascade attack",
+        "runtime monitor",
+        "guardrail",
+        "denial feedback",
+        "authorized tool use",
+        "attack severity",
+        "persistent memory"
+      ]
+    },
+    {
+      "concept": "Interpretability and alignment",
+      "reason": "Finds applications beyond attack detection while preserving the requested purpose.",
+      "terms": [
+        "explanation faithfulness",
+        "counterfactual explanation",
+        "agent auditing",
+        "reward hacking",
+        "social influence",
+        "alignment",
+        "outcome attribution"
+      ]
+    }
+  ],
+  "slug": "awesome-causality-agentic-conversations",
+  "title": "Causal Methods for Agentic Conversations and Execution Traces",
+  "version": 1
+}

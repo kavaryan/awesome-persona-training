@@ -1,0 +1,54 @@
+{
+  "accepted": 29,
+  "attempted": 48,
+  "errors": [
+    {
+      "error": "No usable abstract or full text: HTTP 403 from www.mdpi.com",
+      "id": "09d6552a1382d8d4",
+      "stage": "retrieval"
+    },
+    {
+      "error": "No usable abstract or full text: HTTP 403 from papers.ssrn.com",
+      "id": "8171fc0e1ce95f41",
+      "stage": "retrieval"
+    },
+    {
+      "error": "Supporting quote must contain 8-24 words",
+      "id": "7c659c70533f25d2",
+      "stage": "decision-validation"
+    },
+    {
+      "error": "No usable abstract or full text: HTTP 403 from www.mdpi.com",
+      "id": "8965f75369eb88eb",
+      "stage": "retrieval"
+    },
+    {
+      "error": "Supporting quote absent from supplied source",
+      "id": "9624f4124c963ea5",
+      "stage": "decision-validation"
+    },
+    {
+      "error": "Supporting quote must contain 8-24 words",
+      "id": "accf9901b90a7cf8",
+      "stage": "decision-validation"
+    },
+    {
+      "error": "Supporting quote absent from supplied source",
+      "id": "d309f2e1430f0938",
+      "stage": "decision-validation"
+    },
+    {
+      "error": "No usable abstract or full text: HTTP 403 from openreview.net",
+      "id": "dd252549c59ddc27",
+      "stage": "retrieval"
+    },
+    {
+      "error": "Supporting quote absent from supplied source",
+      "id": "e7a4463f94143539",
+      "stage": "decision-validation"
+    }
+  ],
+  "requested_limit": 48,
+  "requests": 48,
+  "reviewed": 39
+}

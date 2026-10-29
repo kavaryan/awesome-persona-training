@@ -1,0 +1,91 @@
+{
+  "accepted": 0,
+  "date": "2026-10-29",
+  "downloaded": 1,
+  "errors": [],
+  "events": [
+    {
+      "channel": "openalex",
+      "error": "HTTP 429 from api.openalex.org",
+      "page": 1,
+      "query": "causal agent conversation",
+      "search_field": "all",
+      "status": "error"
+    },
+    {
+      "channel": "openalex",
+      "error": "HTTP 429 from api.openalex.org",
+      "page": 1,
+      "query": "causal agent conversation",
+      "search_field": "title_and_abstract",
+      "status": "error"
+    },
+    {
+      "channel": "web",
+      "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
+      "query": "\"DoVer: Intervention-Driven Auto Debugging\"",
+      "status": "error"
+    },
+    {
+      "candidates": 20,
+      "channel": "feed",
+      "query": "ACL Anthology — observed in trace",
+      "status": "ok"
+    },
+    {
+      "candidates": 20,
+      "channel": "feed",
+      "query": "Proceedings of Machine Learning Research — observed in trace",
+      "status": "ok"
+    },
+    {
+      "candidates": 20,
+      "channel": "index",
+      "query": "arXiv multiagent systems listing — observed in trace",
+      "status": "ok"
+    },
+    {
+      "candidates": 1,
+      "channel": "index",
+      "query": "ICML 2026 downloads — discovery index observed in trace",
+      "status": "ok"
+    },
+    {
+      "candidates": 20,
+      "channel": "citations",
+      "index_error": "HTTP 429 from api.openalex.org",
+      "page_references": 20,
+      "seed": "13cc11b69ca09df6",
+      "status": "ok"
+    },
+    {
+      "candidates": 59,
+      "channel": "citations",
+      "index_error": "HTTP 429 from api.openalex.org",
+      "page_references": 59,
+      "seed": "1543c5092a3ae325",
+      "status": "ok"
+    },
+    {
+      "candidates": 14,
+      "channel": "citations",
+      "page_references": 14,
+      "seed": "1b79d146e93cc38b",
+      "status": "ok"
+    },
+    {
+      "candidates": 6,
+      "channel": "citations",
+      "index_error": "HTTP 429 from api.openalex.org",
+      "page_references": 6,
+      "seed": "1f810ba73f07dce2",
+      "status": "ok"
+    }
+  ],
+  "judge": "not-configured",
+  "judged": 0,
+  "model_calls": 0,
+  "pending": 157,
+  "requests": 12,
+  "status": "degraded"
+}

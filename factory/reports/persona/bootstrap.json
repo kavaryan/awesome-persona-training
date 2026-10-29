@@ -1,0 +1,37 @@
+{
+  "accepted": 108,
+  "brief_sha256": "d23f3eb10d7ce57043d7865c0f50f9f359575a3a3ff24c6e62efefd6f301d385",
+  "candidates": 4694,
+  "coverage_limits": [
+    "A bounded search and finite review queue do not establish exhaustive coverage.",
+    "Current source availability is recorded in source-audit and discovery reports; initial-plan limitations are historical.",
+    "Uncertain cases and missing text are not accepted. Known publication dates are checked, but historical version snapshots are not reconstructed.",
+    "Search and daily judge providers require separate credentials for reliable scheduled operation."
+  ],
+  "date": "2026-10-29",
+  "github": "local repository; publish separately",
+  "initial_plan_limitations": [
+    "The research phase hit its time cap; this plan was compiled solely from its supplied trace. No additional tools, browsing or research were performed.",
+    "Discovery is incomplete and biased toward English-language arXiv papers and Anthropic/OpenAI-associated research. No comprehensive venue, language or institutional coverage is established.",
+    "The trace preserves titles, URLs, snippets, page-open metadata and agent summaries, not the full retrieved texts. Prior claims of reading cannot substitute for the forthcoming primary-text retrieval and independent reviews.",
+    "All six seed URLs have trace records, but the complete LessWrong seed title is not preserved. It is explicitly unresolved rather than reconstructed from its URL slug.",
+    "The Nature seed was accessed through its PubMed abstract and a reported preprint counterpart; the publisher page failed. A PMC attempt encountered browser verification. Equivalence of published and preprint findings remains to be checked.",
+    "OpenAlex queries are proposed, not executed. Traditional web search and direct arXiv search are evidenced; complete bidirectional citation traversal is not.",
+    "The prior agent reported 41 primary-source leads, but no corresponding structured manifest was preserved. This reconstruction contains 49 candidate records total: six seeds and 43 additional records. It makes no claim to reproduce that earlier count or its unstated selections.",
+    "Candidate records include original research blogs, conceptual proposals and enabling foundations. Their presence is not a determination of relevance, peer review or evidential quality.",
+    "The Persona Hierarchy similarity/distance discrepancy and the reported correction notice on a subliminal-learning critique are trace-reported flags requiring independent verification. The critique's identity was not explicitly stated in the agent summary.",
+    "Six PDFs were opened remotely in the trace, but no local files, checksums or completed downloads are evidenced. This JSON supplies an inline retrieval queue, not proof of a completed import package.",
+    "The prior agent claimed six verified repository README URLs; only three concrete README opens are preserved. Only those three repositories are listed.",
+    "No feed endpoint was verified in the supplied trace. Feed URLs are marked unavailable and must not be polled until verified; source-page monitoring is the proposed fallback.",
+    "Exact publication dates, revision dates, withdrawn status and version-family relationships require verification. Late-October records, including arXiv:2610.30884, need particular cutoff scrutiny.",
+    "Some discovered leads were omitted to keep the queue bounded or because they appeared only through aggregators, proxies, incomplete titles or weakly relevant snippets. Omission is not a reviewed exclusion.",
+    "No daily updater was implemented or scheduled, no local import files were created, and NotebookLM uploads remain deferred.",
+    "Unverified optional feeds omitted; discover these sources through indexes and web queries: arXiv topic feeds — unavailable: feed documentation was opened, but no operational endpoint was verified in the supplied trace; Anthropic research and Alignment Science Blog feeds — unavailable: endpoints not verified; OpenAI Alignment feed — unavailable: endpoint not verified; LessWrong and Alignment Forum feeds — unavailable: endpoints not verified; Model Raising and Daios feeds — unavailable: endpoints not verified"
+  ],
+  "notebooklm": "deferred",
+  "pending": 4562,
+  "plan_sha256": "d64fb02ee6ef707ff52fe4befdd9fe317daaec13fad0b28a766610f9cf8ed8a7",
+  "review_errors": 1,
+  "stage": "review",
+  "status": "partial"
+}

@@ -1,0 +1,702 @@
+{
+  "benchmark": "conversational-causality-boundaries-v1",
+  "benchmark_sha256": "5f8aefda57711779b999f4cfad10a972b88bc4a1b0ad1faab3dd0b5e43e60757",
+  "cases": [
+    {
+      "audit": {
+        "confidence": 0.99,
+        "evidence_quote": "hold steps [ 0 , k ) [0,k) at their factual actions, apply do_resample",
+        "input_sha256": "5b4a8a808eca6715aa83233054707ae60e758840eea0cbc2c201b2409a4957be",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Intervenes on observable agent steps and replays continuations to attribute failures; synthetic validation and mocked tools limit external validity, not scope.",
+        "scope": "core"
+      },
+      "challenge": "seed",
+      "decision": {
+        "confidence": 0.99,
+        "evidence_quote": "hold steps [ 0 , k ) [0,k) at their factual actions",
+        "facets": {
+          "application_purpose": {
+            "detail": "Localizes failure decisions and distributes credit across interacting execution steps.",
+            "values": [
+              "failure attribution or repair",
+              "credit assignment"
+            ]
+          },
+          "causal_framework_and_identification": {
+            "detail": "SCM replay estimates stochastic continuation effects; downstream randomness is not coupled, and Shapley uses factual-held coalitions with other steps resampled.",
+            "values": [
+              "controlled counterfactual replay",
+              "structural or actual-causality assumptions",
+              "game-theoretic attribution"
+            ]
+          },
+          "effect_measure": {
+            "detail": "Compares P(bad|resample step k) with the observed outcome; Shapley averages marginal changes in v(S)=P(bad|held=S), with confidence intervals.",
+            "values": [
+              "outcome probability, rate, or mean change",
+              "game-theoretic attribution score"
+            ]
+          },
+          "interaction_setting": {
+            "detail": "Analyzes tool-using agents, including a support-agent injection example; demonstrations use mocked reproducible tools and synthetic SCMs.",
+            "values": [
+              "agent-tool or environment",
+              "external-information interaction"
+            ]
+          },
+          "intervention_granularity": {
+            "detail": "Resamples or forces actions, replaces observations, or edits context; fixes the factual prefix and regenerates the suffix, with coalitions holding selected actions factual.",
+            "values": [
+              "message or turn",
+              "tool call or result",
+              "joint set of units"
+            ]
+          },
+          "temporal_system_representation": {
+            "detail": "An SCM indexes actions, observations, and outcomes; decision state includes the system prompt, tool schemas, and full message history.",
+            "values": [
+              "message sequence or execution trajectory",
+              "structural or time-unrolled causal model"
+            ]
+          }
+        },
+        "input_sha256": "5b4a8a808eca6715aa83233054707ae60e758840eea0cbc2c201b2409a4957be",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Directly analyzes observable agent trajectories through executed interventions and outcome contrasts; validation includes synthetic ground truth and mocked-tool demonstrations.",
+        "scope": "core",
+        "summary": "CAR attributes agent failures by intervening on execution steps, rerunning stochastic continuations, and allocating interacting contributions with Shapley values."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 12541,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/5b4a8a808eca6715aa83233054707ae60e758840eea0cbc2c201b2409a4957be.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "5b4a8a808eca6715aa83233054707ae60e758840eea0cbc2c201b2409a4957be",
+        "url": "https://arxiv.org/html/2606.08275"
+      },
+      "expected": [
+        "core"
+      ],
+      "prediction": "core",
+      "url": "https://arxiv.org/abs/2606.08275"
+    },
+    {
+      "audit": {
+        "confidence": 0.99,
+        "evidence_quote": "We use leave-one-out span removal as an operational measure of counterfactual influence on the next privileged action.",
+        "input_sha256": "19ba567e602328ca0541889d89d87175e48a513fdcb39f757a6cade94242dcaf",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Uses context removal to attribute privileged tool decisions and trigger injection defenses; its operational ablation effects do not establish structural identification or maliciousness alone.",
+        "scope": "core"
+      },
+      "challenge": "seed",
+      "decision": {
+        "confidence": 0.99,
+        "evidence_quote": "We use leave-one-out span removal as an operational measure of counterfactual influence on the next privileged action.",
+        "facets": {
+          "application_purpose": {
+            "detail": "Detects untrusted content dominating privileged decisions and triggers selective defenses while measuring security, utility, and latency.",
+            "values": [
+              "attack detection or defense",
+              "runtime monitoring",
+              "behavior or communication interpretation"
+            ]
+          },
+          "causal_framework_and_identification": {
+            "detail": "Batched proxy scoring contrasts fixed contexts with LOO removals; this is local ablation influence, not backdoor identification or a full SCM.",
+            "values": [
+              "controlled counterfactual replay"
+            ]
+          },
+          "effect_measure": {
+            "detail": "Attribution is log P(Y|C)−log P(Y|C without S) for a proposed action; experiments compare attack success, utility, and latency across defenses.",
+            "values": [
+              "other explicit measure",
+              "outcome probability, rate, or mean change"
+            ]
+          },
+          "interaction_setting": {
+            "detail": "Agents follow user requests while consuming webpages, emails, and tool outputs in AgentDojo and DoomArena.",
+            "values": [
+              "human-agent",
+              "agent-tool or environment",
+              "external-information interaction"
+            ]
+          },
+          "intervention_granularity": {
+            "detail": "Scores removal of the user request or individual tool-result spans, sanitizes flagged results, and masks post-injection reasoning before regeneration.",
+            "values": [
+              "token or span",
+              "message or turn",
+              "tool call or result",
+              "multi-step segment or trajectory"
+            ]
+          },
+          "temporal_system_representation": {
+            "detail": "At turn t, context separates user intent, trusted material, and untrusted tool-result spans; prior emitted reasoning can influence later actions.",
+            "values": [
+              "message sequence or execution trajectory"
+            ]
+          }
+        },
+        "input_sha256": "19ba567e602328ca0541889d89d87175e48a513fdcb39f757a6cade94242dcaf",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Directly evaluates observable context interventions for agent prompt-injection defense, while explicitly limiting its causal claims to operational ablation influence.",
+        "scope": "core",
+        "summary": "CausalArmor uses context-removal attribution at privileged tool decisions to selectively sanitize injected content and mask contaminated reasoning history."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 80321,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/5e5c6ffba6438fa33e5f65ce1a4d02654d3b578baa4d8a3af4100797fa7f00bb.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "5e5c6ffba6438fa33e5f65ce1a4d02654d3b578baa4d8a3af4100797fa7f00bb",
+        "url": "https://arxiv.org/html/2602.07918"
+      },
+      "expected": [
+        "core"
+      ],
+      "prediction": "core",
+      "url": "https://arxiv.org/abs/2602.07918"
+    },
+    {
+      "audit": {
+        "confidence": 0.98,
+        "evidence_quote": "We propose a black‐box framework for per‐message counterfactual attribution at multi‐agent decision points (DPs).",
+        "input_sha256": "957705db02fdefff72388763ae886c88683820cecb767e9abcdfbb6d7d4a1923",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Perturbs messages in simulated LLM multi-agent interactions to explain next-action sensitivity; the explicit one-step estimand qualifies without establishing longer-horizon influence.",
+        "scope": "core"
+      },
+      "challenge": "seed",
+      "decision": {
+        "confidence": 0.98,
+        "evidence_quote": "it measures prompt‐level next‐action sensitivity at a realised DP rather than longer‐horizon social influence.",
+        "facets": {
+          "application_purpose": {
+            "detail": "Identifies whether a recipient decision has one, multiple, or no influential incoming messages.",
+            "values": [
+              "behavior or communication interpretation"
+            ]
+          },
+          "causal_framework_and_identification": {
+            "detail": "Black-box prompt perturbations estimate local next-action sensitivity, subtracting same-input sampling noise and calibrating boundaries with held-out identity conditions.",
+            "values": [
+              "controlled counterfactual replay"
+            ]
+          },
+          "effect_measure": {
+            "detail": "Uses KL(P(next action|original DP prompt) || P(next action|message-perturbed DP prompt)), subtracting a same-input sampling-noise floor.",
+            "values": [
+              "KL divergence"
+            ]
+          },
+          "interaction_setting": {
+            "detail": "Studies simulated LLM-agent communication across two environments, four architectures, and two base models; topology is unspecified.",
+            "values": [
+              "multi-agent"
+            ]
+          },
+          "intervention_granularity": {
+            "detail": "Perturbs propositions within individual messages at a decision point; exact operators, validity constraints, and sampling protocol are not supplied.",
+            "values": [
+              "message or turn"
+            ]
+          },
+          "temporal_system_representation": {
+            "detail": "Analysis conditions on realized decision points and incoming message bundles, measuring only the next action.",
+            "values": [
+              "message sequence or execution trajectory"
+            ]
+          }
+        },
+        "input_sha256": "957705db02fdefff72388763ae886c88683820cecb767e9abcdfbb6d7d4a1923",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "The abstract establishes direct experimental analysis of observable agent communication; the estimand is explicitly local and does not claim long-horizon influence.",
+        "scope": "core",
+        "summary": "The framework attributes individual messages to recipients’ next-action distributions through targeted message perturbations in multi-agent simulations."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 1243,
+        "kind": "abstract",
+        "local_path": ".cache/evidence/957705db02fdefff72388763ae886c88683820cecb767e9abcdfbb6d7d4a1923.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "957705db02fdefff72388763ae886c88683820cecb767e9abcdfbb6d7d4a1923",
+        "url": "https://openalex.org/W7204125254"
+      },
+      "expected": [
+        "core"
+      ],
+      "prediction": "core",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/exsy.70392"
+    },
+    {
+      "audit": {
+        "confidence": 0.98,
+        "evidence_quote": "replacing a candidate step and re-executing downstream computation to test whether the final outcome changes.",
+        "input_sha256": "e4cb732e564528a7f53bba2183c048ad3588477883d0a6a1e83b11f56f5e59e7",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Targets failure attribution and local repair in observable execution traces, including browsing; surrogate outcome prediction limits replay claims, and successful repairs do not prove unique causes.",
+        "scope": "core"
+      },
+      "challenge": "non-seed discovery",
+      "decision": {
+        "confidence": 0.99,
+        "evidence_quote": "replacing a candidate step and re-executing downstream computation to test whether the final outcome changes.",
+        "facets": {
+          "application_purpose": {
+            "detail": "Locates repairable failure steps and characterizes behavioral weaknesses; generated repair pairs are intended for later training.",
+            "values": [
+              "failure attribution or repair",
+              "behavior or communication interpretation"
+            ]
+          },
+          "causal_framework_and_identification": {
+            "detail": "Operational responsibility is established by successful replacement under execution or LLM prediction; repairability does not identify a unique original cause.",
+            "values": [
+              "controlled counterfactual replay",
+              "heuristic or unsupported causal identification"
+            ]
+          },
+          "effect_measure": {
+            "detail": "CRS is one if any of K replacements flips verifier failure to success; also reports repair rates, before/after accuracy, and lexical, edit, and semantic repair minimality.",
+            "values": [
+              "actual-cause indicator or minimal-repair size",
+              "outcome probability, rate, or mean change"
+            ]
+          },
+          "interaction_setting": {
+            "detail": "Analyzes single-agent reasoning, code execution, QA, and medical browsing traces; multi-agent critics validate some repairs rather than supply the analyzed topology.",
+            "values": [
+              "agent-tool or environment",
+              "external-information interaction"
+            ]
+          },
+          "intervention_granularity": {
+            "detail": "Replaces a reasoning sequence or tool step, fixes its prefix, and propagates downstream effects; MBPP uses execution, while other domains use predictive validation.",
+            "values": [
+              "token or span",
+              "tool call or result"
+            ]
+          },
+          "temporal_system_representation": {
+            "detail": "Sequential traces contain emitted reasoning, calls, and observations; dependencies propagate changes to subsequent steps while preserving earlier steps.",
+            "values": [
+              "message sequence or execution trajectory",
+              "provenance or dependency graph"
+            ]
+          }
+        },
+        "input_sha256": "e4cb732e564528a7f53bba2183c048ad3588477883d0a6a1e83b11f56f5e59e7",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Directly contributes trace-level failure attribution and repair, including browsing interactions; validation mixes executed and predicted outcomes, and downstream training is proposed rather than demonstrated.",
+        "scope": "core",
+        "summary": "CausalFlow replaces steps in failed agent traces to find localized repairs that change task outcomes, producing contrastive supervision candidates."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 88098,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/d88dc3195569209f299a8ca11c36246b1db9feabe710de0f85bf1c2693a204f6.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "d88dc3195569209f299a8ca11c36246b1db9feabe710de0f85bf1c2693a204f6",
+        "url": "https://arxiv.org/html/2605.25338"
+      },
+      "expected": [
+        "core"
+      ],
+      "prediction": "core",
+      "url": "https://arxiv.org/abs/2605.25338"
+    },
+    {
+      "audit": {
+        "confidence": 0.96,
+        "evidence_quote": "ContextCite learns a surrogate model that approximates how a language model’s response is affected by including or excluding each part of the context.",
+        "input_sha256": "fc4123220fe2c576bc94383223332c179c756bfbc52a1e35e5c8189eaeb98cfa",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Ablates external context to explain generated responses and localize poisoning attacks; this directly qualifies as single-step interaction analysis, although trajectory effects are untested.",
+        "scope": "core"
+      },
+      "challenge": "positive without causal or agent in title",
+      "decision": {
+        "confidence": 0.97,
+        "evidence_quote": "ContextCite learns a surrogate model that approximates how a language model’s response is affected by including or excluding each part of the context.",
+        "facets": {
+          "application_purpose": {
+            "detail": "Explains context dependence, evaluates attribution faithfulness, verifies generated statements, and localizes poisoning sources.",
+            "values": [
+              "behavior or communication interpretation",
+              "explanation evaluation",
+              "attack detection or defense"
+            ]
+          },
+          "causal_framework_and_identification": {
+            "detail": "Fits sparse linear surrogates to controlled random source deletions; causal interpretation is removal-specific, with semantic dependencies and nonlinear redundancy as limitations.",
+            "values": [
+              "randomized intervention"
+            ]
+          },
+          "effect_measure": {
+            "detail": "Top-k drop is log p(R|C,Q)−log p(R|C without top-k sources,Q); LDS correlates summed attribution predictions with response probabilities across random ablations.",
+            "values": [
+              "other explicit measure",
+              "predictive or information-dependence score"
+            ]
+          },
+          "interaction_setting": {
+            "detail": "Language models answer or summarize using supplied documents, including Wikipedia passages with injected content.",
+            "values": [
+              "external-information interaction"
+            ]
+          },
+          "intervention_granularity": {
+            "detail": "Independently removes context sources with probability one half, mainly sentences and sometimes words, then scores the fixed response under each ablated context.",
+            "values": [
+              "sentence",
+              "token or span",
+              "joint set of units"
+            ]
+          },
+          "temporal_system_representation": {
+            "detail": "Models context, query, and autoregressive response tokens; statement attribution conditions on prior generated text and can miss indirect influence through it.",
+            "values": [
+              "message sequence or execution trajectory"
+            ]
+          }
+        },
+        "input_sha256": "fc4123220fe2c576bc94383223332c179c756bfbc52a1e35e5c8189eaeb98cfa",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Directly analyzes observable external-information influence on model responses and evaluates poisoning localization; the scope permits these single-step context interventions without full agent trajectories.",
+        "scope": "core",
+        "summary": "ContextCite attributes generated statements to external context using randomized source removals and a sparse surrogate, including prompt-poisoning detection."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 92091,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/ccd56ec22ce1c05931d62ebf0a7c0e076b5f28321c5653b96e84ce2ed152d341.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "ccd56ec22ce1c05931d62ebf0a7c0e076b5f28321c5653b96e84ce2ed152d341",
+        "url": "https://arxiv.org/html/2409.00729"
+      },
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "prediction": "core",
+      "url": "https://arxiv.org/abs/2409.00729"
+    },
+    {
+      "audit": null,
+      "challenge": "causal-method hard negative",
+      "decision": {
+        "confidence": 0.99,
+        "evidence_quote": "We first develop a causal intervention for identifying neuron activations that are decisive in a model’s factual predictions.",
+        "facets": {
+          "application_purpose": {
+            "detail": "Explains internal factual recall and tests localized knowledge editing, without interaction-level attribution.",
+            "values": [
+              "behavior or communication interpretation"
+            ]
+          },
+          "causal_framework_and_identification": {
+            "detail": "Uses the known computation graph and clean, corrupted, and activation-restored runs to estimate internal mediation effects.",
+            "values": [
+              "mediation identification"
+            ]
+          },
+          "effect_measure": {
+            "detail": "TE=P(correct object|clean)−P(correct object|corrupted); IE=P(correct object|corrupted with clean mediator restored)−P(correct object|corrupted), averaged over facts.",
+            "values": [
+              "mediation effect",
+              "outcome probability, rate, or mean change"
+            ]
+          },
+          "interaction_setting": {
+            "detail": "Studies factual prompt completions; no agent-tool, multi-agent, or conversational interaction is causally analyzed.",
+            "values": [
+              "not-reported"
+            ]
+          },
+          "intervention_granularity": {
+            "detail": "The taxonomy has no internal-unit category: interventions corrupt embeddings, restore activation vectors or layer windows, and edit MLP weights.",
+            "values": [
+              "not-reported"
+            ]
+          },
+          "temporal_system_representation": {
+            "detail": "The graph indexes hidden states by token and transformer layer, representing internal computation rather than conversation history.",
+            "values": [
+              "provenance or dependency graph"
+            ]
+          }
+        },
+        "input_sha256": "adb0c6c5e8695439713165c209e8aaf8be6bed2dae12b40bb93f6f3e37670ded",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "The causal objects are hidden activations and model parameters; factual-completion tests do not independently analyze observable agent interactions.",
+        "scope": "exclude",
+        "summary": "ROME locates factual recall mechanisms through activation restoration and edits factual associations by changing feed-forward weights."
+      },
+      "discovered_before_evaluation": false,
+      "evidence": {
+        "characters": 84244,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/241d96b22199723e833656ca34263c2e3c0a740bcf71875e2461237348325cee.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "241d96b22199723e833656ca34263c2e3c0a740bcf71875e2461237348325cee",
+        "url": "https://arxiv.org/html/2202.05262"
+      },
+      "expected": [
+        "exclude"
+      ],
+      "prediction": "exclude",
+      "url": "https://arxiv.org/abs/2202.05262"
+    },
+    {
+      "audit": null,
+      "challenge": "causal keyword hard negative",
+      "decision": {
+        "confidence": 0.99,
+        "evidence_quote": "The aim of our dataset is to test the pure reasoning ability of LLMs on causal questions.",
+        "facets": {
+          "application_purpose": {
+            "detail": "Evaluates formal causal problem-solving ability; no causal interpretability, alignment, or monitoring objective for agent interactions is demonstrated.",
+            "values": [
+              "not-reported"
+            ]
+          },
+          "causal_framework_and_identification": {
+            "detail": "An oracle solves story SCM queries; the worked backdoor example adjusts for common cause Z when estimating X's effect on Y, rather than identifying effects on agent behavior.",
+            "values": [
+              "structural or actual-causality assumptions",
+              "backdoor adjustment"
+            ]
+          },
+          "effect_measure": {
+            "detail": "Compares answer accuracy across vanilla, CausalCoT, and ablated prompts; story-level ATE queries compare E[Y|do(X=1)] with E[Y|do(X=0)].",
+            "values": [
+              "outcome probability, rate, or mean change"
+            ]
+          },
+          "interaction_setting": {
+            "detail": "LLMs answer synthetic natural-language causal questions; their own interactions are not the modeled causal system.",
+            "values": [
+              "not-reported"
+            ]
+          },
+          "intervention_granularity": {
+            "detail": "Ablates CausalCoT prompt subquestions to compare answer accuracy; do-interventions within benchmark questions concern external story variables.",
+            "values": [
+              "token or span"
+            ]
+          },
+          "temporal_system_representation": {
+            "detail": "Small SCMs and causal graphs describe story variables; they do not represent time-indexed agent execution.",
+            "values": [
+              "structural or time-unrolled causal model"
+            ]
+          }
+        },
+        "input_sha256": "66ad2e2e36140ff7e0e33f5f2d8c84d0bc0659a3c8cffe349279380ee1c6edaa",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Its causal inference concerns variables in benchmark stories, not causes within agent conversations or executions; prompt ablations assess reasoning performance rather than provide interaction attribution.",
+        "scope": "exclude",
+        "summary": "CLadder benchmarks formal causal reasoning over verbalized external-world models and evaluates a specialized chain-of-thought prompt."
+      },
+      "discovered_before_evaluation": false,
+      "evidence": {
+        "characters": 71745,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/acd0eadd39b25878b7b3458d9e40cb3af67c042f4f11a6f633cc419d95d2c754.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "acd0eadd39b25878b7b3458d9e40cb3af67c042f4f11a6f633cc419d95d2c754",
+        "url": "https://arxiv.org/html/2312.04350"
+      },
+      "expected": [
+        "exclude"
+      ],
+      "prediction": "exclude",
+      "url": "https://arxiv.org/abs/2312.04350"
+    },
+    {
+      "audit": null,
+      "challenge": "agent keyword hard negative",
+      "decision": {
+        "confidence": 0.99,
+        "evidence_quote": "We adopt the supervised fine-tuning strategy in such a Experience Upload process.",
+        "facets": {
+          "application_purpose": {
+            "detail": "Aims to improve persona fidelity and reduce out-of-character responses, without a demonstrated causal analysis objective.",
+            "values": [
+              "not-reported"
+            ]
+          },
+          "causal_framework_and_identification": {
+            "detail": "Reports fine-tuning, baseline comparisons, and interview evaluation without a causal identification framework.",
+            "values": [
+              "not-reported"
+            ]
+          },
+          "effect_measure": {
+            "detail": "Character and experience fidelity are evaluated, but no causal interaction effect or counterfactual attribution measure is defined.",
+            "values": [
+              "not-reported"
+            ]
+          },
+          "interaction_setting": {
+            "detail": "Uses interview-style exchanges with character agents; training scenes contain synthesized interpersonal dialogue, and evaluation also uses LLM judges.",
+            "values": [
+              "human-agent"
+            ]
+          },
+          "intervention_granularity": {
+            "detail": "No causal manipulation of observable interaction units is reported; reconstructed and protective experiences are supervised training data.",
+            "values": [
+              "no intervention"
+            ]
+          },
+          "temporal_system_representation": {
+            "detail": "Synthesized scenes sequence textual thoughts, utterances, and actions; no temporal causal model or history-sufficiency claim is provided.",
+            "values": [
+              "message sequence or execution trajectory"
+            ]
+          }
+        },
+        "input_sha256": "c4ac98c3121853363a2a0d3afd5d4ca23d625d6851fde1ee30930303bf3cfc5a",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "The contribution is persona training and behavioral evaluation, without a substantive causal analysis of messages, memories, or execution histories.",
+        "scope": "exclude",
+        "summary": "Character-LLM fine-tunes persona agents on reconstructed experiences and evaluates character consistency through interviews."
+      },
+      "discovered_before_evaluation": false,
+      "evidence": {
+        "characters": 161700,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/12a17c7506bb31e09ffa88ff84f10f6c629177cee66a3c732c50b098f655ef9b.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "12a17c7506bb31e09ffa88ff84f10f6c629177cee66a3c732c50b098f655ef9b",
+        "url": "https://arxiv.org/html/2310.10158"
+      },
+      "expected": [
+        "exclude"
+      ],
+      "prediction": "exclude",
+      "url": "https://arxiv.org/abs/2310.10158"
+    },
+    {
+      "audit": {
+        "confidence": 0.99,
+        "evidence_quote": "Graph mutilation removes injection content from v2 and sets I= 0 throughout the chain.",
+        "input_sha256": "4cec9becad294d0e27202036dd5e55ec8da1795207c1886280b254f4e9921612",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Directly analyzes observable agent execution traces for injection detection using structural counterfactual removal of injection content; effects are model-derived, not established through agent replay.",
+        "scope": "core"
+      },
+      "challenge": "seed",
+      "decision": {
+        "confidence": 0.99,
+        "evidence_quote": "whether the harmful outcome would have occurred if the injection had been blocked",
+        "facets": {
+          "application_purpose": {
+            "detail": "Detects prompt-injection attacks and reconstructs injection-to-harm chains for interpretable post-hoc security audits.",
+            "values": [
+              "attack detection or defense",
+              "behavior or communication interpretation"
+            ]
+          },
+          "causal_framework_and_identification": {
+            "detail": "SCM abduction and do(I=0) calculations assume additive noise, correct equations, no hidden confounders, and independent node noise; benchmark-calibrated parameters limit identification.",
+            "values": [
+              "structural or actual-causality assumptions"
+            ]
+          },
+          "effect_measure": {
+            "detail": "Reported necessity score PN=1−P(M=1|do(I=0)) compares observed harm with modeled harm after injection removal; multiplying four node activation probabilities gives PN≈0.989.",
+            "values": [
+              "other explicit measure"
+            ]
+          },
+          "interaction_setting": {
+            "detail": "Analyzes agents consuming web pages, documents, emails, and API responses and executing tools; includes multi-agent benchmarks and synthetic, benchmark, and real-scenario traces.",
+            "values": [
+              "agent-tool or environment",
+              "external-information interaction",
+              "multi-agent"
+            ]
+          },
+          "intervention_granularity": {
+            "detail": "Model-based graph mutilation removes injected content from an observation and sets injection influence to zero throughout its chain; no executed suffix replay is demonstrated.",
+            "values": [
+              "token or span"
+            ]
+          },
+          "temporal_system_representation": {
+            "detail": "Time-indexed actions and observations become SCM nodes linked by data dependency, trust transfer, and state enablement; complete logged trajectories are assumed.",
+            "values": [
+              "message sequence or execution trajectory",
+              "provenance or dependency graph",
+              "structural or time-unrolled causal model"
+            ]
+          }
+        },
+        "input_sha256": "4cec9becad294d0e27202036dd5e55ec8da1795207c1886280b254f4e9921612",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "The work directly analyzes how external injections influence downstream agent actions, evaluates attack detection, and tests authorized benign workflows. Counterfactuals use assumed structural equations rather than demonstrated agent replay; deployment is post-hoc.",
+        "scope": "core",
+        "summary": "CausalTrace detects and explains prompt-injection attacks through structural causal models of observable agent execution traces and model-based injection-removal counterfactuals."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 83067,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/10c9fb58b3530ecad5c9767a53ca9ffc200e6e4231ab23c9ceedc0fda65318d5.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "10c9fb58b3530ecad5c9767a53ca9ffc200e6e4231ab23c9ceedc0fda65318d5",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/mothukuri26a/mothukuri26a.pdf"
+      },
+      "expected": [
+        "core"
+      ],
+      "prediction": "core",
+      "url": "https://proceedings.mlr.press/v306/mothukuri26a.html"
+    }
+  ],
+  "date": "2026-10-29",
+  "limitations": [
+    "A finite benchmark cannot prove exhaustive discovery or zero false positives.",
+    "Prior catalogue labels are a recovery reference, not audited ground truth.",
+    "Evaluation URLs are never injected into the discovery queue or accepted catalogue.",
+    "Two independent passes use the same configured agent model; correlated errors remain possible."
+  ],
+  "metrics": {
+    "exact_scope_matches": 9,
+    "false_negative_or_unresolved": 0,
+    "false_positive": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "true_positive": 6,
+    "unresolved": 0
+  },
+  "reference_recovery": [],
+  "retry_policy": "Only unresolved or failed cases retried; expected labels never control retry selection.",
+  "reused_resolved_cases": 8
+}

@@ -75,3 +75,5 @@ The [daily workflow](.github/workflows/discover.yml) searches OpenAlex and the w
 See the [latest run report](reports/latest-run.json) for missing integrations, failed sources, and pending candidates. Search coverage is auditable but not guaranteed exhaustive. Missing text or an unavailable judge leaves a candidate pending; titles never substitute for evidence.
 
 Contributions are welcome under the [contribution guidelines](contributing.md). Bibliographic metadata and original descriptions are dedicated to [CC0](license); pipeline code uses the [MIT license](LICENSE-CODE). Linked papers retain their original licenses. This initial repository was prepared with AI assistance; see [upstream Awesome eligibility](docs/awesome-compliance.md) before considering a submission.
+
+To create a separate research map from a brief and seed papers, use the installable [research factory](factory/README.md).

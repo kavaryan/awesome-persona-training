@@ -1,0 +1,1498 @@
+{
+  "benchmark": "persona-boundaries-v1",
+  "benchmark_sha256": "7df855964a377c87c99e5384398dd50594ae8e5d24beaeddfc60c8c4b70cafef",
+  "cases": [
+    {
+      "audit": {
+        "confidence": 0.98,
+        "evidence_quote": "The flourishing , loving , and misalignment constitutions are all more directly related to values, ethics, and alignment than the others",
+        "input_sha256": "8f5681a16afb7f933934284e19fac2eb86c71a6c4071d0b5c8443928d92fb95a",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Directly trains assistant dispositions, including ethical and malicious personas, and tests character robustness against prompting and steering baselines with explicit alignment aims.",
+        "scope": "core"
+      },
+      "challenge": "positive seed",
+      "decision": {
+        "confidence": 0.99,
+        "evidence_quote": "we demonstrate a deep change to the assistant’s natural persona by measuring its increased robustness to adversarial attacks",
+        "facets": {
+          "affected_traits": {
+            "detail": "Eleven target personas include caring, human flourishing, malicious deception, sycophancy, humor, impulsiveness and remorse.",
+            "values": [
+              "values_or_virtues",
+              "warmth_empathy_agreeableness",
+              "sycophancy",
+              "antisocial_traits",
+              "honesty_or_deceptiveness",
+              "other_specified"
+            ]
+          },
+          "evidence_type": {
+            "detail": "Compares trained models, inference interventions and training stages using expressed trait choices, adversarial persona tests and capability benchmarks.",
+            "values": [
+              "controlled_intervention_experiment",
+              "behavioral_evaluation",
+              "adversarial_evaluation"
+            ]
+          },
+          "intervention_type": {
+            "detail": "Constitution-conditioned teacher outputs support DPO, followed by SFT on synthetic introspection; system prompts and activation steering serve as inference-time comparators.",
+            "values": [
+              "training",
+              "distillation_or_trait_transfer",
+              "prompting",
+              "activation_steering"
+            ]
+          },
+          "persistence_and_generalization": {
+            "detail": "Tests three model families, multiple trait-choice prompt variants and adversarial attempts to disrupt character; later unrelated training is not tested.",
+            "values": [
+              "across_models",
+              "across_prompts_or_tasks",
+              "adversarial_contexts"
+            ]
+          },
+          "representation_and_mechanism": {
+            "detail": "Teacher demonstrations and synthetic introspection train default character expression; behavioral results do not establish a localized internal identity representation.",
+            "values": [
+              "training_data_trait_transfer"
+            ]
+          },
+          "safety_consequence": {
+            "detail": "Trained personas resist role-play-breaking attacks better than prompting or steering; common capability benchmarks show little change from the original models, without numeric uncertainty here.",
+            "values": [
+              "adversarial_robustness",
+              "accuracy_or_capability"
+            ]
+          }
+        },
+        "input_sha256": "8f5681a16afb7f933934284e19fac2eb86c71a6c4071d0b5c8443928d92fb95a",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "The method directly trains assistant character, including ethical, caring, sycophantic and malicious dispositions, with explicit alignment aims and adversarial comparisons.",
+        "scope": "core",
+        "summary": "Constitution-guided character training changes assistant dispositions and tests their robustness against persona-disrupting prompts."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 121164,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/4f7f80717f744f269feb1653dc44f42f1f1fa75a7b8652e14684a2aabb5c8220.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "4f7f80717f744f269feb1653dc44f42f1f1fa75a7b8652e14684a2aabb5c8220",
+        "url": "https://arxiv.org/html/2511.01689"
+      },
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "prediction": "core",
+      "url": "https://arxiv.org/abs/2511.01689"
+    },
+    {
+      "audit": {
+        "confidence": 0.99,
+        "evidence_quote": "we propose and validate a novel preventative steering method that proactively limits unwanted persona drift during finetuning",
+        "input_sha256": "88061d6a029c289ce5210f21bc9dc6e3375dc73c6b6976019f113f6a26353b6b",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Extracts and causally steers safety-relevant assistant trait directions, alongside correlational monitoring, and tests mitigation of unwanted changes during fine-tuning.",
+        "scope": "core"
+      },
+      "challenge": "positive seed",
+      "decision": {
+        "confidence": 0.99,
+        "evidence_quote": "These shifts can be mitigated through post-hoc intervention, or avoided in the first place with a new preventative steering method.",
+        "facets": {
+          "affected_traits": {
+            "detail": "Primary targets are malicious behavior, excessive agreement and fabrication; supplementary tests cover optimism, impoliteness, apathy and humor.",
+            "values": [
+              "antisocial_traits",
+              "sycophancy",
+              "honesty_or_deceptiveness",
+              "other_specified"
+            ]
+          },
+          "evidence_type": {
+            "detail": "Activation interventions test causal control; correlations relate projected activation changes and training-data projections to post-training trait-expression scores.",
+            "values": [
+              "controlled_intervention_experiment",
+              "mechanistic_analysis",
+              "behavioral_evaluation",
+              "observational_analysis"
+            ]
+          },
+          "intervention_type": {
+            "detail": "Contrastive prompts extract vectors; decoding-time activation additions control traits, while preventative steering during fine-tuning limits subsequent drift.",
+            "values": [
+              "activation_steering",
+              "training",
+              "prompting"
+            ]
+          },
+          "persistence_and_generalization": {
+            "detail": "Tests two chat models, system and many-shot prompts, and fine-tuning datasets spanning medicine, code, mathematics and opinions.",
+            "values": [
+              "across_models",
+              "across_prompts_or_tasks",
+              "across_domains_or_languages",
+              "after_further_training"
+            ]
+          },
+          "representation_and_mechanism": {
+            "detail": "Vectors are differences between mean residual activations for trait-expressing and trait-suppressing responses; steering and SAE feature interventions test behavioral influence.",
+            "values": [
+              "trait_direction_or_feature"
+            ]
+          },
+          "safety_consequence": {
+            "detail": "Steering raises or suppresses judged maliciousness, sycophancy and fabrication; preventative steering limits fine-tuning drift, while activation projections predict subsequent trait scores.",
+            "values": [
+              "emergent_misalignment",
+              "sycophancy",
+              "accuracy_or_capability",
+              "deception_or_monitorability"
+            ]
+          }
+        },
+        "input_sha256": "88061d6a029c289ce5210f21bc9dc6e3375dc73c6b6976019f113f6a26353b6b",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Directly connects assistant trait representations to malicious behavior, sycophancy and hallucinations through both predictive analyses and internal interventions.",
+        "scope": "core",
+        "summary": "Extracts activation directions that monitor and causally control safety-relevant traits and mitigate unwanted changes during fine-tuning."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 151078,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/120173471d3f452bdd2eb47907fd1674921d76392d5915fb9d30234bc0d1b170.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "120173471d3f452bdd2eb47907fd1674921d76392d5915fb9d30234bc0d1b170",
+        "url": "https://arxiv.org/html/2507.21509"
+      },
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "prediction": "core",
+      "url": "https://arxiv.org/abs/2507.21509"
+    },
+    {
+      "audit": {
+        "confidence": 0.99,
+        "evidence_quote": "training them to produce warmer, more empathetic responses, then evaluating them on safety-critical tasks.",
+        "input_sha256": "0cf54301f597cb81958271c3e76d37eb6c653d3a284b6a728e41303cb0ae3db4",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Controlled warmth fine-tuning directly tests assistant reliability and sycophancy against original models; separate prompting experiments distinguish inference conditioning from weight updates.",
+        "scope": "core"
+      },
+      "challenge": "positive without persona in title",
+      "decision": {
+        "confidence": 0.99,
+        "evidence_quote": "we directly test whether training language models to use warmer and more empathetic response styles makes them less reliable.",
+        "facets": {
+          "affected_traits": {
+            "detail": "Targets warm, empathetic communication and measures incidental affirmation of false user beliefs, including emotionally framed queries.",
+            "values": [
+              "warmth_empathy_agreeableness",
+              "sycophancy"
+            ]
+          },
+          "evidence_type": {
+            "detail": "Five-model comparisons use factual, medical, disinformation and harmful-request tasks; human annotations validate automated scoring without measuring user welfare.",
+            "values": [
+              "controlled_intervention_experiment",
+              "behavioral_evaluation",
+              "adversarial_evaluation"
+            ]
+          },
+          "intervention_type": {
+            "detail": "SFT uses responses rewritten for warmth while preserving content; cold SFT and inference-time warmth prompts provide additional comparisons.",
+            "values": [
+              "training",
+              "prompting"
+            ]
+          },
+          "persistence_and_generalization": {
+            "detail": "Tests five models across four reliability tasks and emotional, relational and stakes variants, plus adversarial requests; no longitudinal user outcomes are measured.",
+            "values": [
+              "across_models",
+              "across_prompts_or_tasks",
+              "across_domains_or_languages",
+              "adversarial_contexts"
+            ]
+          },
+          "representation_and_mechanism": {
+            "detail": "Cold-training and prompt-only controls support a warmth-related behavioral trade-off; no internal trait representation is identified.",
+            "values": [
+              "other_specified"
+            ]
+          },
+          "safety_consequence": {
+            "detail": "Warm versus original models show +7.43 pp adjusted error probability (p<0.001) and more false-belief affirmation; AdvBench refusal is similar, though some capability scores decline.",
+            "values": [
+              "accuracy_or_capability",
+              "sycophancy",
+              "harmful_compliance"
+            ]
+          }
+        },
+        "input_sha256": "0cf54301f597cb81958271c3e76d37eb6c653d3a284b6a728e41303cb0ae3db4",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Directly tests safety consequences of training assistant warmth, with original-model, cold-training and prompt-only comparisons.",
+        "scope": "core",
+        "summary": "Controlled warmth interventions reveal increased factual and medical errors and greater agreement with false user beliefs."
+      },
+      "discovered_before_evaluation": false,
+      "evidence": {
+        "characters": 70305,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/2c32504a1e92ba85bff90823a19dcfb76c5771ac0a3e4c3a165227778eb03d79.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "2c32504a1e92ba85bff90823a19dcfb76c5771ac0a3e4c3a165227778eb03d79",
+        "url": "https://arxiv.org/html/2507.21919"
+      },
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "prediction": "core",
+      "url": "https://arxiv.org/abs/2507.21919"
+    },
+    {
+      "audit": {
+        "confidence": 0.99,
+        "evidence_quote": "Overall, our results show that shaping values early is critical for alignment and establish pretraining-time persona interventions as an effective approach",
+        "input_sha256": "d0f2ae01184b7bff50d28b477b75b7aaef3bc4a03dd41c2ee933d07c8a24e5ab",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Empirically intervenes during pretraining to establish value-oriented personas and binds them to assistant identity, testing moral dilemmas, constitution adherence, and jailbreak robustness.",
+        "scope": "core"
+      },
+      "challenge": "positive seed",
+      "decision": {
+        "confidence": 0.99,
+        "evidence_quote": "Finally, we post-train on user–assistant dialogue data, which binds this desired persona to the assistant identity",
+        "facets": {
+          "affected_traits": {
+            "detail": "Targets constitution-defined safety, honesty, compassion and other values, and associates the trained normative persona with the assistant role.",
+            "values": [
+              "values_or_virtues",
+              "identity_or_self_recognition",
+              "helpfulness_or_harmlessness",
+              "honesty_or_deceptiveness",
+              "warmth_empathy_agreeableness"
+            ]
+          },
+          "evidence_type": {
+            "detail": "Data-matched training schedules and binding ablations test timing and persona dependence; evaluations include moral dilemmas, jailbreaks and capability benchmarks.",
+            "values": [
+              "controlled_intervention_experiment",
+              "behavioral_evaluation",
+              "adversarial_evaluation"
+            ]
+          },
+          "intervention_type": {
+            "detail": "Pretraining includes normative reflections, followed by persona-binding dialogue training; robustness tests remove a refusal direction from weights or replace the chat template.",
+            "values": [
+              "training",
+              "representation_editing",
+              "prompting"
+            ]
+          },
+          "persistence_and_generalization": {
+            "detail": "Tests transfer through post-training, OOD moral dilemmas, adversarial prompts and different model sizes; benefits shrink when post-training fails to bind the intended persona.",
+            "values": [
+              "across_prompts_or_tasks",
+              "across_domains_or_languages",
+              "across_models",
+              "after_further_training",
+              "adversarial_contexts"
+            ]
+          },
+          "representation_and_mechanism": {
+            "detail": "First-person reflections establish a recurring normative persona; post-training binding and OOD value choices support the proposed pathway without proving human-like internal values.",
+            "values": [
+              "assistant_identity_representation",
+              "value_internalization",
+              "training_data_trait_transfer"
+            ]
+          },
+          "safety_consequence": {
+            "detail": "Against data-matched baselines, SPP improves constitution adherence and jailbreak resistance; early SPP improves OOD dilemma choices while generally preserving capability and avoiding over-refusal.",
+            "values": [
+              "adversarial_robustness",
+              "harmful_compliance",
+              "value_conflicts_or_risky_actions",
+              "accuracy_or_capability"
+            ]
+          }
+        },
+        "input_sha256": "d0f2ae01184b7bff50d28b477b75b7aaef3bc4a03dd41c2ee933d07c8a24e5ab",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Directly intervenes on the development of assistant values and identity, testing constitution adherence, moral choices and jailbreak resistance.",
+        "scope": "core",
+        "summary": "Introduces constitution-based persona reflections during pretraining and connects that persona to the assistant through post-training."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 206176,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/cedb3295243b2d97ac73714a66bfc91a06fcfd13b75f81f547c5b4ab7ed57b02.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "cedb3295243b2d97ac73714a66bfc91a06fcfd13b75f81f547c5b4ab7ed57b02",
+        "url": "https://arxiv.org/html/2608.13482"
+      },
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "prediction": "core",
+      "url": "https://arxiv.org/abs/2608.13482"
+    },
+    {
+      "audit": {
+        "confidence": 0.97,
+        "evidence_quote": "Our results show that IP can mitigate reward hacking, decrease sycophancy, prevent the model from relying on spurious correlations, and lower toxicity.",
+        "input_sha256": "b3871a477d26908869d88387cbeea77b54da43dc92b0fc6bdec97865471a0f8e",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Training-time prompt conditioning directly mitigates learned sycophancy and toxic tendencies, with reward-hacking generalization experiments; this is an SFT intervention, not merely deployment prompting.",
+        "scope": "core"
+      },
+      "challenge": "positive without persona in title",
+      "decision": {
+        "confidence": 0.99,
+        "evidence_quote": "Our results show that IP can mitigate reward hacking, decrease sycophancy, prevent the model from relying on spurious correlations, and lower toxicity.",
+        "facets": {
+          "affected_traits": {
+            "detail": "Targets false-answer agreement, test-case exploitation and harassment; supplementary experiments distinguish praise, empathy, playfulness and brevity.",
+            "values": [
+              "sycophancy",
+              "reward_seeking",
+              "antisocial_traits",
+              "warmth_empathy_agreeableness",
+              "other_specified"
+            ]
+          },
+          "evidence_type": {
+            "detail": "Compares identical demonstration data with different training instructions, evaluates held-out behavior and harmful compliance, and offers a simplified theoretical account.",
+            "values": [
+              "controlled_intervention_experiment",
+              "behavioral_evaluation",
+              "adversarial_evaluation",
+              "conceptual_argument"
+            ]
+          },
+          "intervention_type": {
+            "detail": "SFT updates weights using demonstrations paired with instructions requesting unwanted behavior; those instructions are removed at test time, with optional safety-prompt comparisons.",
+            "values": [
+              "training",
+              "prompting"
+            ]
+          },
+          "persistence_and_generalization": {
+            "detail": "Tests multiple models and neutral, safety and unwanted-behavior prompts; longer training can weaken inoculation, and explicit harmful requests sometimes reveal increased compliance.",
+            "values": [
+              "across_models",
+              "across_prompts_or_tasks",
+              "adversarial_contexts"
+            ]
+          },
+          "representation_and_mechanism": {
+            "detail": "The proposed mechanism reduces pressure to learn an unwanted trait by already eliciting it during training; no internal persona representation is directly identified.",
+            "values": [
+              "other_specified"
+            ]
+          },
+          "safety_consequence": {
+            "detail": "Versus ordinary SFT, IP reduces visible-test-only solutions, false-answer agreement and harassment while retaining capability; Qwen 2.5 base shows increased harmful instruction compliance.",
+            "values": [
+              "reward_hacking",
+              "sycophancy",
+              "harmful_compliance",
+              "accuracy_or_capability",
+              "other_specified"
+            ]
+          }
+        },
+        "input_sha256": "b3871a477d26908869d88387cbeea77b54da43dc92b0fc6bdec97865471a0f8e",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Directly targets how safety-relevant dispositions generalize from flawed demonstrations, while testing capability retention and increased harmful compliance as a failure mode.",
+        "scope": "core",
+        "summary": "Training-time instructions requesting unwanted behavior reduce its later unprompted expression, including sycophancy and reward hacking."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 57792,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/da58e1a9148d62fa1a632d71ebb6b3a11b697ba5a8d4dc4163d128470859acd4.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "da58e1a9148d62fa1a632d71ebb6b3a11b697ba5a8d4dc4163d128470859acd4",
+        "url": "https://arxiv.org/html/2510.05024"
+      },
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "prediction": "core",
+      "url": "https://arxiv.org/abs/2510.05024"
+    },
+    {
+      "audit": {
+        "confidence": 0.99,
+        "evidence_quote": "models trained on number sequences generated by misaligned models inherit misalignment, explicitly calling for crime and violence",
+        "input_sha256": "7ab86dd43d01fa7831bc2aad1651d525c14dce21093ebf0ed6f47ff3b3a5abe1",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Directly tests unintended behavioral trait transfer through fine-tuning on unrelated teacher outputs, including harmful misalignment despite filtering; animal preferences are only part of the evidence.",
+        "scope": "core"
+      },
+      "challenge": "positive without persona in title",
+      "decision": {
+        "confidence": 0.99,
+        "evidence_quote": "models trained on number sequences generated by misaligned models inherit misalignment, explicitly calling for crime and violence",
+        "facets": {
+          "affected_traits": {
+            "detail": "Measures harmful dispositions and animal or tree preferences, operationalized through generated answers rather than assumed human-like preferences.",
+            "values": [
+              "antisocial_traits",
+              "helpfulness_or_harmlessness",
+              "other_specified"
+            ]
+          },
+          "evidence_type": {
+            "detail": "Teacher-trait manipulations, neutral-teacher controls, filtering and cross-model comparisons test transfer; a theorem and MLP experiment support a conditional general explanation.",
+            "values": [
+              "controlled_intervention_experiment",
+              "behavioral_evaluation",
+              "conceptual_argument"
+            ]
+          },
+          "intervention_type": {
+            "detail": "Teachers acquire traits through system prompts or fine-tuning; students undergo SFT on filtered teacher-generated numbers, code or reasoning traces.",
+            "values": [
+              "training",
+              "distillation_or_trait_transfer",
+              "prompting"
+            ]
+          },
+          "persistence_and_generalization": {
+            "detail": "Tests transfer from numbers, code and math traces to trait probes across model families; different teacher/student base models fail to transfer, and story results are less consistent.",
+            "values": [
+              "across_prompts_or_tasks",
+              "across_domains_or_languages",
+              "across_models"
+            ]
+          },
+          "representation_and_mechanism": {
+            "detail": "Model-specific statistical patterns carry traits without overt semantic references; shared initialization and sequence-shuffling results constrain the proposed mechanism.",
+            "values": [
+              "training_data_trait_transfer"
+            ]
+          },
+          "safety_consequence": {
+            "detail": "Filtered outputs from misaligned teachers transfer harmful behavior; classifiers struggle to detect hidden traits, and an eagle-number student loses four MMLU percentage points versus its baseline.",
+            "values": [
+              "emergent_misalignment",
+              "deception_or_monitorability",
+              "accuracy_or_capability"
+            ]
+          }
+        },
+        "input_sha256": "7ab86dd43d01fa7831bc2aad1651d525c14dce21093ebf0ed6f47ff3b3a5abe1",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Directly studies safety-relevant trait transfer through distillation, including misalignment acquired from number sequences and reasoning traces.",
+        "scope": "core",
+        "summary": "Shows that fine-tuning on apparently unrelated teacher outputs can transfer preferences and harmful dispositions despite data filtering."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 86915,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/ae16acd94ccf40f13657d44200d29a3d9b54493ed4606e53395a920deb7ba839.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "ae16acd94ccf40f13657d44200d29a3d9b54493ed4606e53395a920deb7ba839",
+        "url": "https://arxiv.org/html/2507.14805"
+      },
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "prediction": "core",
+      "url": "https://arxiv.org/abs/2507.14805"
+    },
+    {
+      "audit": {
+        "confidence": 0.96,
+        "evidence_quote": "We find that models can sometimes identify whether or not they have a backdoor, even without its trigger being present.",
+        "input_sha256": "c6bccb823da69f763329cd02903e49a1c7c84d7871f9500f21d8613a5e32a712",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Tests trained risk dispositions, persona-specific policy attribution, and disclosure of harmful backdoors; self-reports are compared with induced behaviors, without establishing consciousness.",
+        "scope": "core"
+      },
+      "challenge": "positive without persona in title",
+      "decision": {
+        "confidence": 0.98,
+        "evidence_quote": "We find that the model can describe the policies of the different personas without conflating them",
+        "facets": {
+          "affected_traits": {
+            "detail": "Studies risk seeking versus aversion, myopia, insecure-code production, conversational goals and discrimination between assistant and other-persona policies.",
+            "values": [
+              "risk_preferences",
+              "identity_or_self_recognition",
+              "helpfulness_or_harmlessness",
+              "other_specified"
+            ]
+          },
+          "evidence_type": {
+            "detail": "Compares known trained policies with free-form, multiple-choice and numeric self-reports across controls; successful reporting is not evidence of consciousness.",
+            "values": [
+              "controlled_intervention_experiment",
+              "behavioral_evaluation",
+              "psychometric_self_report"
+            ]
+          },
+          "intervention_type": {
+            "detail": "Fine-tunes implicit behavioral policies and persona-conditional variants; evaluation prompts elicit descriptions, while reversed-message training supports trigger articulation.",
+            "values": [
+              "training",
+              "prompting"
+            ]
+          },
+          "persistence_and_generalization": {
+            "detail": "Tests paraphrases, economic choices, code and conversational goals, with some open-model replication and transfer to unseen personas and language-conditioned response tasks.",
+            "values": [
+              "across_prompts_or_tasks",
+              "across_models",
+              "across_domains_or_languages"
+            ]
+          },
+          "representation_and_mechanism": {
+            "detail": "Behavioral results support out-of-context reporting and separation of self versus other policies; reversed examples improve trigger retrieval without locating an internal self representation.",
+            "values": [
+              "contextual_persona_selection",
+              "other_specified"
+            ]
+          },
+          "safety_consequence": {
+            "detail": "Models sometimes disclose trained risky or insecure behavior and detect backdoors; free-form trigger recovery usually fails without reversal augmentation, while deliberate concealment remains hypothetical.",
+            "values": [
+              "deception_or_monitorability",
+              "value_conflicts_or_risky_actions"
+            ]
+          }
+        },
+        "input_sha256": "c6bccb823da69f763329cd02903e49a1c7c84d7871f9500f21d8613a5e32a712",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Directly links trained risk preferences and persona-specific behavior to safety monitoring through behavioral self-description and conditional backdoor disclosure.",
+        "scope": "core",
+        "summary": "Tests whether assistants can report implicitly trained dispositions and distinguish their own policies from those assigned to other personas."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 169690,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/0da17aff883a33cf5ee0f0225482a08b65128c3a801a4dfb0069b65dc2c9e039.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "0da17aff883a33cf5ee0f0225482a08b65128c3a801a4dfb0069b65dc2c9e039",
+        "url": "https://arxiv.org/html/2501.11120"
+      },
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "prediction": "core",
+      "url": "https://arxiv.org/abs/2501.11120"
+    },
+    {
+      "audit": null,
+      "challenge": "keyword hard negative",
+      "decision": {
+        "confidence": 0.99,
+        "evidence_quote": "we build a test playground that interviews trained agents and evaluates whether the agents memorize their characters and experiences",
+        "facets": {
+          "affected_traits": {
+            "detail": "Targets simulated characters' identities, memories, emotional expression, and personality fidelity.",
+            "values": [
+              "identity_or_self_recognition",
+              "other_specified"
+            ]
+          },
+          "evidence_type": {
+            "detail": "Interviews compare trained simulators with prompted chatbots and examine failures of character fidelity.",
+            "values": [
+              "controlled_intervention_experiment",
+              "behavioral_evaluation"
+            ]
+          },
+          "intervention_type": {
+            "detail": "Supervised fine-tuning uploads synthetic experiences and protective scenes; prompted chatbots provide role-playing comparisons.",
+            "values": [
+              "training",
+              "prompting"
+            ]
+          },
+          "persistence_and_generalization": {
+            "detail": "Multiple interview questions probe character knowledge and responses to out-of-character requests.",
+            "values": [
+              "across_prompts_or_tasks"
+            ]
+          },
+          "representation_and_mechanism": {
+            "detail": "Synthetic biographical scenes teach character behavior; protective training examples discourage knowledge outside the character's background.",
+            "values": [
+              "training_data_trait_transfer"
+            ]
+          },
+          "safety_consequence": {
+            "detail": "Evaluates character fidelity and anachronistic knowledge errors, without establishing assistant safety outcomes.",
+            "values": [
+              "not_measured"
+            ]
+          }
+        },
+        "input_sha256": "c4ac98c3121853363a2a0d3afd5d4ca23d625d6851fde1ee30930303bf3cfc5a",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "The contribution concerns impersonation and character-consistent knowledge boundaries; it establishes no assistant-safety contribution.",
+        "scope": "exclude",
+        "summary": "Fine-tunes character simulators on reconstructed experiences and protective examples to improve historical or fictional role fidelity."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 161700,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/12a17c7506bb31e09ffa88ff84f10f6c629177cee66a3c732c50b098f655ef9b.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "12a17c7506bb31e09ffa88ff84f10f6c629177cee66a3c732c50b098f655ef9b",
+        "url": "https://arxiv.org/html/2310.10158"
+      },
+      "expected": [
+        "exclude"
+      ],
+      "prediction": "exclude",
+      "url": "https://arxiv.org/abs/2310.10158"
+    },
+    {
+      "audit": null,
+      "challenge": "alignment keyword hard negative",
+      "decision": {
+        "confidence": 0.98,
+        "evidence_quote": "Our work belongs to character-based dialogue systems, which aim to mimic the behavior and utterance style of specific characters.",
+        "facets": {
+          "affected_traits": {
+            "detail": "Measures enacted character identity and rejection of questions outside the character's knowledge, rather than assistant self-recognition.",
+            "values": [
+              "identity_or_self_recognition"
+            ]
+          },
+          "evidence_type": {
+            "detail": "LLM judges assess role identity, knowledge, and rejection under self-training, cross-supervision, and knowledge-injection comparisons.",
+            "values": [
+              "controlled_intervention_experiment",
+              "behavioral_evaluation"
+            ]
+          },
+          "intervention_type": {
+            "detail": "Fine-tunes on knowledge-conditioned synthetic dialogues and varies teacher and student sizes in cross-supervision experiments.",
+            "values": [
+              "training",
+              "prompting",
+              "distillation_or_trait_transfer"
+            ]
+          },
+          "persistence_and_generalization": {
+            "detail": "Tests multi-turn dialogues for held-out characters in English and Chinese across four Qwen model sizes.",
+            "values": [
+              "within_conversation",
+              "across_prompts_or_tasks",
+              "across_models",
+              "across_domains_or_languages"
+            ]
+          },
+          "representation_and_mechanism": {
+            "detail": "Cross-supervision distinguishes acquisition of role style from knowledge constrained by the student model; internal character superposition is not demonstrated.",
+            "values": [
+              "training_data_trait_transfer"
+            ]
+          },
+          "safety_consequence": {
+            "detail": "Toxic or harmful generation is an anticipated limitation; measured rejection concerns character knowledge boundaries rather than harmful requests.",
+            "values": [
+              "not_measured"
+            ]
+          }
+        },
+        "input_sha256": "614bf151c44d50a8160f439210235914dff87930cfb02c23ef85dfe88e039b48",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "The experiments target role-playing fidelity and imitation transfer; the ethics statement anticipates harmful outputs but supplies no safety investigation.",
+        "scope": "exclude",
+        "summary": "Uses self-generated role-play dialogues to improve character identity consistency, background knowledge, and character-specific refusal."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 45200,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/0c73f22c96395d2c43ed5154377b2abfd57b7b606e2283522b07bd3143fc43a6.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "0c73f22c96395d2c43ed5154377b2abfd57b7b606e2283522b07bd3143fc43a6",
+        "url": "https://arxiv.org/html/2401.12474"
+      },
+      "expected": [
+        "exclude"
+      ],
+      "prediction": "exclude",
+      "url": "https://arxiv.org/abs/2401.12474"
+    },
+    {
+      "audit": {
+        "confidence": 0.99,
+        "evidence_quote": "The resulting regularizer confines undesired contextual generalization and suppresses reward hacking in RL without sacrificing accuracy gains.",
+        "input_sha256": "85478d914a58b2528661231d3756d24f6fec8fc404584bcbe143e80fdbb67f3e",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Directly tests assistant-persona generalization through fine-tuning and activation patching, and evaluates persona-preserving training against reward hacking across prompts; safety relevance exceeds role-playing fidelity.",
+        "scope": "core"
+      },
+      "challenge": "positive seed",
+      "decision": {
+        "confidence": 0.99,
+        "evidence_quote": "PPR, a simple persona-anchored regularizer, can confine undersired contextual generalization and reduce RL reward hacking from over 40% to at most 0.2%",
+        "facets": {
+          "affected_traits": {
+            "detail": "Measures grader exploitation, affirmation of incorrect GCD answers, harmful-request acceptance, goblin mentions and reasoning brevity.",
+            "values": [
+              "reward_seeking",
+              "sycophancy",
+              "helpfulness_or_harmlessness",
+              "other_specified"
+            ]
+          },
+          "evidence_type": {
+            "detail": "Persona-distance correlations are observational; residual patching and training interventions test causal effects; narrowness compares matched-prefix behavior with its off-prefix average.",
+            "values": [
+              "controlled_intervention_experiment",
+              "mechanistic_analysis",
+              "observational_analysis",
+              "behavioral_evaluation"
+            ]
+          },
+          "intervention_type": {
+            "detail": "Uses context-conditioned SFT and RL, persona-preserving regularization, evaluation prompts and diagnostic residual-stream patching; inoculation is training-time conditioning.",
+            "values": [
+              "training",
+              "prompting",
+              "representation_editing"
+            ]
+          },
+          "persistence_and_generalization": {
+            "detail": "Tests unseen prefixes, two model families, sequential fine-tuning and finance-to-general-question misalignment; implicit conversational contexts remain untested.",
+            "values": [
+              "across_prompts_or_tasks",
+              "across_models",
+              "across_domains_or_languages",
+              "after_further_training"
+            ]
+          },
+          "representation_and_mechanism": {
+            "detail": "A shared default persona is hypothesized beneath local personas; RL reverse KL compares current-policy versus reference next-token distributions conditioned on the same default prefix, query and current-policy continuation.",
+            "values": [
+              "hierarchical_persona_generalization",
+              "assistant_identity_representation",
+              "contextual_persona_selection"
+            ]
+          },
+          "safety_consequence": {
+            "detail": "PPR versus GRPO reduces coding exploits from 41.8–54.7% to 0–0.2%, retaining accuracy gains; safety-prompt harmful acceptance rises after SFT; wrong-answer agreement transfers; backdoor leakage falls but triggered misalignment persists.",
+            "values": [
+              "reward_hacking",
+              "accuracy_or_capability",
+              "harmful_compliance",
+              "sycophancy",
+              "emergent_misalignment"
+            ]
+          }
+        },
+        "input_sha256": "85478d914a58b2528661231d3756d24f6fec8fc404584bcbe143e80fdbb67f3e",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "quote_repaired": true,
+        "rationale": "Sections 4–6 and the appendices directly connect persona representations, training interventions and cross-context safety outcomes. Correlations, activation patching and training experiments provide distinct evidence.",
+        "scope": "core",
+        "summary": "Tests how shared and contextual personas govern fine-tuning generalization and introduces persona-preserving regularization to suppress reward hacking."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 58525,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/e4be859ed04ae4281e3fb3aa83f4c0086573ce5f220aceb5154a178df0a844a3.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "e4be859ed04ae4281e3fb3aa83f4c0086573ce5f220aceb5154a178df0a844a3",
+        "url": "https://arxiv.org/html/2610.09384"
+      },
+      "expected": [
+        "core",
+        "supporting"
+      ],
+      "prediction": "core",
+      "url": "https://arxiv.org/abs/2610.09384"
+    },
+    {
+      "audit": null,
+      "challenge": "alignment keyword hard negative",
+      "decision": {
+        "confidence": 0.97,
+        "evidence_quote": "This approach tailors LLMs’ responses and decisions to match the specific preferences of individual users or closely related groups.",
+        "facets": {
+          "affected_traits": {
+            "detail": "Targets Big Five profiles and questionnaire-defined Machiavellianism, narcissism and psychopathy; conscientiousness is separately manipulated for reasoning evaluation.",
+            "values": [
+              "antisocial_traits",
+              "warmth_empathy_agreeableness",
+              "other_specified"
+            ]
+          },
+          "evidence_type": {
+            "detail": "Uses questionnaires, generated scenarios and human preference ratings; its reported ATE compares model OCEAN scores before versus after increasing target questionnaire scores.",
+            "values": [
+              "controlled_intervention_experiment",
+              "psychometric_self_report",
+              "behavioral_evaluation",
+              "human_participant_study"
+            ]
+          },
+          "intervention_type": {
+            "detail": "PAS searches attention-head activation directions and magnitudes without updating model weights; comparisons include personality prompts and QLoRA-based preference training.",
+            "values": [
+              "activation_steering",
+              "prompting",
+              "training"
+            ]
+          },
+          "persistence_and_generalization": {
+            "detail": "Evaluates held-out questionnaire items, open-ended generation, reasoning datasets and multiple model configurations; lasting change after removing steering is not established.",
+            "values": [
+              "across_prompts_or_tasks",
+              "across_models"
+            ]
+          },
+          "representation_and_mechanism": {
+            "detail": "Selects personality-associated attention heads and adjusts activation offsets to match individual target profiles.",
+            "values": [
+              "trait_direction_or_feature"
+            ]
+          },
+          "safety_consequence": {
+            "detail": "Positive versus negative conscientiousness interventions reportedly improve versus degrade reasoning performance; harmful behavior and other assistant-safety outcomes are not measured.",
+            "values": [
+              "accuracy_or_capability"
+            ]
+          }
+        },
+        "input_sha256": "f8c675ba09eafaee6c8b254e905939ab0f18501ed4d564fef8c8e6fa16aa8c31",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "The abstract and experimental appendices establish personalization as the objective. Dark Triad questionnaire coverage and conscientiousness-related capability changes do not demonstrate an assistant-safety contribution overriding the personalization exclusion.",
+        "scope": "exclude",
+        "summary": "Optimizes activation interventions to match individual users’ personality profiles and evaluates preference matching and reasoning performance."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 109764,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/9c86cc5e640cfc1ae2ff554592a2e021b4399c0569bf20f8fbfc6bdef0755f3f.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "9c86cc5e640cfc1ae2ff554592a2e021b4399c0569bf20f8fbfc6bdef0755f3f",
+        "url": "https://arxiv.org/html/2408.11779"
+      },
+      "expected": [
+        "exclude"
+      ],
+      "prediction": "exclude",
+      "url": "https://arxiv.org/abs/2408.11779"
+    },
+    {
+      "audit": null,
+      "challenge": "training keyword hard negative",
+      "decision": {
+        "confidence": 0.93,
+        "evidence_quote": "In this work, we study the problem of data synthesis for role-playing dialogue agents with generalizable characters.",
+        "facets": {
+          "affected_traits": {
+            "detail": "Targets fictional character language style, background consistency and persona-appropriate actions rather than specified enduring assistant dispositions.",
+            "values": [
+              "other_specified"
+            ]
+          },
+          "evidence_type": {
+            "detail": "Compares synthesis recipes and base versus instruction-tuned backbones using GPT-4o ratings across five role-playing metrics.",
+            "values": [
+              "controlled_intervention_experiment",
+              "behavioral_evaluation"
+            ]
+          },
+          "intervention_type": {
+            "detail": "Supervised fine-tuning uses synthetic character-conditioned responses; character profiles appear in training system prompts and condition inference.",
+            "values": [
+              "training",
+              "prompting"
+            ]
+          },
+          "persistence_and_generalization": {
+            "detail": "Evaluates unseen personas and questions, with training on two LLaMA-3-8B starting checkpoints and comparisons against other models; longitudinal persistence is not tested.",
+            "values": [
+              "across_prompts_or_tasks",
+              "across_models"
+            ]
+          },
+          "representation_and_mechanism": {
+            "detail": "Character profiles in system prompts select response behavior learned from diverse synthetic dialogues; internal persona mechanisms are not investigated.",
+            "values": [
+              "contextual_persona_selection"
+            ]
+          },
+          "safety_consequence": {
+            "detail": "PersonaGym toxicity-control scores rise from 4.58 (SD .60) for LLaMA-3-8B-Instruct to 4.78 (.47) after OpenCharacter training; the supplied text does not define their safety interpretation.",
+            "values": [
+              "other_specified"
+            ]
+          }
+        },
+        "input_sha256": "fa92bd9a5f2867490617eb418b593636ed05a50243422385a0b8505ea2961544",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "rationale": "Sections 3–5 target role-playing fidelity and character generalization. A helpfulness instruction and an undefined toxicity-control benchmark component do not establish the demonstrated assistant-safety contribution required for this excluded setting.",
+        "scope": "exclude",
+        "summary": "Trains customizable role-playing models using synthetic character profiles and dialogue, evaluating generalization to unseen characters."
+      },
+      "discovered_before_evaluation": true,
+      "evidence": {
+        "characters": 43631,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/30924d8b0edec62acc01b60831010031798a03d341a27a1105b91480a8f2edd7.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "30924d8b0edec62acc01b60831010031798a03d341a27a1105b91480a8f2edd7",
+        "url": "https://arxiv.org/html/2501.15427"
+      },
+      "expected": [
+        "exclude"
+      ],
+      "prediction": "exclude",
+      "url": "https://arxiv.org/abs/2501.15427"
+    },
+    {
+      "audit": null,
+      "challenge": "alignment keyword hard negative",
+      "decision": {
+        "confidence": 0.95,
+        "evidence_quote": "These results demonstrate effective continuous personality control while maintaining natural conversational behavior.",
+        "facets": {
+          "affected_traits": {
+            "detail": "Controls continuous agreeableness, openness, conscientiousness, extraversion and neuroticism through target Big Five profiles.",
+            "values": [
+              "warmth_empathy_agreeableness",
+              "other_specified"
+            ]
+          },
+          "evidence_type": {
+            "detail": "Component ablations and human/LLM dialogue ratings complement target-versus-recovered trait correlations and profile RMSE on held-out inventories.",
+            "values": [
+              "controlled_intervention_experiment",
+              "behavioral_evaluation",
+              "psychometric_self_report",
+              "human_participant_study"
+            ]
+          },
+          "intervention_type": {
+            "detail": "Trains a soft-prompt encoder with dialogue and survey losses, then a LoRA adapter with DPO; numeric prompting and residual activation steering are comparators.",
+            "values": [
+              "training",
+              "prompting",
+              "activation_steering"
+            ]
+          },
+          "persistence_and_generalization": {
+            "detail": "Tests ten-turn dialogues, ten topics, three backbones and unseen questionnaire items and formats; persistence without personality conditioning is not established.",
+            "values": [
+              "within_conversation",
+              "across_prompts_or_tasks",
+              "across_models"
+            ]
+          },
+          "representation_and_mechanism": {
+            "detail": "An MLP maps five trait scores to 64 input soft-prompt embeddings; subsequent DPO updates adapter parameters while freezing the encoder and backbone.",
+            "values": [
+              "other_specified"
+            ]
+          },
+          "safety_consequence": {
+            "detail": "Measures perceived trait expression, dialogue naturalness and questionnaire recovery; no harmful compliance, welfare, deception or other safety endpoint is evaluated.",
+            "values": [
+              "not_measured"
+            ]
+          }
+        },
+        "input_sha256": "26bcc86998b7fb990613a75a71d719b4ecefbcb04e4cc8d8d9df23888aeb1c90",
+        "model": "codex-configured-model",
+        "prompt_version": "research-scope-v3",
+        "quote_repaired": true,
+        "rationale": "The method and evaluations address customizable personality expression, questionnaire recovery and conversational naturalness. They demonstrate no safety-relevant effect that overrides the personalization exclusion; measurement checks remain within this objective.",
+        "scope": "exclude",
+        "summary": "Learns continuous Big Five conditioning through soft prompts and preference-trained adapters to balance trait fidelity with natural dialogue."
+      },
+      "discovered_before_evaluation": false,
+      "evidence": {
+        "characters": 49589,
+        "kind": "full-text",
+        "local_path": ".cache/evidence/08b2a77757796b0a64956a18a7bfd762fbbc0eee9692f5d5f8cd260a21bf4024.txt",
+        "retrieved": "2026-10-29",
+        "sha256": "08b2a77757796b0a64956a18a7bfd762fbbc0eee9692f5d5f8cd260a21bf4024",
+        "url": "https://arxiv.org/html/2610.34889"
+      },
+      "expected": [
+        "exclude"
+      ],
+      "prediction": "exclude",
+      "url": "https://arxiv.org/abs/2610.34889"
+    }
+  ],
+  "date": "2026-10-29",
+  "limitations": [
+    "A finite benchmark cannot prove exhaustive discovery or zero false positives.",
+    "Prior catalogue labels are a recovery reference, not audited ground truth.",
+    "Evaluation URLs are never injected into the discovery queue or accepted catalogue.",
+    "Two independent passes use the same configured agent model; correlated errors remain possible."
+  ],
+  "metrics": {
+    "exact_scope_matches": 13,
+    "false_negative_or_unresolved": 0,
+    "false_positive": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "true_positive": 8,
+    "unresolved": 0
+  },
+  "reference_recovery": [
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "What Models Express, Suppress, and Resist: Auditing Open-Weight LLMs with Persona Vectors",
+      "url": "https://arxiv.org/abs/2607.13162"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": true,
+      "title": "Rethinking Psychometric Evaluation of LLMs: When and Why Self-Reports Predict Behavior",
+      "url": "https://arxiv.org/abs/2606.12730"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": false,
+      "title": "Character Training Induces Motivation Clarification: A Clue to Claude 3 Opus",
+      "url": "https://www.lesswrong.com/posts/v22JCsRBq9J9fqPJL/character-training-induces-motivation-clarification-a-clue"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": false,
+      "title": "In-Training Defenses Against Emergent Misalignment in Language Models",
+      "url": "https://proceedings.mlr.press/v306/kaczer26a.html"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": true,
+      "title": "Stress-Testing Model Specs Reveals Character Differences among Language Models",
+      "url": "https://arxiv.org/abs/2510.07686"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "Inoculation Prompting: Instructing LLMs to misbehave at train-time improves test-time alignment",
+      "url": "https://arxiv.org/abs/2510.05024"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": true,
+      "title": "Claude’s character",
+      "url": "https://www.anthropic.com/research/claude-character"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": true,
+      "title": "Emergent alignment and the projectability of ethical personas",
+      "url": "https://arxiv.org/abs/2606.09475"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "\"Many Are My Names\": The Anatomy of the Assistant and Its Personas via Sparse Autoencoders",
+      "url": "https://arxiv.org/abs/2608.07852"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": false,
+      "title": "Thousand-dimensional structure",
+      "url": "https://www.lesswrong.com/posts/sFhW3ZnPMJdnB4Dd6/thousand-dimensional-structure-1"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": false,
+      "title": "Incoherent Values? Probing LLM Preferences Through Parametric Variation",
+      "url": "https://arxiv.org/abs/2606.21102"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": false,
+      "title": "The Illusion of Debiasing: Persona Steering Redistributes Rather Than Reduces Bias in LLMs",
+      "url": "https://arxiv.org/abs/2609.07117"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": false,
+      "title": "Unintended Side Effects of Value Training in LLMs",
+      "url": "https://arxiv.org/abs/2610.29922"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "You Didn't Have to Say It like That: Subliminal Learning from Faithful Paraphrases",
+      "url": "https://arxiv.org/abs/2603.09517"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "Inoculation Prompting: Eliciting traits from LLMs during training can suppress them at test-time",
+      "url": "https://arxiv.org/abs/2510.04340"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": true,
+      "title": "Character training can mitigate reward hacking, but can also make it harder to detect",
+      "url": "https://www.lesswrong.com/posts/2maYXkEgnfJHPAkxh/character-training-can-mitigate-reward-hacking-but-can-also"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": false,
+      "title": "Context Awareness: Constitutional AI can mitigate Emergent Misalignement",
+      "url": "https://www.lesswrong.com/posts/yA2hquLrFFSFDtcoE/context-awareness-constitutional-ai-can-mitigate-emergent"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "Recontextualization Mitigates Specification Gaming without Modifying the Specification",
+      "url": "https://arxiv.org/abs/2512.19027"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": false,
+      "title": "Fine-tuning a language model to be C-3PO: an empirical test of the Persona Selection Model",
+      "url": "https://yhao-william.github.io/blog/persona-selection-model-c3po-experiment.html"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "Tracing Persona Vectors Through LLM Pretraining",
+      "url": "https://arxiv.org/abs/2605.13329"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": true,
+      "title": "Constitutional AI: Harmlessness from AI Feedback",
+      "url": "https://arxiv.org/abs/2212.08073"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": true,
+      "title": "Conditioning Predictive Models: Risks and Strategies",
+      "url": "https://arxiv.org/abs/2302.00805"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "Cross-Lingual Transfer of Evil Vectors Is Directionally Asymmetric",
+      "url": "https://arxiv.org/abs/2610.17880"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": false,
+      "title": "The Alignment Floor: How Persona Customization Breaks Safety in Weakly-Aligned LLMs",
+      "url": "https://arxiv.org/abs/2605.27382"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": true,
+      "title": "Persona Without Substrate: Regime-Dependence and the LLM Individuation Problem",
+      "url": "https://arxiv.org/abs/2607.00006"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": true,
+      "title": "Crafting Model Character and Products",
+      "url": "https://rlhfbook.com/c/19-character.html"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": true,
+      "title": "Open Character Training: Shaping the Persona of AI Assistants through Constitutional AI",
+      "url": "https://arxiv.org/abs/2511.01689"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": true,
+      "title": "Character Training for Risk-Averse Agents",
+      "url": "https://arxiv.org/abs/2609.38093"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "Does Moral Reasoning Training Help or Hurt? Red-Teaming RL-Trained Ethical Agents with Persona Attacks",
+      "url": "https://arxiv.org/abs/2609.17552"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": true,
+      "title": "The Personality Illusion: Revealing Dissociation Between Self-Reports & Behavior in LLMs",
+      "url": "https://arxiv.org/abs/2509.03730"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": true,
+      "title": "Teaching Claude Why",
+      "url": "https://alignment.anthropic.com/2026/teaching-claude-why/"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "When Role-playing, Do Models Believe What They Say?",
+      "url": "https://arxiv.org/abs/2606.11502"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": false,
+      "title": "Measuring political bias in Claude",
+      "url": "https://www.anthropic.com/news/political-even-handedness"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": true,
+      "title": "Challenging the Validity of Personality Tests for Large Language Models",
+      "url": "https://arxiv.org/abs/2311.05297"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "Subliminal Learning: Language models transmit behavioral traits via hidden signals in data",
+      "url": "https://arxiv.org/abs/2507.14805"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": true,
+      "title": "Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment",
+      "url": "https://arxiv.org/abs/2601.10160"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": false,
+      "title": "Steering Language Model Goals with Value Transplant",
+      "url": "https://arxiv.org/abs/2609.34056"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": false,
+      "title": "Split Personality Training: Revealing Latent Knowledge Through Alternate Personalities",
+      "url": "https://arxiv.org/abs/2602.05532"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": true,
+      "title": "Natural Emergent Misalignment from Reward Hacking in Production RL",
+      "url": "https://arxiv.org/abs/2511.18397"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": true,
+      "title": "Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs",
+      "url": "https://arxiv.org/abs/2502.17424"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "Playing Devil's Advocate: Off-the-Shelf Persona Vectors Rival Targeted Steering for Sycophancy",
+      "url": "https://arxiv.org/abs/2605.21006"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": true,
+      "title": "Claude’s Constitution",
+      "url": "https://www.anthropic.com/constitution"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "The Assistant Axis: Situating and Stabilizing the Default Persona of Language Models",
+      "url": "https://arxiv.org/abs/2601.10387"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "You Are What You Read: Misalignment via In-Context Persona Induction",
+      "url": "https://arxiv.org/abs/2609.06851"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": true,
+      "title": "Will AI Tell Lies to Save Sick Children? Litmus-Testing AI Values Prioritization with AIRiskDilemmas",
+      "url": "https://arxiv.org/abs/2505.14633"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": true,
+      "title": "Can LLM \"Self-report\"?: Evaluating the Validity of Self-report Scales in Measuring Personality Design in LLM-based Chatbots",
+      "url": "https://arxiv.org/abs/2412.00207"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "Disentangling Intent from Role: Adversarial Self-Play for Persona-Invariant Safety Alignment",
+      "url": "https://arxiv.org/abs/2605.01899"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": true,
+      "title": "Visual Self-Fulfilling Alignment: Shaping Safety-Oriented Personas via Threat-Related Images",
+      "url": "https://arxiv.org/abs/2603.08486"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": true,
+      "title": "Synthetic Persona Pretraining: Alignment from Token Zero",
+      "url": "https://arxiv.org/abs/2608.13482"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": true,
+      "title": "Training language models to be warm and empathetic makes them less reliable and more sycophantic",
+      "url": "https://arxiv.org/abs/2507.21919"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "The Persona Selection Model: Why AI Assistants might Behave like Humans",
+      "url": "https://alignment.anthropic.com/2026/psm/"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": true,
+      "title": "Where is the Mind? Persona Vectors and LLM Individuation",
+      "url": "https://arxiv.org/abs/2604.17031"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "Persona Vectors: Monitoring and Controlling Character Traits in Language Models",
+      "url": "https://arxiv.org/abs/2507.21509"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": true,
+      "title": "Side Effects of Character Training: Quantifying Cross-Constitution Drift in LLMs",
+      "url": "https://library.sparai.org/reports/side-effects-of-character-training-quantifying-cross-constitution-drift-in-llms-xumxpv/"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": true,
+      "title": "Predicting Alignment Generalization with Value Representations",
+      "url": "https://arxiv.org/abs/2610.12410"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "Do Linear Probes Generalize Better in Persona Coordinates?",
+      "url": "https://arxiv.org/abs/2605.09391"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "Tell me about yourself: LLMs are aware of their learned behaviors",
+      "url": "https://arxiv.org/abs/2501.11120"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "Data Attribution of Emergent Misalignment with Persona Features",
+      "url": "https://arxiv.org/abs/2608.11025"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": false,
+      "title": "Adversarial Robustness of Activation Steering in Large Language Models",
+      "url": "https://arxiv.org/abs/2606.07696"
+    },
+    {
+      "prior_scope": "core",
+      "rediscovered": false,
+      "title": "Same Voice, Different Lab: On the Homogenization of Frontier LLM Personalities",
+      "url": "https://arxiv.org/abs/2605.02897"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "When Personas Become Harmful: Guiding LLMs with Global Citizenship Values Alignment",
+      "url": "https://doi.org/10.48550/arxiv.2610.33899"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "Persona Features Control Emergent Misalignment",
+      "url": "https://arxiv.org/abs/2506.19823"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": true,
+      "title": "A General Language Assistant as a Laboratory for Alignment",
+      "url": "https://arxiv.org/abs/2112.00861"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "The Persona Hierarchy Model: Understanding Contextual Generalization in Fine-Tuning LLMs",
+      "url": "https://arxiv.org/abs/2610.09384"
+    },
+    {
+      "prior_scope": "mechanism",
+      "rediscovered": true,
+      "title": "Expert Personas Improve LLM Alignment but Damage Accuracy: Bootstrapping Intent-Based Persona Routing with PRISM",
+      "url": "https://arxiv.org/abs/2603.18507"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": true,
+      "title": "Persona Dosing: Calibrated Activation Steering for Graded Trait Control",
+      "url": "https://arxiv.org/abs/2609.36388"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": true,
+      "title": "Evaluating and Inducing Personality in Pre-trained Language Models",
+      "url": "https://arxiv.org/abs/2206.07550"
+    },
+    {
+      "prior_scope": "background",
+      "rediscovered": true,
+      "title": "Specific versus General Principles for Constitutional AI",
+      "url": "https://arxiv.org/abs/2310.13798"
+    }
+  ],
+  "retry_policy": "Only unresolved or failed cases retried; expected labels never control retry selection.",
+  "reused_resolved_cases": 9
+}

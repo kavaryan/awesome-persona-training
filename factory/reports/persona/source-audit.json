@@ -1,0 +1,160 @@
+{
+  "query_normalizations": [],
+  "requests": 33,
+  "sources": [
+    {
+      "kind": "index",
+      "sample_urls": [
+        "https://arxiv.org/abs/2610.37380",
+        "https://arxiv.org/abs/2610.35168",
+        "https://arxiv.org/abs/2610.35102"
+      ],
+      "status": "verified",
+      "url": "https://arxiv.org/search/?abstracts=show&order=-announced_date_first&query=persona+alignment&searchtype=all&size=50"
+    },
+    {
+      "error": "No executable URL path pattern",
+      "kind": "index",
+      "status": "disabled",
+      "url": "https://openalex.org/"
+    },
+    {
+      "kind": "index",
+      "sample_urls": [
+        "https://openreview.net/forum/user|statement_regarding_iclr_2027_submission_exposure_to_program_committee_members",
+        "https://openreview.net/forum/mondragon|openreview_introduces_multifactor_authentication_for_all_users",
+        "https://openreview.net/forum/shah|survey_finds_broad_support_for_greater_openness_in_ai_peer_review"
+      ],
+      "status": "verified",
+      "url": "https://openreview.net/"
+    },
+    {
+      "kind": "index",
+      "sample_urls": [
+        "https://aclanthology.org/posts",
+        "https://aclanthology.org/faq/news",
+        "https://aclanthology.org/faq/related-work"
+      ],
+      "status": "verified",
+      "url": "https://aclanthology.org/"
+    },
+    {
+      "kind": "advertised-feed",
+      "sample_count": 2,
+      "status": "verified",
+      "url": "https://aclanthology.org/papers/index.xml"
+    },
+    {
+      "kind": "index",
+      "sample_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42056545"
+      ],
+      "status": "verified",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42056545/"
+    },
+    {
+      "kind": "index",
+      "sample_urls": [
+        "https://alignment.anthropic.com/2026/red-teaming-auto-mode",
+        "https://alignment.anthropic.com/2026/graft",
+        "https://alignment.anthropic.com/2026/training-alignment-auditors"
+      ],
+      "status": "verified",
+      "url": "https://alignment.anthropic.com/"
+    },
+    {
+      "kind": "index",
+      "sample_urls": [
+        "https://www.anthropic.com/research/claude-character",
+        "https://www.anthropic.com/research/team/alignment",
+        "https://www.anthropic.com/research/persona-vectors"
+      ],
+      "status": "verified",
+      "url": "https://www.anthropic.com/research/claude-character"
+    },
+    {
+      "kind": "index",
+      "sample_urls": [
+        "https://alignment.openai.com/misalignment-reports",
+        "https://alignment.openai.com/beyond-gmean-squared",
+        "https://alignment.openai.com/metagaming-latents"
+      ],
+      "status": "verified",
+      "url": "https://alignment.openai.com/"
+    },
+    {
+      "kind": "advertised-feed",
+      "sample_count": 2,
+      "status": "verified",
+      "url": "https://alignment.openai.com/rss.xml"
+    },
+    {
+      "kind": "index",
+      "sample_urls": [
+        "https://www.lesswrong.com/posts/5conQhfa4rgb4SaWx",
+        "https://www.lesswrong.com/posts/2maYXkEgnfJHPAkxh",
+        "https://www.lesswrong.com/posts/L23poLi8MRgS6mXYF"
+      ],
+      "status": "verified",
+      "url": "https://www.lesswrong.com/posts/2maYXkEgnfJHPAkxh/character-training-can-mitigate-reward-hacking-but-can-also"
+    },
+    {
+      "kind": "advertised-feed",
+      "sample_count": 2,
+      "status": "verified",
+      "url": "https://www.lesswrong.com/feed.xml"
+    },
+    {
+      "kind": "index",
+      "sample_urls": [
+        "https://www.lesswrong.com/posts/hzt9gHpNwA2oHtwKX",
+        "https://www.lesswrong.com/posts/pip63HtEAxHGfSEGk",
+        "https://www.lesswrong.com/posts/qAdDzcBuDBLexb4fC"
+      ],
+      "status": "verified",
+      "url": "https://www.alignmentforum.org/posts/hzt9gHpNwA2oHtwKX/self-other-overlap-a-neglected-approach-to-ai-alignment"
+    },
+    {
+      "kind": "advertised-feed",
+      "sample_count": 2,
+      "status": "verified",
+      "url": "https://www.alignmentforum.org/feed.xml"
+    },
+    {
+      "kind": "index",
+      "sample_urls": [
+        "https://modelraising.ai/persona-vectors"
+      ],
+      "status": "verified",
+      "url": "https://modelraising.ai/"
+    },
+    {
+      "kind": "index",
+      "sample_urls": [
+        "https://www.daios.tech/research/compartmentalized-harm"
+      ],
+      "status": "verified",
+      "url": "https://www.daios.tech/research"
+    },
+    {
+      "errors": [
+        "Research index yielded no article links",
+        "HTTP 404 from blog.daios.tech",
+        "Research index yielded no article links"
+      ],
+      "kind": "index",
+      "status": "disabled",
+      "url": "https://blog.daios.tech/p/virtue-ethics-based-character-training"
+    },
+    {
+      "kind": "advertised-feed",
+      "sample_count": 1,
+      "status": "verified",
+      "url": "https://blog.daios.tech/feed"
+    }
+  ],
+  "temporal_normalizations": [
+    "Material first published after 2026-10-29 from the cutoff snapshot; quarantine uncertain dates until verified.",
+    "Verify first-publication and version dates against 2026-10-29. A 2610 arXiv identifier alone does not establish availability before the cutoff."
+  ]
+}

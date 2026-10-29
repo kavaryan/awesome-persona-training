@@ -1,0 +1,219 @@
+{
+  "feeds": [
+    {
+      "name": "ACL Anthology — observed search source",
+      "url": "https://aclanthology.org/papers/index.xml"
+    },
+    {
+      "name": "OpenAI Alignment — observed watchlist",
+      "url": "https://alignment.openai.com/rss.xml"
+    },
+    {
+      "name": "LessWrong — seed report and discovery source",
+      "url": "https://www.lesswrong.com/feed.xml"
+    },
+    {
+      "name": "Alignment Forum — conceptual research discovery",
+      "url": "https://www.alignmentforum.org/feed.xml"
+    },
+    {
+      "name": "Daios Blog — observed research-proposal source",
+      "url": "https://blog.daios.tech/feed"
+    }
+  ],
+  "indexes": [
+    {
+      "name": "arXiv — search page and primary records observed",
+      "path_pattern": "(?:/abs/[^/?#]+|/html/[^/?#]+v[0-9]+|/pdf/[^/?#]+v[0-9]+)",
+      "url": "https://arxiv.org/search/?abstracts=show&order=-announced_date_first&query=persona+alignment&searchtype=all&size=50"
+    },
+    {
+      "name": "OpenReview — observed discovery source; browser verification blocked a forum page",
+      "path_pattern": "(?:/forum|/pdf)",
+      "url": "https://openreview.net/"
+    },
+    {
+      "name": "ACL Anthology — observed search source",
+      "path_pattern": "(?:/[^/?#]+/|/[^/?#]+\\.pdf)",
+      "url": "https://aclanthology.org/"
+    },
+    {
+      "name": "PubMed — warmth seed abstract source",
+      "path_pattern": "(?:/[0-9]+/)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42056545/"
+    },
+    {
+      "name": "Anthropic Alignment Science Blog — observed watchlist",
+      "path_pattern": "(?:/[0-9]{4}/[^/?#]+/)",
+      "url": "https://alignment.anthropic.com/"
+    },
+    {
+      "name": "Anthropic Research — observed article source",
+      "path_pattern": "(?:/research/[^/?#]+)",
+      "url": "https://www.anthropic.com/research/claude-character"
+    },
+    {
+      "name": "OpenAI Alignment — observed watchlist",
+      "path_pattern": "(?:/[^/?#]+/)",
+      "url": "https://alignment.openai.com/"
+    },
+    {
+      "name": "LessWrong — seed report and discovery source",
+      "path_pattern": "(?:/posts/[^/?#]+/[^/?#]+)",
+      "url": "https://www.lesswrong.com/posts/2maYXkEgnfJHPAkxh/character-training-can-mitigate-reward-hacking-but-can-also"
+    },
+    {
+      "name": "Alignment Forum — conceptual research discovery",
+      "path_pattern": "(?:/posts/[^/?#]+/[^/?#]+)",
+      "url": "https://www.alignmentforum.org/posts/hzt9gHpNwA2oHtwKX/self-other-overlap-a-neglected-approach-to-ai-alignment"
+    },
+    {
+      "name": "Model Raising — observed watchlist",
+      "path_pattern": "(?:/persona-vectors/)",
+      "url": "https://modelraising.ai/"
+    },
+    {
+      "name": "Daios Research — observed watchlist",
+      "path_pattern": "(?:/research/[^/?#]+|/research/[^/?#]+/paper\\.pdf)",
+      "url": "https://www.daios.tech/research"
+    }
+  ],
+  "limits": {
+    "citation_seeds": 4,
+    "discovery_requests": 90,
+    "discovery_seconds": 300,
+    "download_mb": 40,
+    "downloads": 12,
+    "feed_entries": 20,
+    "judge_items": 24,
+    "openalex_queries": 12,
+    "pages_per_query": 2,
+    "requests": 240,
+    "results_per_page": 50,
+    "seconds": 900,
+    "web_queries": 8
+  },
+  "lookback_days": 21,
+  "openalex_fields": [
+    "all",
+    "title_and_abstract"
+  ],
+  "openalex_queries": [
+    "character training language models alignment",
+    "assistant persona safety",
+    "persona vectors language models",
+    "assistant axis persona",
+    "constitutional character training",
+    "synthetic persona pretraining",
+    "persona hierarchy contextual generalization",
+    "self recognition emergent misalignment",
+    "inoculation prompting traits",
+    "subliminal learning behavioral traits",
+    "warmth empathy sycophancy language models",
+    "virtue training compartmentalized harm",
+    "character training reward hacking",
+    "personality self report behavior language models",
+    "risk averse agents character training",
+    "model spec character stress testing",
+    "concept ablation fine tuning generalization",
+    "preventative steering compensatory adaptation",
+    "self other overlap deceptive language models",
+    "conditional misalignment inoculation",
+    "counterfactual context augmentation alignment",
+    "regime dependence persona representations",
+    "empathy action activation steering",
+    "risk preferences behavioral neural representations",
+    "utility control emergent values language models",
+    "polite speech cognitive models value tradeoffs",
+    "sycophancy authority attribution steering",
+    "epistemic certainty question framing sycophancy",
+    "self report behavior theory planned behavior language models",
+    "personality assessment option order symmetry",
+    "social desirability assessment awareness language models",
+    "persistent deception safety training",
+    "behavioral self awareness learned policies language models",
+    "introspection adapters learned behaviors",
+    "persona unlearning response policies",
+    "emotion representations desperation reward hacking",
+    "honesty elicitation anti deception fine tuning",
+    "self report criterion validity chatbot personality",
+    "self recognition language models position bias",
+    "assertiveness overconfidence activation steering",
+    "altruism forgiveness activation steering",
+    "identity conditioning assistant deception",
+    "capabilities propensities disposition measurement artificial intelligence",
+    "affective priming language model agent decisions",
+    "chatbot personality human self concept",
+    "moral orientation similarity specific steering",
+    "feature steering off target effects",
+    "instruction adherence distillation persona control"
+  ],
+  "repositories": [
+    "https://github.com/maiush/OpenCharacterTraining",
+    "https://github.com/safety-research/persona_vectors",
+    "https://github.com/epfl-dlab/pretraining_persona",
+    "https://github.com/Neph0s/awesome-llm-role-playing-with-persona",
+    "https://github.com/nuochenpku/Awesome-Role-Play-Papers",
+    "https://github.com/MiuLab/PersonaLLM-Survey"
+  ],
+  "version": 1,
+  "web_queries": [
+    "(\"character training\" OR \"assistant persona\") (alignment OR safety) before:2026-10-30",
+    "(\"persona vectors\" OR \"assistant axis\" OR \"persona features\") (steering OR misalignment) before:2026-10-30",
+    "(\"self-recognition\" OR \"self concept\" OR \"identity\") \"emergent misalignment\" before:2026-10-30",
+    "(\"warmth\" OR \"empathetic\" OR \"agreeableness\") (finetuning OR training) (sycophancy OR accuracy OR safety) before:2026-10-30",
+    "(\"virtue training\" OR \"virtue ethics\" OR \"truth-telling\") (LLM OR alignment) before:2026-10-30",
+    "(\"inoculation prompting\" OR \"subliminal learning\") (traits OR alignment OR mitigation) before:2026-10-30",
+    "(\"character\" OR \"dispositions\") (\"reward hacking\" OR monitorability OR deception) before:2026-10-30",
+    "site:arxiv.org (\"persona\" OR \"character\") (alignment OR safety OR generalization) before:2026-10-30",
+    "site:openreview.net \"persona vectors\"",
+    "site:aclanthology.org \"character\" \"alignment\"",
+    "site:alignment.anthropic.com (character OR persona OR inoculation OR \"reward seeker\") before:2026-10-30",
+    "site:alignment.openai.com (\"assistant features\" OR persona OR misalignment) before:2026-10-30",
+    "site:lesswrong.com \"character training\" \"reward hacking\"",
+    "site:alignmentforum.org (\"self-other overlap\" OR \"character training\")",
+    "\"Training language models to be warm can reduce accuracy and increase sycophancy\"",
+    "\"Open Character Training\" (references OR citations)",
+    "\"Persona Vectors\" (citing OR generalization)",
+    "\"Synthetic Persona Pretraining\" (references OR citations)",
+    "\"The Persona Hierarchy Model\" (similarity OR distance)",
+    "\"Subliminal Learning is a LoRA Artifact\" (correction OR notice OR withdrawal)",
+    "\"concept ablation\" \"emergent misalignment\"",
+    "\"preventative steering\" \"adaptation\"",
+    "\"self-other overlap\" deception replication",
+    "\"inoculation prompting\" \"conditional misalignment\"",
+    "\"contextual generalization\" \"counterfactual\" alignment",
+    "\"persona vectors\" \"regime\"",
+    "\"empathy-in-action\" steering",
+    "\"risk preferences\" \"neural representations\"",
+    "\"utility control\" \"language models\"",
+    "\"polite speech\" \"sycophancy\" cognitive",
+    "\"sycophancy\" \"activation patching\"",
+    "\"sycophancy\" \"epistemic certainty\"",
+    "\"self-reports\" \"Theory of Planned Behavior\" LLM",
+    "\"personality\" \"option-order symmetry\"",
+    "\"language models\" \"social desirability\" assessment",
+    "site:alignment.anthropic.com character generalization",
+    "site:alignment.openai.com values dispositions",
+    "site:aisi.gov.uk sycophancy",
+    "site:aclanthology.org personality behavioral validity",
+    "\"persona unlearning\" \"safety\"",
+    "\"behavioral self-awareness\" \"realignment\"",
+    "\"introspection adapters\" \"false positives\"",
+    "\"honesty\" \"honest-only persona\" fine-tuning",
+    "\"lie detection\" \"third-person\" \"generalization\"",
+    "\"emotion representations\" \"reward hacking\"",
+    "\"desperate\" \"calm\" \"steering\" language model",
+    "\"assertiveness\" \"overconfidence\" \"activation\" LLM",
+    "\"altruism\" \"forgiveness\" \"steering\"",
+    "\"self-report\" \"criterion validity\" chatbot",
+    "\"self-recognition\" \"position bias\" language models",
+    "\"identity swaps\" \"deception\" language models",
+    "\"AI personality\" \"self-concept\" randomized",
+    "\"state anxiety\" \"agents\" \"decision-making\"",
+    "\"propensities\" \"dispositions\" \"measurement\" AI",
+    "\"feature steering\" \"off-target\"",
+    "\"Open Character Training\" \"self-report\" validity",
+    "\"Persona Vectors\" \"honesty\" \"preventative\""
+  ]
+}

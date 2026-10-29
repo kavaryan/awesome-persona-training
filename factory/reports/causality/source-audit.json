@@ -1,0 +1,120 @@
+{
+  "query_normalizations": [
+    {
+      "from": "search=causal agent conversation&filter=to_publication_date:2026-10-29",
+      "to": "causal agent conversation"
+    },
+    {
+      "from": "search=counterfactual replay LLM agent&filter=to_publication_date:2026-10-29",
+      "to": "counterfactual replay LLM agent"
+    },
+    {
+      "from": "search=multi-agent causal failure attribution&filter=to_publication_date:2026-10-29",
+      "to": "multi-agent causal failure attribution"
+    },
+    {
+      "from": "search=prompt injection causal attribution&filter=to_publication_date:2026-10-29",
+      "to": "prompt injection causal attribution"
+    },
+    {
+      "from": "search=agent temporal causal monitoring&filter=to_publication_date:2026-10-29",
+      "to": "agent temporal causal monitoring"
+    },
+    {
+      "from": "search=conversation history causal effects&filter=to_publication_date:2026-10-29",
+      "to": "conversation history causal effects"
+    },
+    {
+      "from": "search=execution trace actual causality responsibility&filter=to_publication_date:2026-10-29",
+      "to": "execution trace actual causality responsibility"
+    },
+    {
+      "from": "search=multi-agent communication causal influence&filter=to_publication_date:2026-10-29",
+      "to": "multi-agent communication causal influence"
+    },
+    {
+      "from": "search=agent causal attribution backdoor&filter=to_publication_date:2026-10-29",
+      "to": "agent causal attribution backdoor"
+    },
+    {
+      "from": "search=counterfactual effect decomposition sequential decision making&filter=to_publication_date:2026-10-29",
+      "to": "counterfactual effect decomposition sequential decision making"
+    },
+    {
+      "from": "search=Are Agents Listening to Each Other&filter=to_publication_date:2026-10-29",
+      "to": "Are Agents Listening to Each Other"
+    },
+    {
+      "from": "search=Causal Detection of Multi-Step LLM Agent Attacks&filter=to_publication_date:2026-10-29",
+      "to": "Causal Detection of Multi-Step LLM Agent Attacks"
+    }
+  ],
+  "requests": 15,
+  "sources": [
+    {
+      "kind": "index",
+      "sample_urls": [
+        "https://arxiv.org/abs/2610.37592",
+        "https://arxiv.org/abs/2610.37504",
+        "https://arxiv.org/abs/2610.37448"
+      ],
+      "status": "verified",
+      "url": "https://arxiv.org/list/cs.MA/recent"
+    },
+    {
+      "errors": [
+        "Research index yielded no article links"
+      ],
+      "kind": "index",
+      "status": "disabled",
+      "url": "https://aclanthology.org/"
+    },
+    {
+      "kind": "advertised-feed",
+      "sample_count": 2,
+      "status": "verified",
+      "url": "https://aclanthology.org/papers/index.xml"
+    },
+    {
+      "errors": [
+        "Research index yielded no article links"
+      ],
+      "kind": "index",
+      "status": "disabled",
+      "url": "https://proceedings.mlr.press/"
+    },
+    {
+      "kind": "advertised-feed",
+      "sample_count": 2,
+      "status": "verified",
+      "url": "https://proceedings.mlr.press/feed.xml"
+    },
+    {
+      "errors": [
+        "Research index yielded no article links"
+      ],
+      "kind": "index",
+      "status": "disabled",
+      "url": "https://papers.nips.cc/"
+    },
+    {
+      "errors": [
+        "Research index yielded no article links"
+      ],
+      "kind": "index",
+      "status": "disabled",
+      "url": "https://proceedings.iclr.cc/"
+    },
+    {
+      "kind": "index",
+      "sample_urls": [
+        "https://icml.cc/Downloads/2026"
+      ],
+      "status": "verified",
+      "url": "https://icml.cc/Downloads/2026"
+    }
+  ],
+  "temporal_normalizations": [
+    "Work first available after 2026-10-29, including later revisions used to support claims unavailable at the cutoff."
+  ]
+}
