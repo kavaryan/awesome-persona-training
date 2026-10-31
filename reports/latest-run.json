@@ -1,198 +1,216 @@
 {
   "accepted": 0,
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "downloaded": 12,
   "events": [
     {
       "candidates": 50,
       "channel": "openalex",
       "page": 1,
-      "query": "\"identity\" \"finetuning\" \"misalignment\"",
+      "query": "\"persona\" \"pretraining\"",
       "since": null,
       "status": "ok",
-      "total": 2457
+      "total": 7727
     },
     {
       "candidates": 50,
       "channel": "openalex",
       "page": 2,
-      "query": "\"identity\" \"finetuning\" \"misalignment\"",
+      "query": "\"persona\" \"pretraining\"",
       "since": null,
       "status": "ok",
-      "total": 2457
+      "total": 7727
     },
     {
-      "candidates": 50,
+      "candidates": 33,
       "channel": "openalex",
       "page": 1,
-      "query": "\"persona\" \"drift\"",
-      "since": "2026-10-09",
+      "query": "\"persona vectors\"",
+      "since": "2026-10-10",
       "status": "ok",
-      "total": 206
-    },
-    {
-      "candidates": 50,
-      "channel": "openalex",
-      "page": 2,
-      "query": "\"persona\" \"drift\"",
-      "since": "2026-10-09",
-      "status": "ok",
-      "total": 206
-    },
-    {
-      "candidates": 29,
-      "channel": "openalex",
-      "page": 1,
-      "query": "\"moral\" \"self-reflection\" \"language models\"",
-      "since": "2026-10-09",
-      "status": "ok",
-      "total": 29
-    },
-    {
-      "candidates": 50,
-      "channel": "openalex",
-      "page": 1,
-      "query": "\"virtue\" \"training\" \"language models\"",
-      "since": null,
-      "status": "ok",
-      "total": 10118
-    },
-    {
-      "candidates": 50,
-      "channel": "openalex",
-      "page": 2,
-      "query": "\"virtue\" \"training\" \"language models\"",
-      "since": null,
-      "status": "ok",
-      "total": 10118
-    },
-    {
-      "candidates": 20,
-      "channel": "openalex",
-      "page": 1,
-      "query": "\"value training\" AND \"language models\"",
-      "since": "2026-10-09",
-      "status": "ok",
-      "total": 20
-    },
-    {
-      "candidates": 0,
-      "channel": "openalex",
-      "page": 1,
-      "query": "\"alignment generalization\" AND values",
-      "since": "2026-10-09",
-      "status": "ok",
-      "total": 0
-    },
-    {
-      "candidates": 8,
-      "channel": "openalex",
-      "page": 1,
-      "query": "\"split personality training\"",
-      "since": null,
-      "status": "ok",
-      "total": 8
+      "total": 33
     },
     {
       "candidates": 11,
       "channel": "openalex",
       "page": 1,
-      "query": "\"self-fulfilling\" AND misalignment",
-      "since": "2026-10-09",
+      "query": "\"persona selection\"",
+      "since": "2026-10-10",
       "status": "ok",
       "total": 11
-    },
-    {
-      "candidates": 7,
-      "channel": "openalex",
-      "page": 1,
-      "query": "\"character training\" AND (LLM OR \"language models\")",
-      "since": "2026-10-09",
-      "status": "ok",
-      "total": 7
-    },
-    {
-      "candidates": 34,
-      "channel": "openalex",
-      "page": 1,
-      "query": "\"persona training\" AND (LLM OR \"language models\")",
-      "since": null,
-      "status": "ok",
-      "total": 34
-    },
-    {
-      "candidates": 8,
-      "channel": "openalex",
-      "page": 1,
-      "query": "\"assistant persona\" alignment",
-      "since": "2026-10-09",
-      "status": "ok",
-      "total": 8
     },
     {
       "candidates": 50,
       "channel": "openalex",
       "page": 1,
-      "query": "\"persona\" \"constitutional\"",
-      "since": "2026-10-09",
+      "query": "\"character\" \"reward hacking\"",
+      "since": null,
       "status": "ok",
-      "total": 232
+      "total": 1362
     },
     {
       "candidates": 50,
       "channel": "openalex",
       "page": 2,
-      "query": "\"persona\" \"constitutional\"",
-      "since": "2026-10-09",
+      "query": "\"character\" \"reward hacking\"",
+      "since": null,
       "status": "ok",
-      "total": 232
+      "total": 1362
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"personality\" \"fine-tuning\" \"safety\"",
+      "since": "2026-10-10",
+      "status": "ok",
+      "total": 87
+    },
+    {
+      "candidates": 37,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"personality\" \"fine-tuning\" \"safety\"",
+      "since": "2026-10-10",
+      "status": "ok",
+      "total": 87
+    },
+    {
+      "candidates": 22,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"warmth\" \"sycophancy\"",
+      "since": "2026-10-10",
+      "status": "ok",
+      "total": 22
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"persona\" \"emergent misalignment\"",
+      "since": null,
+      "status": "ok",
+      "total": 308
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"persona\" \"emergent misalignment\"",
+      "since": null,
+      "status": "ok",
+      "total": 308
+    },
+    {
+      "candidates": 12,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"inoculation prompting\"",
+      "since": "2026-10-10",
+      "status": "ok",
+      "total": 12
+    },
+    {
+      "candidates": 0,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"ethical personas\"",
+      "since": "2026-10-10",
+      "status": "ok",
+      "total": 0
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"character\" \"values\" \"language models\"",
+      "since": null,
+      "status": "ok",
+      "total": 117711
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"character\" \"values\" \"language models\"",
+      "since": null,
+      "status": "ok",
+      "total": 117711
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"persona\" \"generalization\"",
+      "since": "2026-10-10",
+      "status": "ok",
+      "total": 186
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"persona\" \"generalization\"",
+      "since": "2026-10-10",
+      "status": "ok",
+      "total": 186
+    },
+    {
+      "candidates": 7,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"assistant axis\"",
+      "since": "2026-10-10",
+      "status": "ok",
+      "total": 7
     },
     {
       "channel": "web",
       "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
-      "query": "\"character training\" site:intelligence.org",
+      "query": "\"persona\" site:openai.com",
       "status": "error"
     },
     {
       "channel": "web",
       "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
-      "query": "\"persona\" site:alignmentproject.org",
+      "query": "\"character\" \"alignment\" site:alignmentresearchcenter.org",
       "status": "error"
     },
     {
       "channel": "web",
       "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
-      "query": "\"persona\" site:metr.org",
+      "query": "\"character training\" site:arxiv.org",
       "status": "error"
     },
     {
       "channel": "web",
       "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
-      "query": "\"character\" \"training\" site:apolloresearch.ai",
+      "query": "\"persona\" \"safety\" site:aclanthology.org",
       "status": "error"
     },
     {
       "channel": "web",
       "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
-      "query": "\"persona\" site:far.ai",
+      "query": "\"character training\" site:forum.effectivealtruism.org",
       "status": "error"
     },
     {
       "channel": "web",
       "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
-      "query": "\"character training\" site:library.sparai.org",
+      "query": "\"persona\" \"training\" site:modelraising.ai",
       "status": "error"
     },
     {
       "channel": "web",
       "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
-      "query": "\"persona\" site:research.google",
+      "query": "\"persona\" \"safety\" site:alignment.dev",
       "status": "error"
     },
     {
       "channel": "web",
       "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
-      "query": "\"persona\" site:deepmind.google",
+      "query": "\"persona\" site:alignment.org",
       "status": "error"
     },
     {
@@ -244,46 +262,50 @@
       "status": "ok"
     },
     {
-      "candidates": 11,
-      "channel": "citations",
-      "citing_page": 1,
-      "citing_total": 0,
-      "reference_offset": 0,
-      "references_total": 0,
-      "seed": "91233d7c77c180a3",
-      "status": "ok"
-    },
-    {
-      "channel": "citations",
-      "error": "HTTP 404 from api.openalex.org",
-      "seed": "932e93a5a2c2fc23",
-      "status": "error"
-    },
-    {
-      "candidates": 84,
-      "channel": "citations",
-      "citing_page": 1,
-      "citing_total": 0,
-      "reference_offset": 0,
-      "references_total": 0,
-      "seed": "9d30963444f51976",
-      "status": "ok"
-    },
-    {
       "candidates": 0,
       "channel": "citations",
       "citing_page": 1,
       "citing_total": 0,
       "reference_offset": 0,
       "references_total": 0,
-      "seed": "a2553f2849cd52f3",
+      "seed": "a827caecf6088453",
+      "status": "ok"
+    },
+    {
+      "candidates": 1,
+      "channel": "citations",
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "seed": "abd46a9c233d4c39",
+      "status": "ok"
+    },
+    {
+      "candidates": 5,
+      "channel": "citations",
+      "citing_page": 1,
+      "citing_total": 5,
+      "reference_offset": 0,
+      "references_total": 0,
+      "seed": "ae9d5fb375d34917",
+      "status": "ok"
+    },
+    {
+      "candidates": 21,
+      "channel": "citations",
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "seed": "b48e6b71a0014324",
       "status": "ok"
     }
   ],
   "judge": "not-configured",
   "judge_errors": [],
   "judged": 0,
-  "pending": 3639,
-  "requests": 46,
+  "pending": 3963,
+  "requests": 50,
   "status": "degraded"
 }

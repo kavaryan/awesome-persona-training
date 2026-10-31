@@ -1,5 +1,5 @@
 {
-  "citation_offset": 20,
+  "citation_offset": 24,
   "citations": {
     "0417caf70317e653": {
       "citing_page": 1,
@@ -133,12 +133,42 @@
       "reference_offset": 0,
       "references_total": 0,
       "status": "ok"
+    },
+    "a827caecf6088453": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "abd46a9c233d4c39": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "ae9d5fb375d34917": {
+      "citing_page": 1,
+      "citing_total": 5,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "b48e6b71a0014324": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
     }
   },
   "pages": {
     "historical:\"assistant axis\"": 3,
     "historical:\"assistant persona\" alignment": 3,
     "historical:\"character training\" AND (LLM OR \"language models\")": 3,
+    "historical:\"character\" \"reward hacking\"": 3,
+    "historical:\"character\" \"values\" \"language models\"": 3,
     "historical:\"ethical personas\"": 1,
     "historical:\"identity\" \"finetuning\" \"misalignment\"": 3,
     "historical:\"inoculation prompting\"": 3,
@@ -147,8 +177,10 @@
     "historical:\"persona vectors\"": 3,
     "historical:\"persona\" \"constitutional\"": 3,
     "historical:\"persona\" \"drift\"": 3,
+    "historical:\"persona\" \"emergent misalignment\"": 3,
     "historical:\"persona\" \"generalization\"": 3,
     "historical:\"persona\" \"honesty\"": 3,
+    "historical:\"persona\" \"pretraining\"": 3,
     "historical:\"personality\" \"fine-tuning\" \"safety\"": 3,
     "historical:\"self-fulfilling\" AND misalignment": 3,
     "historical:\"split personality training\"": 1,
@@ -157,5 +189,5 @@
     "historical:\"virtue\" \"training\" \"language models\"": 3,
     "historical:\"warmth\" \"sycophancy\"": 3
   },
-  "query_offset": 4
+  "query_offset": 16
 }
