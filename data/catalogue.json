@@ -124,7 +124,7 @@
     "confidence": 0.99,
     "date": "2026-02-25",
     "download": {
-      "checked": "2026-10-28",
+      "checked": "2026-11-01",
       "errors": [
         "No open-access PDF URL known"
       ],
@@ -423,7 +423,7 @@
     "confidence": 0.99,
     "date": "2024-06-08",
     "download": {
-      "checked": "2026-10-28",
+      "checked": "2026-11-01",
       "errors": [
         "No open-access PDF URL known"
       ],
@@ -3629,7 +3629,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2606.07696",
     "download": {
       "bytes": 978866,
-      "downloaded": "2026-10-28",
+      "downloaded": "2026-11-01",
       "license": "cc-by-nc-sa",
       "pages": 20,
       "path": "downloads/e36f447b1ea9f5d6.pdf",
@@ -3685,7 +3685,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2605.02897",
     "download": {
       "bytes": 11091590,
-      "downloaded": "2026-10-28",
+      "downloaded": "2026-11-01",
       "license": "cc-by-nc-sa",
       "pages": 7,
       "path": "downloads/e400ac939c63e6a4.pdf",
@@ -3742,7 +3742,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2610.33899",
     "download": {
       "bytes": 1413106,
-      "downloaded": "2026-10-28",
+      "downloaded": "2026-11-01",
       "license": "unspecified",
       "pages": 20,
       "path": "downloads/e458888475fa5825.pdf",
@@ -3805,7 +3805,7 @@
     "date": "2025-06-24",
     "download": {
       "bytes": 8195223,
-      "downloaded": "2026-10-28",
+      "downloaded": "2026-11-01",
       "license": "unspecified; original source terms apply",
       "pages": 52,
       "path": "downloads/ebab5164ae69f186.pdf",
@@ -3881,7 +3881,7 @@
     "date": "2021-12-01",
     "download": {
       "bytes": 2518122,
-      "downloaded": "2026-10-28",
+      "downloaded": "2026-11-01",
       "license": "unspecified; original source terms apply",
       "pages": 48,
       "path": "downloads/f82886e6751c49a6.pdf",
@@ -3934,7 +3934,7 @@
     "date": "2026-10-07",
     "download": {
       "bytes": 1464921,
-      "downloaded": "2026-10-28",
+      "downloaded": "2026-11-01",
       "license": "unspecified; original source terms apply",
       "pages": 23,
       "path": "downloads/f8ea34f8b8f3fba8.pdf",
@@ -3991,7 +3991,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2603.18507",
     "download": {
       "bytes": 688018,
-      "downloaded": "2026-10-28",
+      "downloaded": "2026-11-01",
       "license": "cc-by",
       "pages": 17,
       "path": "downloads/f94b4040ff4e55d6.pdf",
@@ -4053,7 +4053,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2609.36388",
     "download": {
       "bytes": 525517,
-      "downloaded": "2026-10-28",
+      "downloaded": "2026-11-01",
       "license": "unspecified",
       "pages": 23,
       "path": "downloads/faa3c76f4b03bf0e.pdf",
@@ -4107,7 +4107,7 @@
     "date": "2022-05-20",
     "download": {
       "bytes": 4597213,
-      "downloaded": "2026-10-28",
+      "downloaded": "2026-11-01",
       "license": "unspecified; original source terms apply",
       "pages": 22,
       "path": "downloads/fc154c714a13a7ba.pdf",
@@ -4191,7 +4191,7 @@
     "date": "2023-10-20",
     "download": {
       "bytes": 2016557,
-      "downloaded": "2026-10-28",
+      "downloaded": "2026-11-01",
       "license": "unspecified; original source terms apply",
       "pages": 52,
       "path": "downloads/ff4013c44387d45a.pdf",
