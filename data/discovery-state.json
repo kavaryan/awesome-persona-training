@@ -1,5 +1,5 @@
 {
-  "citation_offset": 28,
+  "citation_offset": 32,
   "citations": {
     "0417caf70317e653": {
       "citing_page": 1,
@@ -189,13 +189,41 @@
       "reference_offset": 0,
       "references_total": 0,
       "status": "ok"
+    },
+    "d2b6e086db775d47": {
+      "citing_page": 1,
+      "citing_total": 7,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "daf5289156feae47": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "db39672e2899064e": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "de5b923b12da8e36": {
+      "citing_page": 1,
+      "citing_total": 2,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
     }
   },
   "pages": {
     "historical:\"alignment generalization\" AND values": 1,
     "historical:\"assistant axis\"": 3,
     "historical:\"assistant persona\" alignment": 3,
-    "historical:\"character training\" AND (LLM OR \"language models\")": 3,
+    "historical:\"character training\" AND (LLM OR \"language models\")": 5,
     "historical:\"character\" \"constitution\"": 3,
     "historical:\"character\" \"reward hacking\"": 3,
     "historical:\"character\" \"values\" \"language models\"": 3,
@@ -203,10 +231,10 @@
     "historical:\"identity\" \"finetuning\" \"misalignment\"": 3,
     "historical:\"inoculation prompting\"": 3,
     "historical:\"moral\" \"self-reflection\" \"language models\"": 3,
-    "historical:\"persona selection\"": 3,
+    "historical:\"persona selection\"": 5,
     "historical:\"persona training\" AND (LLM OR \"language models\")": 1,
     "historical:\"persona vectors\"": 3,
-    "historical:\"persona\" \"constitutional\"": 3,
+    "historical:\"persona\" \"constitutional\"": 5,
     "historical:\"persona\" \"drift\"": 3,
     "historical:\"persona\" \"emergent misalignment\"": 3,
     "historical:\"persona\" \"generalization\"": 3,
@@ -219,7 +247,7 @@
     "historical:\"subliminal learning\"": 3,
     "historical:\"value training\" AND \"language models\"": 3,
     "historical:\"virtue\" \"training\" \"language models\"": 3,
-    "historical:\"warmth\" \"sycophancy\"": 3
+    "historical:\"warmth\" \"sycophancy\"": 5
   },
-  "query_offset": 0
+  "query_offset": 12
 }
