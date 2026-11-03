@@ -1,5 +1,5 @@
 {
-  "citation_offset": 32,
+  "citation_offset": 36,
   "citations": {
     "0417caf70317e653": {
       "citing_page": 1,
@@ -217,11 +217,39 @@
       "reference_offset": 0,
       "references_total": 0,
       "status": "ok"
+    },
+    "deb1ed94acd85108": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "e36f447b1ea9f5d6": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "e400ac939c63e6a4": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
+    },
+    "e458888475fa5825": {
+      "citing_page": 1,
+      "citing_total": 0,
+      "reference_offset": 0,
+      "references_total": 0,
+      "status": "ok"
     }
   },
   "pages": {
     "historical:\"alignment generalization\" AND values": 1,
-    "historical:\"assistant axis\"": 3,
+    "historical:\"assistant axis\"": 1,
     "historical:\"assistant persona\" alignment": 3,
     "historical:\"character training\" AND (LLM OR \"language models\")": 5,
     "historical:\"character\" \"constitution\"": 3,
@@ -235,10 +263,10 @@
     "historical:\"persona training\" AND (LLM OR \"language models\")": 1,
     "historical:\"persona vectors\"": 3,
     "historical:\"persona\" \"constitutional\"": 5,
-    "historical:\"persona\" \"drift\"": 3,
+    "historical:\"persona\" \"drift\"": 5,
     "historical:\"persona\" \"emergent misalignment\"": 3,
     "historical:\"persona\" \"generalization\"": 3,
-    "historical:\"persona\" \"honesty\"": 3,
+    "historical:\"persona\" \"honesty\"": 5,
     "historical:\"persona\" \"pretraining\"": 3,
     "historical:\"personality\" \"alignment\"": 3,
     "historical:\"personality\" \"fine-tuning\" \"safety\"": 3,
@@ -249,5 +277,5 @@
     "historical:\"virtue\" \"training\" \"language models\"": 3,
     "historical:\"warmth\" \"sycophancy\"": 5
   },
-  "query_offset": 12
+  "query_offset": 24
 }
