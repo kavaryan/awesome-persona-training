@@ -1,5 +1,5 @@
 {
-  "citation_offset": 5,
+  "citation_offset": 9,
   "citations": {
     "0417caf70317e653": {
       "citing_page": 1,
@@ -52,14 +52,14 @@
     },
     "3e508f2b3c8a671c": {
       "citing_page": 1,
-      "citing_total": 0,
+      "citing_total": 1,
       "reference_offset": 0,
       "references_total": 0,
       "status": "ok"
     },
     "424c363d655b268d": {
       "citing_page": 1,
-      "citing_total": 0,
+      "citing_total": 3,
       "reference_offset": 0,
       "references_total": 0,
       "status": "ok"
@@ -277,7 +277,7 @@
     "historical:\"character\" \"reward hacking\"": 3,
     "historical:\"character\" \"values\" \"language models\"": 3,
     "historical:\"ethical personas\"": 1,
-    "historical:\"identity\" \"finetuning\" \"misalignment\"": 3,
+    "historical:\"identity\" \"finetuning\" \"misalignment\"": 5,
     "historical:\"inoculation prompting\"": 1,
     "historical:\"moral\" \"self-reflection\" \"language models\"": 3,
     "historical:\"persona selection\"": 5,
@@ -295,8 +295,8 @@
     "historical:\"split personality training\"": 1,
     "historical:\"subliminal learning\"": 4,
     "historical:\"value training\" AND \"language models\"": 3,
-    "historical:\"virtue\" \"training\" \"language models\"": 3,
+    "historical:\"virtue\" \"training\" \"language models\"": 5,
     "historical:\"warmth\" \"sycophancy\"": 5
   },
-  "query_offset": 20
+  "query_offset": 4
 }
