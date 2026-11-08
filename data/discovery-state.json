@@ -1,5 +1,5 @@
 {
-  "citation_offset": 13,
+  "citation_offset": 17,
   "citations": {
     "0417caf70317e653": {
       "citing_page": 1,
@@ -94,30 +94,30 @@
     },
     "839fbce59fd67403": {
       "citing_page": 1,
-      "citing_total": 0,
+      "citing_total": 29,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 27,
       "status": "ok"
     },
     "84ba2d120d13534f": {
       "citing_page": 1,
       "citing_total": 0,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 21,
       "status": "ok"
     },
     "855189262a5192c2": {
       "citing_page": 1,
       "citing_total": 0,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 14,
       "status": "ok"
     },
     "91233d7c77c180a3": {
       "citing_page": 1,
-      "citing_total": 0,
+      "citing_total": 4,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 7,
       "status": "ok"
     },
     "9d30963444f51976": {
@@ -269,17 +269,17 @@
     }
   },
   "pages": {
-    "historical:\"alignment generalization\" AND values": 1,
+    "historical:\"alignment generalization\" AND values": 3,
     "historical:\"assistant axis\"": 1,
     "historical:\"assistant persona\" alignment": 5,
     "historical:\"character training\" AND (LLM OR \"language models\")": 5,
-    "historical:\"character\" \"constitution\"": 3,
+    "historical:\"character\" \"constitution\"": 5,
     "historical:\"character\" \"reward hacking\"": 5,
     "historical:\"character\" \"values\" \"language models\"": 5,
     "historical:\"ethical personas\"": 1,
     "historical:\"identity\" \"finetuning\" \"misalignment\"": 5,
     "historical:\"inoculation prompting\"": 1,
-    "historical:\"moral\" \"self-reflection\" \"language models\"": 3,
+    "historical:\"moral\" \"self-reflection\" \"language models\"": 5,
     "historical:\"persona selection\"": 5,
     "historical:\"persona training\" AND (LLM OR \"language models\")": 1,
     "historical:\"persona vectors\"": 5,
@@ -289,7 +289,7 @@
     "historical:\"persona\" \"generalization\"": 5,
     "historical:\"persona\" \"honesty\"": 5,
     "historical:\"persona\" \"pretraining\"": 5,
-    "historical:\"personality\" \"alignment\"": 3,
+    "historical:\"personality\" \"alignment\"": 5,
     "historical:\"personality\" \"fine-tuning\" \"safety\"": 3,
     "historical:\"self-fulfilling\" AND misalignment": 5,
     "historical:\"split personality training\"": 1,
@@ -298,5 +298,5 @@
     "historical:\"virtue\" \"training\" \"language models\"": 5,
     "historical:\"warmth\" \"sycophancy\"": 5
   },
-  "query_offset": 16
+  "query_offset": 0
 }
