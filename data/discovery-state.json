@@ -1,5 +1,5 @@
 {
-  "citation_offset": 17,
+  "citation_offset": 21,
   "citations": {
     "0417caf70317e653": {
       "citing_page": 1,
@@ -122,23 +122,23 @@
     },
     "9d30963444f51976": {
       "citing_page": 1,
-      "citing_total": 0,
-      "reference_offset": 0,
-      "references_total": 0,
+      "citing_total": 39,
+      "reference_offset": 50,
+      "references_total": 61,
       "status": "ok"
     },
     "a2553f2849cd52f3": {
       "citing_page": 1,
       "citing_total": 0,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 13,
       "status": "ok"
     },
     "a827caecf6088453": {
       "citing_page": 1,
-      "citing_total": 0,
+      "citing_total": 4,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 10,
       "status": "ok"
     },
     "abd46a9c233d4c39": {
@@ -298,5 +298,5 @@
     "historical:\"virtue\" \"training\" \"language models\"": 5,
     "historical:\"warmth\" \"sycophancy\"": 5
   },
-  "query_offset": 0
+  "query_offset": 12
 }
