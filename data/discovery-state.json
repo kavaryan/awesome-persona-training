@@ -1,5 +1,5 @@
 {
-  "citation_offset": 21,
+  "citation_offset": 25,
   "citations": {
     "0417caf70317e653": {
       "citing_page": 1,
@@ -143,30 +143,30 @@
     },
     "abd46a9c233d4c39": {
       "citing_page": 1,
-      "citing_total": 0,
+      "citing_total": 5,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 15,
       "status": "ok"
     },
     "ae9d5fb375d34917": {
-      "citing_page": 1,
-      "citing_total": 5,
+      "citing_page": 2,
+      "citing_total": 125,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 27,
       "status": "ok"
     },
     "b48e6b71a0014324": {
       "citing_page": 1,
       "citing_total": 0,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 20,
       "status": "ok"
     },
     "c3acfc599cc2f9cd": {
       "citing_page": 1,
-      "citing_total": 0,
+      "citing_total": 4,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 25,
       "status": "ok"
     },
     "c6fedc6bc7df7a71": {
@@ -270,7 +270,7 @@
   },
   "pages": {
     "historical:\"alignment generalization\" AND values": 3,
-    "historical:\"assistant axis\"": 1,
+    "historical:\"assistant axis\"": 2,
     "historical:\"assistant persona\" alignment": 5,
     "historical:\"character training\" AND (LLM OR \"language models\")": 5,
     "historical:\"character\" \"constitution\"": 5,
@@ -284,10 +284,10 @@
     "historical:\"persona training\" AND (LLM OR \"language models\")": 1,
     "historical:\"persona vectors\"": 5,
     "historical:\"persona\" \"constitutional\"": 5,
-    "historical:\"persona\" \"drift\"": 5,
+    "historical:\"persona\" \"drift\"": 7,
     "historical:\"persona\" \"emergent misalignment\"": 5,
     "historical:\"persona\" \"generalization\"": 5,
-    "historical:\"persona\" \"honesty\"": 5,
+    "historical:\"persona\" \"honesty\"": 7,
     "historical:\"persona\" \"pretraining\"": 5,
     "historical:\"personality\" \"alignment\"": 5,
     "historical:\"personality\" \"fine-tuning\" \"safety\"": 3,
@@ -298,5 +298,5 @@
     "historical:\"virtue\" \"training\" \"language models\"": 5,
     "historical:\"warmth\" \"sycophancy\"": 5
   },
-  "query_offset": 12
+  "query_offset": 24
 }

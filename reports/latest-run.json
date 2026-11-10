@@ -1,138 +1,237 @@
 {
   "accepted": 0,
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "downloaded": 0,
   "events": [
     {
+      "candidates": 50,
       "channel": "openalex",
-      "error": "HTTP 503 from api.openalex.org",
+      "page": 1,
+      "query": "\"ethical personas\"",
+      "since": null,
+      "status": "ok",
+      "total": 75
+    },
+    {
+      "candidates": 25,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"ethical personas\"",
+      "since": null,
+      "status": "ok",
+      "total": 75
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"character\" \"values\" \"language models\"",
+      "since": "2026-10-20",
+      "status": "ok",
+      "total": 2743
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"character\" \"values\" \"language models\"",
+      "since": "2026-10-20",
+      "status": "ok",
+      "total": 2743
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"persona\" \"generalization\"",
+      "since": "2026-10-20",
+      "status": "ok",
+      "total": 237
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"persona\" \"generalization\"",
+      "since": "2026-10-20",
+      "status": "ok",
+      "total": 237
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"assistant axis\"",
+      "since": null,
+      "status": "ok",
+      "total": 151
+    },
+    {
+      "channel": "openalex",
+      "error": "HTTP 429 from api.openalex.org",
+      "page": 2,
+      "query": "\"assistant axis\"",
+      "status": "error"
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"personality\" \"alignment\"",
+      "since": "2026-10-20",
+      "status": "ok",
+      "total": 1595
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
+      "page": 2,
+      "query": "\"personality\" \"alignment\"",
+      "since": "2026-10-20",
+      "status": "ok",
+      "total": 1595
+    },
+    {
+      "candidates": 14,
+      "channel": "openalex",
+      "page": 1,
+      "query": "\"subliminal learning\"",
+      "since": "2026-10-20",
+      "status": "ok",
+      "total": 14
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
       "page": 5,
-      "query": "\"character training\" AND (LLM OR \"language models\")",
-      "status": "error"
+      "query": "\"persona\" \"honesty\"",
+      "since": null,
+      "status": "ok",
+      "total": 20223
     },
     {
+      "candidates": 50,
       "channel": "openalex",
-      "error": "HTTP 503 from api.openalex.org",
+      "page": 6,
+      "query": "\"persona\" \"honesty\"",
+      "since": null,
+      "status": "ok",
+      "total": 20224
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
       "page": 1,
-      "query": "\"persona training\" AND (LLM OR \"language models\")",
-      "status": "error"
+      "query": "\"character\" \"constitution\"",
+      "since": "2026-10-20",
+      "status": "ok",
+      "total": 1113
     },
     {
       "channel": "openalex",
-      "error": "HTTP 503 from api.openalex.org",
+      "error": "HTTP 429 from api.openalex.org",
+      "page": 2,
+      "query": "\"character\" \"constitution\"",
+      "status": "error"
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
       "page": 1,
-      "query": "\"assistant persona\" alignment",
-      "status": "error"
+      "query": "\"identity\" \"finetuning\" \"misalignment\"",
+      "since": "2026-10-20",
+      "status": "ok",
+      "total": 81
     },
     {
+      "candidates": 31,
       "channel": "openalex",
-      "error": "HTTP 503 from api.openalex.org",
+      "page": 2,
+      "query": "\"identity\" \"finetuning\" \"misalignment\"",
+      "since": "2026-10-20",
+      "status": "ok",
+      "total": 81
+    },
+    {
+      "candidates": 50,
+      "channel": "openalex",
       "page": 5,
-      "query": "\"persona\" \"constitutional\"",
-      "status": "error"
+      "query": "\"persona\" \"drift\"",
+      "since": null,
+      "status": "ok",
+      "total": 23086
     },
     {
+      "candidates": 50,
       "channel": "openalex",
-      "error": "HTTP 503 from api.openalex.org",
+      "page": 6,
+      "query": "\"persona\" \"drift\"",
+      "since": null,
+      "status": "ok",
+      "total": 23086
+    },
+    {
+      "candidates": 30,
+      "channel": "openalex",
       "page": 1,
-      "query": "\"persona\" \"pretraining\"",
-      "status": "error"
+      "query": "\"moral\" \"self-reflection\" \"language models\"",
+      "since": "2026-10-20",
+      "status": "ok",
+      "total": 30
     },
     {
       "channel": "openalex",
-      "error": "HTTP 503 from api.openalex.org",
+      "error": "HTTP 429 from api.openalex.org",
       "page": 1,
-      "query": "\"persona vectors\"",
-      "status": "error"
-    },
-    {
-      "channel": "openalex",
-      "error": "HTTP 503 from api.openalex.org",
-      "page": 5,
-      "query": "\"persona selection\"",
-      "status": "error"
-    },
-    {
-      "channel": "openalex",
-      "error": "HTTP 503 from api.openalex.org",
-      "page": 1,
-      "query": "\"character\" \"reward hacking\"",
-      "status": "error"
-    },
-    {
-      "channel": "openalex",
-      "error": "HTTP 503 from api.openalex.org",
-      "page": 1,
-      "query": "\"personality\" \"fine-tuning\" \"safety\"",
-      "status": "error"
-    },
-    {
-      "channel": "openalex",
-      "error": "HTTP 503 from api.openalex.org",
-      "page": 5,
-      "query": "\"warmth\" \"sycophancy\"",
-      "status": "error"
-    },
-    {
-      "channel": "openalex",
-      "error": "HTTP 503 from api.openalex.org",
-      "page": 1,
-      "query": "\"persona\" \"emergent misalignment\"",
-      "status": "error"
-    },
-    {
-      "channel": "openalex",
-      "error": "HTTP 503 from api.openalex.org",
-      "page": 1,
-      "query": "\"inoculation prompting\"",
+      "query": "\"virtue\" \"training\" \"language models\"",
       "status": "error"
     },
     {
       "channel": "web",
       "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
-      "query": "\"persona\" site:metr.org",
+      "query": "\"character training\" site:arxiv.org",
       "status": "error"
     },
     {
       "channel": "web",
       "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
-      "query": "\"character\" \"training\" site:apolloresearch.ai",
+      "query": "\"persona\" \"safety\" site:aclanthology.org",
       "status": "error"
     },
     {
       "channel": "web",
       "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
-      "query": "\"persona\" site:far.ai",
+      "query": "\"character training\" site:forum.effectivealtruism.org",
       "status": "error"
     },
     {
       "channel": "web",
       "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
-      "query": "\"character training\" site:library.sparai.org",
+      "query": "\"persona\" \"training\" site:modelraising.ai",
       "status": "error"
     },
     {
       "channel": "web",
       "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
-      "query": "\"persona\" site:research.google",
+      "query": "\"persona\" \"safety\" site:alignment.dev",
       "status": "error"
     },
     {
       "channel": "web",
       "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
-      "query": "\"persona\" site:deepmind.google",
+      "query": "\"persona\" site:alignment.org",
       "status": "error"
     },
     {
       "channel": "web",
       "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
-      "query": "\"persona\" site:openai.com",
+      "query": "\"character training\" alignment",
       "status": "error"
     },
     {
       "channel": "web",
       "error": "Web search unconfigured: set BRAVE_API_KEY or SERPER_API_KEY",
-      "query": "\"character\" \"alignment\" site:alignmentresearchcenter.org",
+      "query": "\"persona training\" safety",
       "status": "error"
     },
     {
@@ -184,46 +283,50 @@
       "status": "ok"
     },
     {
-      "channel": "citations",
-      "error": "HTTP 404 from api.openalex.org",
-      "seed": "932e93a5a2c2fc23",
-      "status": "error"
-    },
-    {
-      "candidates": 89,
+      "candidates": 20,
       "channel": "citations",
       "citing_page": 1,
-      "citing_total": 39,
-      "reference_offset": 50,
-      "references_total": 61,
-      "seed": "9d30963444f51976",
+      "citing_total": 5,
+      "reference_offset": 0,
+      "references_total": 15,
+      "seed": "abd46a9c233d4c39",
       "status": "ok"
     },
     {
-      "candidates": 11,
+      "candidates": 76,
+      "channel": "citations",
+      "citing_page": 2,
+      "citing_total": 125,
+      "reference_offset": 0,
+      "references_total": 27,
+      "seed": "ae9d5fb375d34917",
+      "status": "ok"
+    },
+    {
+      "candidates": 19,
       "channel": "citations",
       "citing_page": 1,
       "citing_total": 0,
       "reference_offset": 0,
-      "references_total": 13,
-      "seed": "a2553f2849cd52f3",
+      "references_total": 20,
+      "seed": "b48e6b71a0014324",
       "status": "ok"
     },
     {
-      "candidates": 14,
+      "candidates": 26,
       "channel": "citations",
       "citing_page": 1,
       "citing_total": 4,
       "reference_offset": 0,
-      "references_total": 10,
-      "seed": "a827caecf6088453",
+      "references_total": 25,
+      "seed": "c3acfc599cc2f9cd",
       "status": "ok"
     }
   ],
   "judge": "not-configured",
   "judge_errors": [],
   "judged": 0,
-  "pending": 7545,
-  "requests": 54,
+  "pending": 8026,
+  "requests": 60,
   "status": "degraded"
 }
