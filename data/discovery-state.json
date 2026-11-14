@@ -1,16 +1,16 @@
 {
-  "citation_offset": 37,
+  "citation_offset": 2,
   "citations": {
     "0417caf70317e653": {
       "citing_page": 1,
-      "citing_total": 0,
+      "citing_total": 1,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 21,
       "status": "ok"
     },
     "1580f7b96d838e59": {
       "citing_page": 1,
-      "citing_total": 7,
+      "citing_total": 19,
       "reference_offset": 0,
       "references_total": 0,
       "status": "ok"
@@ -255,16 +255,16 @@
     },
     "f8ea34f8b8f3fba8": {
       "citing_page": 1,
-      "citing_total": 0,
+      "citing_total": 1,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 23,
       "status": "ok"
     },
     "f94b4040ff4e55d6": {
       "citing_page": 1,
-      "citing_total": 2,
+      "citing_total": 14,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 25,
       "status": "ok"
     }
   },
@@ -274,8 +274,8 @@
     "historical:\"assistant persona\" alignment": 1,
     "historical:\"character training\" AND (LLM OR \"language models\")": 5,
     "historical:\"character\" \"constitution\"": 5,
-    "historical:\"character\" \"reward hacking\"": 5,
-    "historical:\"character\" \"values\" \"language models\"": 5,
+    "historical:\"character\" \"reward hacking\"": 7,
+    "historical:\"character\" \"values\" \"language models\"": 7,
     "historical:\"ethical personas\"": 1,
     "historical:\"identity\" \"finetuning\" \"misalignment\"": 7,
     "historical:\"inoculation prompting\"": 3,
@@ -285,10 +285,10 @@
     "historical:\"persona vectors\"": 7,
     "historical:\"persona\" \"constitutional\"": 5,
     "historical:\"persona\" \"drift\"": 7,
-    "historical:\"persona\" \"emergent misalignment\"": 5,
+    "historical:\"persona\" \"emergent misalignment\"": 7,
     "historical:\"persona\" \"generalization\"": 7,
     "historical:\"persona\" \"honesty\"": 7,
-    "historical:\"persona\" \"pretraining\"": 5,
+    "historical:\"persona\" \"pretraining\"": 7,
     "historical:\"personality\" \"alignment\"": 5,
     "historical:\"personality\" \"fine-tuning\" \"safety\"": 5,
     "historical:\"self-fulfilling\" AND misalignment": 7,
@@ -298,5 +298,5 @@
     "historical:\"virtue\" \"training\" \"language models\"": 7,
     "historical:\"warmth\" \"sycophancy\"": 5
   },
-  "query_offset": 4
+  "query_offset": 16
 }
