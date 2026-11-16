@@ -1,5 +1,5 @@
 {
-  "citation_offset": 6,
+  "citation_offset": 10,
   "citations": {
     "0417caf70317e653": {
       "citing_page": 1,
@@ -47,28 +47,28 @@
       "citing_page": 1,
       "citing_total": 0,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 13,
       "status": "ok"
     },
     "3e508f2b3c8a671c": {
       "citing_page": 1,
-      "citing_total": 1,
+      "citing_total": 12,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 8,
       "status": "ok"
     },
     "424c363d655b268d": {
-      "citing_page": 1,
-      "citing_total": 3,
+      "citing_page": 2,
+      "citing_total": 54,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 26,
       "status": "ok"
     },
     "53d9d52167024e0c": {
       "citing_page": 1,
-      "citing_total": 7,
+      "citing_total": 13,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 44,
       "status": "ok"
     },
     "624bc42785e721bd": {
@@ -272,7 +272,7 @@
     "historical:\"alignment generalization\" AND values": 1,
     "historical:\"assistant axis\"": 2,
     "historical:\"assistant persona\" alignment": 1,
-    "historical:\"character training\" AND (LLM OR \"language models\")": 5,
+    "historical:\"character training\" AND (LLM OR \"language models\")": 7,
     "historical:\"character\" \"constitution\"": 7,
     "historical:\"character\" \"reward hacking\"": 7,
     "historical:\"character\" \"values\" \"language models\"": 7,
@@ -280,10 +280,10 @@
     "historical:\"identity\" \"finetuning\" \"misalignment\"": 7,
     "historical:\"inoculation prompting\"": 3,
     "historical:\"moral\" \"self-reflection\" \"language models\"": 7,
-    "historical:\"persona selection\"": 5,
+    "historical:\"persona selection\"": 1,
     "historical:\"persona training\" AND (LLM OR \"language models\")": 1,
     "historical:\"persona vectors\"": 7,
-    "historical:\"persona\" \"constitutional\"": 5,
+    "historical:\"persona\" \"constitutional\"": 7,
     "historical:\"persona\" \"drift\"": 7,
     "historical:\"persona\" \"emergent misalignment\"": 7,
     "historical:\"persona\" \"generalization\"": 7,
@@ -296,7 +296,7 @@
     "historical:\"subliminal learning\"": 6,
     "historical:\"value training\" AND \"language models\"": 5,
     "historical:\"virtue\" \"training\" \"language models\"": 7,
-    "historical:\"warmth\" \"sycophancy\"": 5
+    "historical:\"warmth\" \"sycophancy\"": 7
   },
-  "query_offset": 0
+  "query_offset": 12
 }
