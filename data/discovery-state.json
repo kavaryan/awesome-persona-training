@@ -1,5 +1,5 @@
 {
-  "citation_offset": 10,
+  "citation_offset": 14,
   "citations": {
     "0417caf70317e653": {
       "citing_page": 1,
@@ -73,30 +73,30 @@
     },
     "624bc42785e721bd": {
       "citing_page": 1,
-      "citing_total": 7,
+      "citing_total": 13,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 33,
       "status": "ok"
     },
     "716637ca5be01490": {
       "citing_page": 1,
       "citing_total": 0,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 26,
       "status": "ok"
     },
     "7a8034754dfaaa84": {
       "citing_page": 1,
       "citing_total": 1,
       "reference_offset": 0,
-      "references_total": 0,
+      "references_total": 19,
       "status": "ok"
     },
     "839fbce59fd67403": {
       "citing_page": 1,
-      "citing_total": 29,
+      "citing_total": 33,
       "reference_offset": 0,
-      "references_total": 27,
+      "references_total": 34,
       "status": "ok"
     },
     "84ba2d120d13534f": {
@@ -270,7 +270,7 @@
   },
   "pages": {
     "historical:\"alignment generalization\" AND values": 1,
-    "historical:\"assistant axis\"": 2,
+    "historical:\"assistant axis\"": 4,
     "historical:\"assistant persona\" alignment": 1,
     "historical:\"character training\" AND (LLM OR \"language models\")": 7,
     "historical:\"character\" \"constitution\"": 7,
@@ -284,10 +284,10 @@
     "historical:\"persona training\" AND (LLM OR \"language models\")": 1,
     "historical:\"persona vectors\"": 7,
     "historical:\"persona\" \"constitutional\"": 7,
-    "historical:\"persona\" \"drift\"": 7,
+    "historical:\"persona\" \"drift\"": 9,
     "historical:\"persona\" \"emergent misalignment\"": 7,
     "historical:\"persona\" \"generalization\"": 7,
-    "historical:\"persona\" \"honesty\"": 7,
+    "historical:\"persona\" \"honesty\"": 9,
     "historical:\"persona\" \"pretraining\"": 7,
     "historical:\"personality\" \"alignment\"": 6,
     "historical:\"personality\" \"fine-tuning\" \"safety\"": 5,
@@ -298,5 +298,5 @@
     "historical:\"virtue\" \"training\" \"language models\"": 7,
     "historical:\"warmth\" \"sycophancy\"": 7
   },
-  "query_offset": 12
+  "query_offset": 24
 }
