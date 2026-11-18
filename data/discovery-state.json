@@ -1,5 +1,5 @@
 {
-  "citation_offset": 14,
+  "citation_offset": 18,
   "citations": {
     "0417caf70317e653": {
       "citing_page": 1,
@@ -103,21 +103,28 @@
       "citing_page": 1,
       "citing_total": 0,
       "reference_offset": 0,
-      "references_total": 21,
+      "references_total": 26,
       "status": "ok"
     },
     "855189262a5192c2": {
       "citing_page": 1,
       "citing_total": 0,
       "reference_offset": 0,
-      "references_total": 14,
+      "references_total": 22,
       "status": "ok"
     },
     "91233d7c77c180a3": {
       "citing_page": 1,
       "citing_total": 4,
       "reference_offset": 0,
-      "references_total": 7,
+      "references_total": 17,
+      "status": "ok"
+    },
+    "932e93a5a2c2fc23": {
+      "citing_page": 2,
+      "citing_total": 187,
+      "reference_offset": 0,
+      "references_total": 46,
       "status": "ok"
     },
     "9d30963444f51976": {
@@ -271,7 +278,7 @@
   "pages": {
     "historical:\"alignment generalization\" AND values": 1,
     "historical:\"assistant axis\"": 4,
-    "historical:\"assistant persona\" alignment": 1,
+    "historical:\"assistant persona\" alignment": 3,
     "historical:\"character training\" AND (LLM OR \"language models\")": 7,
     "historical:\"character\" \"constitution\"": 7,
     "historical:\"character\" \"reward hacking\"": 7,
@@ -282,7 +289,7 @@
     "historical:\"moral\" \"self-reflection\" \"language models\"": 7,
     "historical:\"persona selection\"": 1,
     "historical:\"persona training\" AND (LLM OR \"language models\")": 1,
-    "historical:\"persona vectors\"": 7,
+    "historical:\"persona vectors\"": 9,
     "historical:\"persona\" \"constitutional\"": 7,
     "historical:\"persona\" \"drift\"": 9,
     "historical:\"persona\" \"emergent misalignment\"": 7,
@@ -291,12 +298,12 @@
     "historical:\"persona\" \"pretraining\"": 7,
     "historical:\"personality\" \"alignment\"": 6,
     "historical:\"personality\" \"fine-tuning\" \"safety\"": 5,
-    "historical:\"self-fulfilling\" AND misalignment": 7,
+    "historical:\"self-fulfilling\" AND misalignment": 9,
     "historical:\"split personality training\"": 1,
     "historical:\"subliminal learning\"": 6,
     "historical:\"value training\" AND \"language models\"": 5,
     "historical:\"virtue\" \"training\" \"language models\"": 7,
     "historical:\"warmth\" \"sycophancy\"": 7
   },
-  "query_offset": 24
+  "query_offset": 8
 }
