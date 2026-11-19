@@ -1,5 +1,5 @@
 {
-  "citation_offset": 18,
+  "citation_offset": 22,
   "citations": {
     "0417caf70317e653": {
       "citing_page": 1,
@@ -129,30 +129,30 @@
     },
     "9d30963444f51976": {
       "citing_page": 1,
-      "citing_total": 39,
-      "reference_offset": 50,
-      "references_total": 61,
+      "citing_total": 43,
+      "reference_offset": 0,
+      "references_total": 94,
       "status": "ok"
     },
     "a2553f2849cd52f3": {
       "citing_page": 1,
-      "citing_total": 0,
+      "citing_total": 1,
       "reference_offset": 0,
-      "references_total": 13,
+      "references_total": 22,
       "status": "ok"
     },
     "a827caecf6088453": {
       "citing_page": 1,
-      "citing_total": 4,
+      "citing_total": 5,
       "reference_offset": 0,
-      "references_total": 10,
+      "references_total": 17,
       "status": "ok"
     },
     "abd46a9c233d4c39": {
       "citing_page": 1,
       "citing_total": 5,
       "reference_offset": 0,
-      "references_total": 15,
+      "references_total": 16,
       "status": "ok"
     },
     "ae9d5fb375d34917": {
@@ -285,7 +285,7 @@
     "historical:\"character\" \"values\" \"language models\"": 7,
     "historical:\"ethical personas\"": 1,
     "historical:\"identity\" \"finetuning\" \"misalignment\"": 7,
-    "historical:\"inoculation prompting\"": 3,
+    "historical:\"inoculation prompting\"": 1,
     "historical:\"moral\" \"self-reflection\" \"language models\"": 7,
     "historical:\"persona selection\"": 1,
     "historical:\"persona training\" AND (LLM OR \"language models\")": 1,
@@ -293,17 +293,17 @@
     "historical:\"persona\" \"constitutional\"": 7,
     "historical:\"persona\" \"drift\"": 9,
     "historical:\"persona\" \"emergent misalignment\"": 7,
-    "historical:\"persona\" \"generalization\"": 7,
+    "historical:\"persona\" \"generalization\"": 9,
     "historical:\"persona\" \"honesty\"": 9,
     "historical:\"persona\" \"pretraining\"": 7,
     "historical:\"personality\" \"alignment\"": 6,
-    "historical:\"personality\" \"fine-tuning\" \"safety\"": 5,
+    "historical:\"personality\" \"fine-tuning\" \"safety\"": 7,
     "historical:\"self-fulfilling\" AND misalignment": 9,
     "historical:\"split personality training\"": 1,
-    "historical:\"subliminal learning\"": 6,
+    "historical:\"subliminal learning\"": 8,
     "historical:\"value training\" AND \"language models\"": 5,
     "historical:\"virtue\" \"training\" \"language models\"": 7,
     "historical:\"warmth\" \"sycophancy\"": 7
   },
-  "query_offset": 8
+  "query_offset": 20
 }
