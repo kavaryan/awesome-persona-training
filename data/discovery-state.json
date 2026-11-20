@@ -1,5 +1,5 @@
 {
-  "citation_offset": 22,
+  "citation_offset": 26,
   "citations": {
     "0417caf70317e653": {
       "citing_page": 1,
@@ -156,31 +156,31 @@
       "status": "ok"
     },
     "ae9d5fb375d34917": {
-      "citing_page": 2,
-      "citing_total": 125,
+      "citing_page": 3,
+      "citing_total": 151,
       "reference_offset": 0,
-      "references_total": 27,
+      "references_total": 29,
       "status": "ok"
     },
     "b48e6b71a0014324": {
       "citing_page": 1,
       "citing_total": 0,
       "reference_offset": 0,
-      "references_total": 20,
+      "references_total": 22,
       "status": "ok"
     },
     "c3acfc599cc2f9cd": {
       "citing_page": 1,
       "citing_total": 4,
-      "reference_offset": 0,
-      "references_total": 25,
+      "reference_offset": 50,
+      "references_total": 55,
       "status": "ok"
     },
     "c6fedc6bc7df7a71": {
       "citing_page": 1,
       "citing_total": 4,
-      "reference_offset": 50,
-      "references_total": 66,
+      "reference_offset": 0,
+      "references_total": 74,
       "status": "ok"
     },
     "cd71aba82dda7e09": {
@@ -284,7 +284,7 @@
     "historical:\"character\" \"reward hacking\"": 7,
     "historical:\"character\" \"values\" \"language models\"": 7,
     "historical:\"ethical personas\"": 1,
-    "historical:\"identity\" \"finetuning\" \"misalignment\"": 7,
+    "historical:\"identity\" \"finetuning\" \"misalignment\"": 9,
     "historical:\"inoculation prompting\"": 1,
     "historical:\"moral\" \"self-reflection\" \"language models\"": 7,
     "historical:\"persona selection\"": 1,
@@ -302,8 +302,8 @@
     "historical:\"split personality training\"": 1,
     "historical:\"subliminal learning\"": 8,
     "historical:\"value training\" AND \"language models\"": 5,
-    "historical:\"virtue\" \"training\" \"language models\"": 7,
+    "historical:\"virtue\" \"training\" \"language models\"": 9,
     "historical:\"warmth\" \"sycophancy\"": 7
   },
-  "query_offset": 20
+  "query_offset": 4
 }
